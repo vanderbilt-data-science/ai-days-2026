@@ -58,8 +58,8 @@ To participate fully in the hands-on sessions, please have the following ready b
 
 ## Resources
 
-- [Anthropic's Guide to Building Skills](https://www.anthropic.com/research/skill-creator) — Comprehensive guide to creating and using Claude skills
-- [Skill Creator Skill](https://www.anthropic.com/research/skill-creator) — Anthropic's official skill for helping you build new skills
+- [The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) — Comprehensive guide to creating and using Claude skills
+- [Skill Creator Skill](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md) — Anthropic's official skill for helping you build new skills
 
 ## Skills
 

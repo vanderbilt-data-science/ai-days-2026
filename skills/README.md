@@ -17,5 +17,5 @@ This directory contains `.skill` files used during AI Days sessions. Skills are 
 
 During the workshop, you'll learn how to create your own skills. For reference:
 
-- [Anthropic's Guide to Building Skills](https://www.anthropic.com/research/skill-creator)
-- [Skill Creator Skill](https://www.anthropic.com/research/skill-creator) — Use this skill to help you build new skills
+- [The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
+- [Skill Creator Skill](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md) — Use this skill to help you build new skills
