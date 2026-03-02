@@ -55,6 +55,9 @@ To participate fully in the hands-on sessions, please have the following ready b
 
 1. **Claude Pro subscription** — Sign up at [claude.ai](https://claude.ai) ($20/month). A paid subscription is required for the agentic features we'll be using throughout the workshop.
 2. **Claude Code (CLI)** — Install Claude's command-line tool for building with agent skills. Installation instructions are available at [docs.anthropic.com](https://docs.anthropic.com/en/docs/claude-code/overview).
+3. **Bring your own project materials** — Create a folder on your computer with files relevant to a research or teaching challenge you'd like to work on during the workshop. This could include papers, datasets, notes, drafts, syllabi, grant proposals, or any other materials you'd like AI to help with. The more context you bring, the more useful the hands-on sessions will be.
+
+> **Important: Data sensitivity notice.** During the workshop we will be using Claude Code, which sends data to Anthropic's API. This means the tools we use are **not FERPA or HIPAA compliant**. Please ensure that any files you bring contain only **non-sensitive information** or **synthetic/de-identified data**. Do not bring files containing protected student records, patient health information, or other regulated data.
 
 ## Resources
 
