@@ -49,6 +49,22 @@ Shift from understanding to building. Dive into agentic architectures, build you
 | 4:25 PM | *Quick Break* | |
 | 4:35 PM | Building Your Solution | Jesse Spencer-Smith, Charreau Bell, Myranda Shirk |
 
+## Before You Arrive
+
+To participate fully in the hands-on sessions, please have the following ready before Day 1:
+
+1. **Claude Pro subscription** — Sign up at [claude.ai](https://claude.ai) ($20/month). A paid subscription is required for the agentic features we'll be using throughout the workshop.
+2. **Claude Code (CLI)** — Install Claude's command-line tool for building with agent skills. Installation instructions are available at [docs.anthropic.com](https://docs.anthropic.com/en/docs/claude-code/overview).
+
+## Resources
+
+- [Anthropic's Guide to Building Skills](https://www.anthropic.com/research/skill-creator) — Comprehensive guide to creating and using Claude skills
+- [Skill Creator Skill](https://www.anthropic.com/research/skill-creator) — Anthropic's official skill for helping you build new skills
+
+## Skills
+
+Some sessions will use Claude skills (`.skill` files). You can find shared skills in the [`skills/`](skills/) directory. See the [skills README](skills/README.md) for instructions on downloading and installing them.
+
 ## Venue
 
 **Holiday Inn Nashville-Vanderbilt (Downtown)**
@@ -68,10 +84,22 @@ The Holiday Inn Nashville-Vanderbilt offers on-site parking with the following r
 | 4–8 hours | $25 per vehicle | $35 per vehicle |
 | 8+ hours | $35 per vehicle | $45 per vehicle |
 
+There are also several public parking lots and garages nearby along West End Avenue and on Vanderbilt campus. These may offer lower rates for all-day parking.
+
+## Lunch and Dining
+
+The Holiday Inn has an on-site restaurant open during workshop hours. There are also many options within walking distance along West End Avenue and the Vanderbilt campus area, including:
+
+- **West End Avenue** — Multiple restaurants and cafes within a short walk of the hotel
+- **Hillsboro Village** — A vibrant neighborhood about 10 minutes on foot with a variety of dining options
+- **Vanderbilt Campus** — The campus has dining options accessible from the hotel
+
+The **Networking Event** on Wednesday evening (5:30 PM) will be held at the venue.
+
 ## Repository Structure
 
 ```
-ai-days-email/
+ai-days-2026/
 ├── README.md                  ← You are here
 ├── day-1/                     ← Day 1 sessions
 │   ├── README.md              ← Day 1 overview and schedule
@@ -92,9 +120,9 @@ ai-days-email/
 │   ├── 04-specification-driven-development/
 │   ├── 05-designing-ai-enhanced-courses/
 │   └── 06-building-your-solution/
+├── skills/                    ← Downloadable Claude skills (.skill files)
 ├── bios.md                    ← Full instructor bios
-├── AI_Days_Schedule.xlsx      ← Editable schedule spreadsheet
-└── _admin/                    ← Planning files (not participant-facing)
+└── AI_Days_Schedule.xlsx      ← Editable schedule spreadsheet
 ```
 
 Each session folder contains a README with the session description, timing, and instructor bio. Session materials (slides, handouts, code) will be added as they become available.
@@ -103,6 +131,12 @@ Each session folder contains a README with the session description, timing, and 
 
 This workshop is led by a team from the Vanderbilt Data Science Institute, College of Connected Computing, and Vanderbilt Law School. See [bios.md](bios.md) for full instructor biographies.
 
+## What's Next: Upcoming DSI Events
+
+- **AI Fridays** — Regular sessions hosted by the Data Science Institute exploring the latest in AI tools and techniques
+- **AI Showcase** — Presentations of AI-powered projects from across the Vanderbilt community
+- **AI Summer** — An extended summer program for deeper hands-on training in AI and data science
+
 ## Questions?
 
-Contact Jesse Spencer-Smith at jesse.spencer-smith@vanderbilt.edu.
+Contact the Vanderbilt Data Science Institute for more information about AI Days or any of our upcoming programs.
