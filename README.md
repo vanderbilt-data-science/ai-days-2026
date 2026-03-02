@@ -88,11 +88,18 @@ There are also several public parking lots and garages nearby along West End Ave
 
 ## Lunch and Dining
 
-The Holiday Inn has an on-site restaurant open during workshop hours. There are also many options within walking distance along West End Avenue and the Vanderbilt campus area, including:
+The **[Commodore Grille](https://www.commodoregrille.com/)** is located right inside the Holiday Inn and will be open for us during the workshop. It serves American cuisine and features live music in the evenings (breakfast Mon–Fri 6:30–10:30 AM; dinner nightly starting at 5:00 PM).
 
-- **West End Avenue** — Multiple restaurants and cafes within a short walk of the hotel
-- **Hillsboro Village** — A vibrant neighborhood about 10 minutes on foot with a variety of dining options
-- **Vanderbilt Campus** — The campus has dining options accessible from the hotel
+There are also many lunch options within walking distance along West End Avenue:
+
+- **[Taziki's Mediterranean Cafe](https://www.tazikis.com/location/west-end)** — Fresh Mediterranean, on West End Ave
+- **[Central Bar + Kitchen](https://www.centralbarandkitchen.com/)** — American, closest restaurant to Vanderbilt campus
+- **BrickTop's** — American, on West End Ave
+- **Elliston Place Soda Shop** — Classic American diner, open since 1939
+- **Martin's BBQ** — Nashville barbecue
+- **Midtown Cafe** — American, a local favorite on West End
+- **51st Deli West End** — Deli/sandwiches, quick lunch option
+- **Hillsboro Village** — A vibrant neighborhood about 10 minutes on foot with additional dining options
 
 The **Networking Event** on Wednesday evening (5:30 PM) will be held at the venue.
 
@@ -133,9 +140,9 @@ This workshop is led by a team from the Vanderbilt Data Science Institute, Colle
 
 ## What's Next: Upcoming DSI Events
 
-- **AI Fridays** — Regular sessions hosted by the Data Science Institute exploring the latest in AI tools and techniques
-- **AI Showcase** — Presentations of AI-powered projects from across the Vanderbilt community
-- **AI Summer** — An extended summer program for deeper hands-on training in AI and data science
+- **[AI Fridays](https://www.vanderbilt.edu/datascience/ai-fridays/)** — Regular sessions hosted by the Data Science Institute exploring the latest in AI tools and techniques
+- **[AI Showcase](https://www.vanderbilt.edu/datascience/ai-showcase/)** — Presentations of AI-powered projects from across the Vanderbilt community
+- **[AI Summer](https://www.vanderbilt.edu/datascience/ai-summer/)** — An extended summer program for deeper hands-on training in AI and data science
 
 ## Questions?
 
