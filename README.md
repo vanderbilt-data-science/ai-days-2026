@@ -95,6 +95,8 @@ There are also several public parking lots and garages nearby along West End Ave
 
 The **[Commodore Grille](https://www.commodoregrille.com/)** is located right inside the Holiday Inn and will be open for us during the workshop. It serves American cuisine and features live music in the evenings (breakfast Mon–Fri 6:30–10:30 AM; dinner nightly starting at 5:00 PM).
 
+<img src="images/commodore-grille-lunch.png" alt="Commodore Grille - Open for Lunch" width="400">
+
 There are also many lunch options within walking distance along West End Avenue:
 
 - **[Taziki's Mediterranean Cafe](https://www.tazikis.com/location/west-end)** — Fresh Mediterranean, on West End Ave
