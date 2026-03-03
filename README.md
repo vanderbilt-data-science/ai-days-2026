@@ -55,7 +55,7 @@ Shift from understanding to building. Dive into agentic architectures, build you
 To participate fully in the hands-on sessions, please have the following ready before Day 1:
 
 1. **Claude Pro subscription** — Sign up at [claude.ai](https://claude.ai) ($20/month). A paid subscription is required for the agentic features we'll be using throughout the workshop.
-2. **Claude Code (CLI)** — Install Claude's command-line tool for building with agent skills. Installation instructions are available at [docs.anthropic.com](https://docs.anthropic.com/en/docs/claude-code/overview).
+2. **Claude Code (CLI)** — Install Claude's command-line tool for building with agent skills. Installation instructions are available at [code.claude.com](https://code.claude.com/docs/en/quickstart).
 3. **Claude App for Cowork** - Install the Claude app for using Claude Cowork [support.claude.com/en/articles/13345190-get-started-with-cowork](https://support.claude.com/en/articles/13345190-get-started-with-cowork) 
 4. **Bring your own project materials** — Create a folder on your computer with files relevant to a research or teaching challenge you'd like to work on during the workshop. This could include papers, datasets, notes, drafts, syllabi, grant proposals, or any other materials you'd like AI to help with. The more context you bring, the more useful the hands-on sessions will be.
 
