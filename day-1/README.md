@@ -2,16 +2,17 @@
 
 ## AI Literacy and Strategic Thinking for Faculty
 
-Day 1 builds the foundational understanding faculty need to critically evaluate and effectively use AI in their research and teaching. The day progresses from understanding how the technology works, through the psychology of working with AI, to live demonstrations of agentic tools, and concludes with practical frameworks for evaluating when AI is the right tool for the job.
+Day 1 builds the foundational understanding faculty need to critically evaluate and effectively use AI in their research and teaching. The day opens with a conversation with the Dean of Vanderbilt's College of Connected Computing, progresses through understanding how the technology works and the psychology of working with AI, to live demonstrations of agentic tools, and concludes with practical frameworks for evaluating when AI is the right tool for the job.
 
 ## Schedule
 
 | Time | Session | Presenter |
 |------|---------|-----------|
-| 9:00 AM | [Introductions, Logistics](01-introductions/) | Jesse Spencer-Smith |
-| 9:15 AM | [Live Podcast with Dean Matt Johnson-Roberson](02-live-podcast/) | Dean Matt Johnson-Roberson |
-| 10:00 AM | *Coffee & Networking Break* | |
-| 10:15 AM | [How LLMs Actually Work: What Researchers Need to Know](03-how-llms-actually-work/) | Jesse Spencer-Smith |
+| 8:30 AM | [Live Podcast with Dean Matt Johnson-Roberson](01-live-podcast/) | Dean Matt Johnson-Roberson |
+| 9:15 AM | [Introduction to AI Capabilities at Vanderbilt](02-introduction-to-ai-capabilities/) | Jesse Spencer-Smith |
+| 9:45 AM | *Coffee Break* | |
+| 10:00 AM | [How LLMs Actually Work: What Researchers Need to Know](03-how-llms-actually-work/) | Jesse Spencer-Smith |
+| 11:00 AM | *Coffee Break* | |
 | 11:15 AM | [The Psychology of Human-AI Collaboration](04-psychology-of-human-ai-collaboration/) | Jesse Spencer-Smith |
 | 11:45 AM | [Agents in Action: Beyond ChatGPT](05-agents-in-action/) | Jesse Spencer-Smith |
 | 12:15 PM | *Lunch* | |

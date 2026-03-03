@@ -1,7 +1,7 @@
 # How LLMs Actually Work: What Researchers Need to Know
 
 **Wednesday, March 4, 2026**  
-**10:15 AM – 11:15 AM** (60 minutes)
+**10:00 AM – 11:00 AM** (60 minutes)
 
 **Presenter:** Jesse Spencer-Smith, Ph.D.
 

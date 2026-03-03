@@ -19,4 +19,4 @@ Drawn from Course 3: Problem Definition, Business Case, and Responsible Developm
 
 **Data Scientist, Vanderbilt Data Science Institute**
 
-Abbie Petulante completed her Ph.D. in Astronomy at Vanderbilt, where she applied machine learning and deep learning techniques to model the development of large-scale dark matter structures in simulations of the evolution of the universe. As a member of the DSI data science team, she works on projects applying deep learning models to scientific problems through research collaborations across the university. Her postdoctoral work was supported by Vanderbilt's Deep Learning Initiative, which advances the adoption of AI techniques across academic disciplines.
+Abbie Petulante completed her Ph.D. in Astronomy at Vanderbilt, where she applied machine learning and deep learning techniques to model the development of large-scale dark matter structures in simulations of the evolution of the universe. As a member of the DSI data science team, she works on projects applying deep learning models to scientific problems through research collaborations across the university.

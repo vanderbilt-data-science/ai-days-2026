@@ -1,13 +1,13 @@
-# Introductions, Logistics
+# Introduction to AI Capabilities at Vanderbilt
 
 **Wednesday, March 4, 2026**  
-**9:00 AM – 9:15 AM** (15 minutes)
+**9:15 AM – 9:45 AM** (30 minutes)
 
 **Presenter:** Jesse Spencer-Smith, Ph.D.
 
 ## Session Description
 
-Welcome and opening remarks. Overview of the two-day program, logistics, expected outcomes, and introductions of the instructional team.
+An overview of the AI resources, tools, and support available across Vanderbilt. Covers the Data Science Institute's offerings, the College of Connected Computing's initiatives, and practical pathways for faculty to access AI expertise and infrastructure for their research and teaching.
 
 ## Session Materials
 

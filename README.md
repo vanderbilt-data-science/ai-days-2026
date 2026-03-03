@@ -18,10 +18,11 @@ Shift from understanding to building. Dive into agentic architectures, build you
 
 | Time | Session | Presenter |
 |------|---------|-----------|
-| 9:00 AM | Introductions, Logistics | Jesse Spencer-Smith |
-| 9:15 AM | Live Podcast with Dean Matt Johnson-Roberson | Dean Matt Johnson-Roberson |
-| 10:00 AM | *Coffee & Networking Break* | |
-| 10:15 AM | How LLMs Actually Work: What Researchers Need to Know | Jesse Spencer-Smith |
+| 8:30 AM | Live Podcast with Dean Matt Johnson-Roberson | Dean Matt Johnson-Roberson |
+| 9:15 AM | Introduction to AI Capabilities at Vanderbilt | Jesse Spencer-Smith |
+| 9:45 AM | *Coffee Break* | |
+| 10:00 AM | How LLMs Actually Work: What Researchers Need to Know | Jesse Spencer-Smith |
+| 11:00 AM | *Coffee Break* | |
 | 11:15 AM | The Psychology of Human-AI Collaboration | Jesse Spencer-Smith |
 | 11:45 AM | Agents in Action: Beyond ChatGPT | Jesse Spencer-Smith |
 | 12:15 PM | *Lunch* | |
@@ -113,8 +114,8 @@ ai-days-2026/
 ├── README.md                  ← You are here
 ├── day-1/                     ← Day 1 sessions
 │   ├── README.md              ← Day 1 overview and schedule
-│   ├── 01-introductions/
-│   ├── 02-live-podcast/
+│   ├── 01-live-podcast/
+│   ├── 02-introduction-to-ai-capabilities/
 │   ├── 03-how-llms-actually-work/
 │   ├── 04-psychology-of-human-ai-collaboration/
 │   ├── 05-agents-in-action/
