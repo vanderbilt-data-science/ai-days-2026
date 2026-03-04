@@ -1,33 +1,3 @@
-# Introduction to AI Capabilities at Vanderbilt
-
-**Wednesday, March 4, 2026**  
-**9:15 AM – 9:45 AM** (30 minutes)
-
-**Presenter:** Jesse Spencer-Smith, Ph.D.
-
-## Session Description
-
-An overview of the AI resources, tools, and support available across Vanderbilt. Covers the Data Science Institute's offerings, the College of Connected Computing's initiatives, and practical pathways for faculty to access AI expertise and infrastructure for their research and teaching.
-
-## AI Tools at Vanderbilt
-
-### Institutional
-
-ChatGPT.EDU
-
-Amplify
-
-Majk
-
-### Departmental / Personal
-
-Claude
-
-Gemini
-
-Others
-
-
 ## Vanderbilt Data Security Levels & AI Tools
 
 Vanderbilt classifies all university data into four levels based on sensitivity, legal requirements, and risk. Each level determines what security controls are required and which AI tools are appropriate to use with that data.
@@ -136,12 +106,3 @@ The most sensitive data — confidential by law or contract **and** requiring be
 ---
 
 *Sources: [Vanderbilt Office of Cybersecurity — Data Classification Guidance](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/) · [VUIT GenAI Tools Compared](https://it.vanderbilt.edu/genai-tools-compared/) · [Vanderbilt Generative AI Tools](https://www.vanderbilt.edu/generative-ai/tools/)*
-
-
-## About the Instructor
-
-### Jesse Spencer-Smith, Ph.D.
-
-**Interim Director and Chief Data Scientist, Vanderbilt Data Science Institute; Associate Dean for Partnerships and Innovation, College of Connected Computing; Professor of the Practice of Computer Science**
-
-Jesse Spencer-Smith leads Vanderbilt's Data Science Institute and a team of data scientists collaborating with researchers and industry partners across the university. He holds a Ph.D. in Cognitive Psychology and Cognitive Science from Indiana University and a B.S. in Computer Science from the University of Florida. Before joining Vanderbilt, he served as Director of Data Science at HCA Healthcare, where he built the company's first data science team and facilitated data science implementation across the enterprise. He previously held an appointment as Assistant Professor of Psychology in Quantitative Methods at the University of Illinois Urbana-Champaign and was a Beckman Fellow at the Beckman Institute for Advanced Science and Technology. His interdisciplinary background in psychology, cognitive science, and computer science informs his approach to advancing data-driven insights and AI applications. He was recently appointed to the Tennessee AI Advisory Council by Governor Bill Lee and serves as faculty head of Sutherland House.

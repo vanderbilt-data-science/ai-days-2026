@@ -11,7 +11,11 @@ A deep dive into Agent Skills — self-contained packages of domain expertise th
 
 ## Session Materials
 
-*Materials will be uploaded after the session.*
+https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf 
+
+https://github.com/anthropics/skills
+
+
 
 ## About the Instructor
 

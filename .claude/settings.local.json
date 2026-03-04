@@ -8,7 +8,13 @@
       "WebSearch",
       "WebFetch(domain:www.commodoregrille.com)",
       "WebFetch(domain:www.tripadvisor.com)",
-      "WebFetch(domain:nashvillego.com)"
+      "WebFetch(domain:nashvillego.com)",
+      "WebFetch(domain:claude.ai)",
+      "WebFetch(domain:support.claude.com)",
+      "WebFetch(domain:resources.anthropic.com)",
+      "WebFetch(domain:www.tazikis.com)",
+      "WebFetch(domain:www.centralbarandkitchen.com)",
+      "WebFetch(domain:www.vanderbilt.edu)"
     ]
   }
 }
