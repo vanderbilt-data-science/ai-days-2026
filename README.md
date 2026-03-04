@@ -1,8 +1,11 @@
+# Note: Earlier Start Time on Day 1: 8:30 am
+
 # AI Days at Vanderbilt
 
 **March 4–5, 2026 (Wednesday–Thursday)**
 
 A two-day intensive workshop for faculty, bringing together Vanderbilt's Data Science Institute, College of Connected Computing, and Law School to equip researchers and educators with practical AI skills — from understanding how the technology works to building your own AI-powered tools.
+
 
 ## What to Expect
 
