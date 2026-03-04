@@ -13,8 +13,8 @@ Day 1 builds the foundational understanding faculty need to critically evaluate 
 | 9:45 AM | *Coffee Break* | |
 | 10:00 AM | [How LLMs Actually Work: What Researchers Need to Know](03-how-llms-actually-work/) | Jesse Spencer-Smith |
 | 11:00 AM | *Coffee Break* | |
-| 11:15 AM | [The Psychology of Human-AI Collaboration](04-psychology-of-human-ai-collaboration/) | Jesse Spencer-Smith |
-| 11:45 AM | [Agents in Action: Beyond ChatGPT](05-agents-in-action/) | Jesse Spencer-Smith |
+| 11:15 AM | [Agents in Action: Beyond ChatGPT](04-agents-in-action/) | Jesse Spencer-Smith |
+| 11:45 AM | [The Psychology of Human-AI Collaboration](05-psychology-of-human-ai-collaboration/) | Jesse Spencer-Smith |
 | 12:15 PM | *Lunch* | |
 | 1:15 PM | [Agent Skills: Encapsulated Expertise](06-agent-skills-encapsulated-expertise/) | Jesse Spencer-Smith |
 | 2:15 PM | [Defining AI-Augmented Academic Projects](07-defining-ai-augmented-projects/) | Abbie Petulante |

@@ -47,23 +47,23 @@ Drawn from Course 1: Foundations of Generative AI. Topics: Transformer architect
 
 ---
 
-### The Psychology of Human-AI Collaboration
+### Agents in Action: Beyond ChatGPT
 
 **11:15 AM – 11:45 AM** (30 minutes)
 
 **Presenter:** Jesse Spencer-Smith, Ph.D. — Interim Director and Chief Data Scientist, Vanderbilt Data Science Institute; Associate Dean for Partnerships and Innovation, College of Connected Computing; Professor of the Practice of Computer Science
 
-Drawn from Course 2: AI Strategy and Organizational Dynamics. Topics: Cognitive psychology of human-AI interaction, attention limitations, automation bias, decision biases, knowing when to abandon AI-assisted paths. This is the "critical thinking" workshop — particularly important for faculty who will be reviewing AI-assisted student work, incorporating AI into research pipelines, or advising students on appropriate use. Addresses the failure pattern of over-trusting plausible-sounding outputs.
+Introduction to the agentic workflow, skills, and their utility in research and academics. Live demonstrations of Claude Code vs Claude Cowork, Codex, and other agentic tools. Examples include a research skill for finding accessible housing, knowledge trees, medical scheduling, and other domain-specific applications. Faculty see what "beyond ChatGPT" looks like in practice.
 
 ---
 
-### Agents in Action: Beyond ChatGPT
+### The Psychology of Human-AI Collaboration
 
 **11:45 AM – 12:15 PM** (30 minutes)
 
 **Presenter:** Jesse Spencer-Smith, Ph.D. — Interim Director and Chief Data Scientist, Vanderbilt Data Science Institute; Associate Dean for Partnerships and Innovation, College of Connected Computing; Professor of the Practice of Computer Science
 
-Introduction to the agentic workflow, skills, and their utility in research and academics. Live demonstrations of Claude Code vs Claude Cowork, Codex, and other agentic tools. Examples include a research skill for finding accessible housing, knowledge trees, medical scheduling, and other domain-specific applications. Faculty see what "beyond ChatGPT" looks like in practice.
+Drawn from Course 2: AI Strategy and Organizational Dynamics. Topics: Cognitive psychology of human-AI interaction, attention limitations, automation bias, decision biases, knowing when to abandon AI-assisted paths. This is the "critical thinking" workshop — particularly important for faculty who will be reviewing AI-assisted student work, incorporating AI into research pipelines, or advising students on appropriate use. Addresses the failure pattern of over-trusting plausible-sounding outputs.
 
 ---
 

@@ -14,7 +14,8 @@
       "WebFetch(domain:resources.anthropic.com)",
       "WebFetch(domain:www.tazikis.com)",
       "WebFetch(domain:www.centralbarandkitchen.com)",
-      "WebFetch(domain:www.vanderbilt.edu)"
+      "WebFetch(domain:www.vanderbilt.edu)",
+      "Bash(mv:*)"
     ]
   }
 }

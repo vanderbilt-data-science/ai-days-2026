@@ -26,8 +26,8 @@ Shift from understanding to building. Dive into agentic architectures, build you
 | 9:45 AM | *Coffee Break* | |
 | 10:00 AM | How LLMs Actually Work: What Researchers Need to Know | Jesse Spencer-Smith |
 | 11:00 AM | *Coffee Break* | |
-| 11:15 AM | The Psychology of Human-AI Collaboration | Jesse Spencer-Smith |
-| 11:45 AM | Agents in Action: Beyond ChatGPT | Jesse Spencer-Smith |
+| 11:15 AM | Agents in Action: Beyond ChatGPT | Jesse Spencer-Smith |
+| 11:45 AM | The Psychology of Human-AI Collaboration | Jesse Spencer-Smith |
 | 12:15 PM | *Lunch* | |
 | 1:15 PM | Agent Skills: Encapsulated Expertise | Jesse Spencer-Smith |
 | 2:15 PM | Defining AI-Augmented Academic Projects: When AI Helps and When It Doesn't | Abbie Petulante |
@@ -124,8 +124,8 @@ ai-days-2026/
 │   ├── 01-live-podcast/
 │   ├── 02-introduction-to-ai-capabilities/
 │   ├── 03-how-llms-actually-work/
-│   ├── 04-psychology-of-human-ai-collaboration/
-│   ├── 05-agents-in-action/
+│   ├── 04-agents-in-action/
+│   ├── 05-psychology-of-human-ai-collaboration/
 │   ├── 06-agent-skills-encapsulated-expertise/
 │   ├── 07-defining-ai-augmented-projects/
 │   ├── 08-ai-in-your-everyday-academic-life/

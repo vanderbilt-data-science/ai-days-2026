@@ -1,7 +1,7 @@
 # Agents in Action: Beyond ChatGPT
 
 **Wednesday, March 4, 2026**  
-**11:45 AM – 12:15 PM** (30 minutes)
+**11:15 AM – 11:45 AM** (30 minutes)
 
 **Presenter:** Jesse Spencer-Smith, Ph.D.
 
