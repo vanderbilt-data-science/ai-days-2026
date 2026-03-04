@@ -11,7 +11,12 @@ Drawn from Course 2: AI Strategy and Organizational Dynamics. Topics: Cognitive 
 
 ## Session Materials
 
-*Materials will be uploaded after the session.*
+Nature paper: 
+Nature Perspective on Artificial intelligence and illusions of understanding in scientific research
+
+https://www.nature.com/articles/s41586-024-07146-0.pdf
+
+
 
 ## About the Instructor
 

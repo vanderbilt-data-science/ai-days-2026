@@ -63,6 +63,7 @@ To participate fully in the hands-on sessions, please have the following ready b
 
 ## Resources
 
+- WiFi: connect to IHGWiFi.com, use BNAVB as the password/access code
 - [The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) — Comprehensive guide to creating and using Claude skills
 - [Skill Creator Skill](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md) — Anthropic's official skill for helping you build new skills
 

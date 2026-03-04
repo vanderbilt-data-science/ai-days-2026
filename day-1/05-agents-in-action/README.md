@@ -11,7 +11,21 @@ Introduction to the agentic workflow, skills, and their utility in research and 
 
 ## Session Materials
 
-*Materials will be uploaded after the session.*
+
+
+### Agents
+
+
+#### OpenAI Deep Research
+
+Digital twins and LLMs
+
+#### Claude Code
+
+
+
+#### Claude Cowork 
+
 
 ## About the Instructor
 
