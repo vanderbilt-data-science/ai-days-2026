@@ -188,24 +188,14 @@ Drawn from Course 4: Agentic Solution Development and Deployment. Topics: Specif
 
 ---
 
-### Designing AI-Enhanced Courses: Organizational and Pedagogical Considerations
-
-**3:25 PM – 4:25 PM** (60 minutes)
-
-**Presenter:** Jesse Spencer-Smith, Ph.D. — Interim Director and Chief Data Scientist, Vanderbilt Data Science Institute; Associate Dean for Partnerships and Innovation, College of Connected Computing; Professor of the Practice of Computer Science
-
-Drawn from Course 2: AI Strategy and Organizational Dynamics. Topics: Stakeholder mapping, change management, capturing institutional knowledge, designing implementations that build buy-in. Reframed for the teaching context — how to redesign a course to meaningfully incorporate AI, how to bring along skeptical colleagues or departments, how to handle the student-facing challenges (academic integrity, equity of access, pedagogical value). Uses the four-frame organizational analysis applied to academic departments and curricula.
-
----
-
-*4:25 PM – 4:35 PM — Quick Break*
-
----
-
 ### Building Your Solution
 
-**4:35 PM – 6:05 PM** (90 minutes)
+**3:25 PM – 6:05 PM** (160 minutes)
 
 **Presenters:** Jesse Spencer-Smith, Ph.D. — Interim Director and Chief Data Scientist, Vanderbilt Data Science Institute; Charreau Bell, Ph.D. — Senior Data Scientist, Vanderbilt Data Science Institute; Myranda Shirk — Senior Data Scientist, Vanderbilt Data Science Institute
 
 Interactive capstone workshop. The instructional team builds one complete solution live, then assists participants as they work in teams to build their own. Bring your research questions, teaching challenges, or workflow problems — this is where concepts become working tools. Participants leave with a functional prototype and the skills to iterate on it independently.
+
+#### Subtopic: Designing AI-Enhanced Courses — Organizational and Pedagogical Considerations
+
+Drawn from Course 2: AI Strategy and Organizational Dynamics. Topics: Stakeholder mapping, change management, capturing institutional knowledge, designing implementations that build buy-in. Reframed for the teaching context — how to redesign a course to meaningfully incorporate AI, how to bring along skeptical colleagues or departments, how to handle the student-facing challenges (academic integrity, equity of access, pedagogical value). Uses the four-frame organizational analysis applied to academic departments and curricula.

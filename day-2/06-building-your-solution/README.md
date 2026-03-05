@@ -1,13 +1,15 @@
 # Building Your Solution
 
 **Thursday, March 5, 2026**  
-**4:35 PM – 6:05 PM** (90 minutes)
+**3:25 PM – 6:05 PM** (160 minutes)
 
 **Presenters:** Jesse Spencer-Smith, Ph.D., Charreau Bell, Ph.D., Myranda Shirk
 
 ## Session Description
 
 Interactive capstone workshop. The instructional team builds one complete solution live, then assists participants as they work in teams to build their own. Bring your research questions, teaching challenges, or workflow problems — this is where concepts become working tools. Participants leave with a functional prototype and the skills to iterate on it independently.
+
+This session includes [Designing AI-Enhanced Courses: Organizational and Pedagogical Considerations](../05-designing-ai-enhanced-courses/) as a subtopic.
 
 ## Session Materials
 

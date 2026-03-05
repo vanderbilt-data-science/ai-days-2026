@@ -16,6 +16,4 @@ Day 2 shifts from understanding to building. Participants dive into agentic arch
 | 12:40 PM | *Lunch* | |
 | 1:40 PM | [Specification-Driven Development: Building Research Tools Without Coding](04-specification-driven-development/) | Myranda Shirk |
 | 3:10 PM | *Afternoon Break* | |
-| 3:25 PM | [Designing AI-Enhanced Courses](05-designing-ai-enhanced-courses/) | Jesse Spencer-Smith |
-| 4:25 PM | *Quick Break* | |
-| 4:35 PM | [Building Your Solution](06-building-your-solution/) | Jesse Spencer-Smith, Charreau Bell, Myranda Shirk |
+| 3:25 PM | [Building Your Solution](06-building-your-solution/) (includes [Designing AI-Enhanced Courses](05-designing-ai-enhanced-courses/)) | Jesse Spencer-Smith, Charreau Bell, Myranda Shirk |

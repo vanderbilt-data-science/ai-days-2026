@@ -49,9 +49,7 @@ Shift from understanding to building. Dive into agentic architectures, build you
 | 12:40 PM | *Lunch* | |
 | 1:40 PM | Specification-Driven Development: Building Research Tools Without Coding | Myranda Shirk |
 | 3:10 PM | *Afternoon Break* | |
-| 3:25 PM | Designing AI-Enhanced Courses: Organizational and Pedagogical Considerations | Jesse Spencer-Smith |
-| 4:25 PM | *Quick Break* | |
-| 4:35 PM | Building Your Solution | Jesse Spencer-Smith, Charreau Bell, Myranda Shirk |
+| 3:25 PM | Building Your Solution (includes Designing AI-Enhanced Courses) | Jesse Spencer-Smith, Charreau Bell, Myranda Shirk |
 
 ## Before You Arrive
 
