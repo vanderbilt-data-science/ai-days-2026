@@ -17,6 +17,6 @@ Drawn from Course 1: Foundations of Generative AI and Course 4: Agentic Solution
 
 ### Charreau Bell, Ph.D.
 
-**Senior Data Scientist, Vanderbilt Data Science Institute; Research Assistant Professor of Computer Science; Faculty Director, Undergraduate Data Science Minor**
+**Senior Data Scientist, Vanderbilt Data Science Institute; Assistant Professor of the Practice of Computer Science; Faculty Director, Undergraduate Data Science Minor**
 
 Charreau Bell leads data science projects across a spectrum of disciplines using machine learning and deep learning at Vanderbilt's Data Science Institute. A Triple Dore, she earned her bachelor's, master's, and doctoral degrees in electrical engineering at Vanderbilt. She serves as faculty director of the undergraduate data science minor and has been featured as a faculty expert in a virtual panel hosted by the Southeastern Conference (SEC) on generative artificial intelligence.
