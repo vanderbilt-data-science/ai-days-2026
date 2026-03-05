@@ -17,9 +17,9 @@ Matthew Johnson-Roberson is the inaugural Dean of Vanderbilt's College of Connec
 
 ## Charreau Bell, Ph.D.
 
-Senior Data Scientist, Vanderbilt Data Science Institute; Research Assistant Professor of Computer Science; Faculty Director, Undergraduate Data Science Minor
+Senior Data Scientist, Vanderbilt Data Science Institute; Assistant Professor of the Practice of Computer Science; Faculty Director, Undergraduate Data Science Minor
 
-Charreau Bell leads data science projects across a spectrum of disciplines using machine learning and deep learning at Vanderbilt's Data Science Institute. A Triple Dore, she earned her bachelor's, master's, and doctoral degrees in electrical engineering at Vanderbilt. She serves as faculty director of the undergraduate data science minor and has been featured as a faculty expert in a virtual panel hosted by the Southeastern Conference (SEC) on generative artificial intelligence. She has contributed to AI-powered research projects including building AI technologies to support a book project about the Black experience at Vanderbilt.
+Charreau Bell leads data science projects across a spectrum of disciplines using artificial intelligence (AI), machine learning, and deep learning at Vanderbilt's Data Science Institute. She has taught several undergraduate and graduate courses on generative AI at Vanderbilt, including a course on constructing and deploying AI systems on cloud-based architecture including AWS. She serves as faculty director of the undergraduate data science minor, co-authored SACSCOC guidance on AI for universities, and has been featured as a faculty expert on legal podcasts and virtual panels hosted by the Southeastern Conference (SEC) on generative AI. A Triple Dore, she earned her bachelor's, master's, and doctoral degrees in electrical engineering at Vanderbilt.
 
 
 ## Umang Chaudhry
