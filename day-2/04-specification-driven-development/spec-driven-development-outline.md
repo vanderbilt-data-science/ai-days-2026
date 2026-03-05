@@ -26,9 +26,8 @@ Faculty don't need to learn programming to build functional research tools. They
 | Introduction & Framing | 1–3 | 10 min | The core argument, who this is for, the real barrier |
 | Part 1: The Specification | 4–7 | 15 min | What is a spec, anatomy, vague vs. strong |
 | Part 2: The Workflow | 8–10 | 10 min | Spec→Agent→Test→Evaluate→Refine loop |
-| **Example Case 1** | 12–15 | **15 min** | **[YOUR EXAMPLE — see placeholder slides]** |
-| **Example Case 2** | 16–19 | **15 min** | **[YOUR EXAMPLE — see placeholder slides]** |
-| **Example Case 3 (optional)** | 20–21 | **10 min** | **[YOUR EXAMPLE or live exercise]** |
+| **Example Case 1** | 12–15 | **15 min** | Medical Scheduling |
+| **Example Case 2** | 16–19 | **15 min** | Digital Nashville |
 | Part 3: Testing & Evaluation | 23–27 | 15 min | TDD with agents, quality checks, pitfalls |
 | Wrap-up & Q&A | 28–30 | 5 min | Takeaways, resources, discussion |
 
@@ -53,12 +52,19 @@ Four sections with visual blocks:
 
 ---
 
-### Slide 3 — The Real Barrier (Quote Slide)
-> "The barrier to building research tools isn't coding. It's knowing what you want — precisely enough for a machine to build it."
+### Slide 3 — Software Engineering Principles
+
+How software engineering principles are useful to you. 
+
+
+---
+NOTE: Claude originally suggested I use this quote:
+
+"The barrier to building research tools isn't coding. It's knowing what you want — precisely enough for a machine to build it."
+
+But I don't know who that quote is from (if it's even real) - and I don't think I even like it! Just goes to show that you really need to remain the expert in your projects :)
 
 *The core insight of specification-driven development*
-
-**Speaking notes:** Ask the audience: how many of you have said "I can't code" and meant "I don't know how to build the tool I need"? That's a very different problem — and it's one we can solve today.
 
 ---
 
@@ -92,10 +98,9 @@ Five components shown as cards:
 | # | Component | Answers |
 |---|-----------|---------|
 | 1 | **Goal** | One sentence: what problem does this solve? |
-| 2 | **Inputs** | What data, files, or parameters does it accept? |
-| 3 | **Outputs** | What does it produce? In what format? |
-| 4 | **Constraints** | What rules must always be true? |
-| 5 | **Acceptance Criteria** | How do you test it? |
+| 2 | **Inputs/Outputs** | What data, files, or parameters does it accept? What does it produce? In what format? |
+| 3 | **Constraints** | What rules must always be true? |
+| 4 | **Acceptance Criteria** | How do you test it? |
 
 ---
 
@@ -127,15 +132,15 @@ Five-step loop:
 ### Slide 9 — Directing an Agentic Coding Tool
 Two-column layout:
 
-**What to Include in Your Prompt:**
-- Your full specification (paste it in)
+**What to Include:**
+- Your full specification 
 - The language/environment you're using
 - A sample of your input data
 - What "done" looks like (acceptance criteria)
 - Any constraints (libraries, output format)
 
 **What NOT to Do:**
-- Don't describe the implementation ("use a for loop…")
+- Don't describe the implementation (unless it's critical to do so!)
 - Don't ask for multiple tools at once
 - Don't skip the acceptance criteria
 - Don't accept output without testing
@@ -184,20 +189,11 @@ Three cards:
 
 ---
 
-### Slides 16–19 — EXAMPLE CASE 2 [PLACEHOLDER]
+### Slides 16–19 — Digital Nashville
 
 **Slide 16 — Case 2: Introduction**
-- Choose a different tool type or domain from Case 1
-- Ideally: show a more complex specification
-- Good options: multi-step pipeline, visualization dashboard, or text analysis
 
-**Slide 17 — Case 2: The Specification**
-- Show specification using the same 5-component format
-- Highlight what makes this more complex than Case 1
-
-**Slide 18 — Case 2: Demo / Walkthrough**
-- Walk through the agent interaction
-- Show a test run
+**Slide 17-18 — Case 2: The Specification**
 
 **Slide 19 — Case 2: Lessons Learned**
 - What worked well?
@@ -206,21 +202,7 @@ Three cards:
 
 ---
 
-### Slides 20–21 — EXAMPLE CASE 3 [OPTIONAL PLACEHOLDER]
-
-**Slide 20 — Case 3: Introduction**
-- Use if time permits or if you have a third strong example
-- Alternative: live collaborative exercise — write a spec for a participant's tool idea together
-- Can also show a *failure* case — what happens with a bad spec
-
-**Slide 21 — Case 3: Spec + Demo (combined)**
-- Can be condensed to 1 slide if running short on time
-- Or use for a Q&A-style spec-writing exercise with the room
-
----
-
 ### Slide 22 — [SECTION DIVIDER: Testing & Evaluation]
-*Making quality judgment objective*
 
 ---
 
@@ -311,9 +293,10 @@ Four steps:
 
 ### Slide 30 — Q&A / Open Discussion
 Discussion prompts:
-- What tool would you build if you could build anything?
+
 - What's the hardest part of writing a clear specification?
 - Where in your research workflow would this help most?
+- What tool would you build if you could build anything?
 
 ---
 
