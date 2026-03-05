@@ -1,0 +1,1081 @@
+WEBVTT
+
+1
+03:00:03.990 --> 03:00:12.929
+John Ellis: So, as Claude found for you, there are different places to have lunch, but you also can have lunch directly here. I'm going to be around, be happy to chat with you, look forward to talking.
+
+2
+03:00:19.290 --> 03:00:22.420
+John Ellis: And actually, One moment…
+
+3
+03:00:23.230 --> 03:00:34.030
+John Ellis: Did you all realize that you understand more than about 90% of people in the world how models work now? So, let's pause, give yourselves a round of applause.
+
+4
+03:00:40.340 --> 03:00:58.619
+John Ellis: Well, yeah, the deep dive actually was, ChatGPT 5.2. So…
+
+5
+03:00:58.620 --> 03:01:11.739
+John Ellis: When I met this last week, okay, people… Yeah, that's right, I was doing it in real time, yeah. Okay, and then you said, I tried to install a work on my…
+
+6
+03:01:12.110 --> 03:01:19.330
+John Ellis: And said there's something else you need? Yeah, let's talk about that another topic, yeah, yeah.
+
+7
+03:01:19.520 --> 03:01:26.420
+John Ellis: Yes, I'm… I'm new to this concept, so… Yeah.
+
+8
+03:01:26.550 --> 03:01:38.970
+John Ellis: when I see the article, I find it interesting, but I don't… I don't quite see how the, like, the bias to me that is related to the…
+
+9
+03:01:39.480 --> 03:01:51.180
+John Ellis: Okay, can you rephrase that just a little bit? Yeah, like, so, I mean, like, you show articles, show that AI can be in the email.
+
+10
+03:01:51.330 --> 03:01:53.310
+John Ellis: wrong of biased.
+
+11
+03:01:53.760 --> 03:01:57.569
+John Ellis: Well, that article was more about humans' use of it.
+
+12
+03:01:57.850 --> 03:02:09.330
+John Ellis: There are other articles, absolutely, that talk about bias, but bias is a very general term, so it's very specific about what type of bias he means.
+
+13
+03:02:09.630 --> 03:02:16.909
+John Ellis: So… Do you mean the… the training of the model? The… No, I understand.
+
+14
+03:02:17.040 --> 03:02:21.900
+John Ellis: Oh, so the, the, the article that we talked about with,
+
+15
+03:02:22.250 --> 03:02:24.929
+John Ellis: Illusion of explanatory depth and that.
+
+16
+03:02:25.510 --> 03:02:33.599
+John Ellis: Yep. I have a link for it in the repo, so you can sort of take a look at the article. The main point was, that article was about chat.
+
+17
+03:02:33.960 --> 03:02:36.770
+John Ellis: It wasn't about agents. And so the question is.
+
+18
+03:02:36.870 --> 03:02:40.120
+John Ellis: Does the story change? Because now we're talking about agents?
+
+19
+03:02:40.310 --> 03:02:49.950
+John Ellis: And as best as we can tell, the story changes some, because we're talking about ages. So some of the concerns we have before are not as much of a concern, but now we have other concerns.
+
+20
+03:02:50.490 --> 03:02:58.049
+John Ellis: Yeah, but I think, I think read that, read the paper is going to be really important to do. Okay. Yeah, great, alright, no, thank you.
+
+21
+03:02:59.480 --> 03:03:04.560
+John Ellis: Question, where… As far as the context of
+
+22
+03:03:05.500 --> 03:03:08.919
+John Ellis: I don't know how it says.
+
+23
+03:03:09.230 --> 03:03:27.230
+John Ellis: Are we still within the Venn diagram about just prompt engineering, or are things moving outside? I think we're well outside now. Even with reasoning models, no, you don't talk to engineer anymore. You state what it is, you give, you know, and then it goes on. Agents also especially, and you saw what I did there. I didn't say.
+
+24
+03:03:27.230 --> 03:03:31.710
+John Ellis: you are a software engineer, and you are an event planner. I said.
+
+25
+03:03:32.340 --> 03:03:34.560
+John Ellis: Man, I gotta switch these two things. Easy.
+
+26
+03:03:34.710 --> 03:03:42.799
+John Ellis: So when you're using these agents, like, there's no prompt behind the scenes, I mean, obviously? There might be, right? It depends on how you decide. Yeah, yeah.
+
+27
+03:03:43.020 --> 03:04:00.780
+John Ellis: The prompt behind the scenes is going to be visible, though, in what's called a pla.nd file. So, and we'll talk about those a little bit more in depth a little bit later, but those are, like, the general rules that you have for this particular subdirectory that you're working in, right? So, okay, whenever you're in the subdirectory, here are some of the rules to follow.
+
+28
+03:04:00.820 --> 03:04:16.390
+John Ellis: this table is garbage. We only have it here because of the, you know, this one. This other, this author is unreliable. You know, whatever, those are things that you write, you put in there as sort of the general rules of the road. Always give me mark down. It could be anything.
+
+29
+03:04:16.520 --> 03:04:29.590
+John Ellis: the skills are pulled up dynamically based on when the need arises. Those also, you can inspect and say, you know, you use the skill when, you do this in a new way, you bring this analysis, and then hope.
+
+30
+03:04:30.190 --> 03:04:44.099
+John Ellis: That's not context engineering, right? I mean, that's not… we're not prompting anymore. Now that that context is coming in in lots of different ways, sometimes from pre-designed prompts, the closest one may be the quantity. The skills themselves are prompts.
+
+31
+03:04:44.480 --> 03:04:49.030
+John Ellis: In a way, right? Yeah. But we're no longer doing the magic prompt.
+
+32
+03:04:49.560 --> 03:04:52.309
+John Ellis: It doesn't help to say, you are an analyst.
+
+33
+03:04:53.160 --> 03:05:05.719
+John Ellis: doesn't mean nearly as much. You might find that within the skills where it's saying you are acting as a subject of yourself. That'll still work, but it's no longer the single unitary prompt that's driving everything.
+
+34
+03:05:06.520 --> 03:05:08.940
+John Ellis: So, prompt engineering has changed.
+
+35
+03:05:09.800 --> 03:05:19.579
+John Ellis: I guess I'm trying to figure out, like, the balancing between all of that potential search space of where your starting point is before you, like, glide them on, and then…
+
+36
+03:05:20.370 --> 03:05:25.130
+John Ellis: So, what I thought now is, is the context. What are the things that I want to have?
+
+37
+03:05:25.820 --> 03:05:31.600
+John Ellis: in there. What are the papers? What's the background? What's the information that needs to be there?
+
+38
+03:05:31.920 --> 03:05:33.249
+John Ellis: For the model to have access.
+
+39
+03:05:33.690 --> 03:05:35.220
+John Ellis: For the agent to have access to.
+
+40
+03:05:35.430 --> 03:05:38.159
+John Ellis: Because that's really what's going to drive a lot of what's going on.
+
+41
+03:05:38.680 --> 03:05:42.050
+John Ellis: What are the skills I want to have there, and what are the starting instructions I want to add?
+
+42
+03:05:42.200 --> 03:05:48.819
+John Ellis: Because, you know, if I have enough context, I really do get to say sometimes, just, alright, tell me about this. Get me started.
+
+43
+03:05:49.080 --> 03:05:57.339
+John Ellis: Tell me about… tell me about the information, which is here in this subdirectory. And when you say contact, just to make sure I'm following correctly. And you're talking about,
+
+44
+03:05:58.560 --> 03:05:59.250
+John Ellis: B.
+
+45
+03:05:59.690 --> 03:06:04.879
+John Ellis: Recursive, just outputs of previous interactions with the model being included.
+
+46
+03:06:05.090 --> 03:06:10.290
+John Ellis: So, what ends up here? Now, in truth, the broader…
+
+47
+03:06:10.580 --> 03:06:15.319
+John Ellis: when I say in context, I'm talking kind of loosely, right? Because they're right… so,
+
+48
+03:06:15.410 --> 03:06:33.810
+John Ellis: We have one example where we work with the School of Engineering, I'm sorry, School of Medicine, and we have a subdirectory on this laptop with 1TB of information and 16,000 different files about the first year of medical school. And all the files having to do about it, you know, all the transcripts, all the PowerPoints, everything.
+
+49
+03:06:34.300 --> 03:06:41.119
+John Ellis: That's never fitting in. Right. But it is context for the agent, in the sense that it is reachable
+
+50
+03:06:41.320 --> 03:06:49.480
+John Ellis: there, and organized, and it can go in and find what it needs to pull in the specifics here.
+
+51
+03:06:49.930 --> 03:06:54.250
+John Ellis: This is a small window into a much larger collection of data.
+
+52
+03:06:54.410 --> 03:06:58.499
+John Ellis: And so, when I say contact, sometimes I take… I mean, like, oh, I provided it
+
+53
+03:06:58.730 --> 03:07:12.039
+John Ellis: as background, I don't know if it's going to get loaded up or not. I can check and see if it did. Okay. I've got one more small question. Please. Will we be talking about model design? Or basically, for example, that giant 1TB file?
+
+54
+03:07:12.780 --> 03:07:16.050
+John Ellis: Generating our own Deep learning. Your own…
+
+55
+03:07:16.480 --> 03:07:22.159
+John Ellis: So, do you mean I was, like, training your own model? Yeah, like, doing some post-training.
+
+56
+03:07:22.850 --> 03:07:24.910
+John Ellis: No. Because…
+
+57
+03:07:25.010 --> 03:07:35.440
+John Ellis: We do have material on that, and we do have material on YouTube on that. Okay. The reason why we're not is that, largely, that space of the needs has now been met by skills.
+
+58
+03:07:35.880 --> 03:07:40.380
+John Ellis: Okay. Do you need to train the model to do a specific thing? It was always messy.
+
+59
+03:07:40.660 --> 03:07:49.049
+John Ellis: It was always dangerous. You always have the risk of catastrophic forgetting. Or you can do parameter-efficient fine-tuning. You can do that. But there was always incremental, and
+
+60
+03:07:49.570 --> 03:07:52.629
+John Ellis: You know, did it actually learn the skill or the information?
+
+61
+03:07:53.490 --> 03:07:59.219
+John Ellis: If instead we have skills where we can state explicitly and expect what's going in.
+
+62
+03:07:59.390 --> 03:08:10.349
+John Ellis: Because when you train the model, you're not sure what it learned or didn't learn. Yeah. Here, the skill's like, oh, I wrote this… I wrote these 500 loans, I know exactly what it is, and I saw that it loaded it.
+
+63
+03:08:10.620 --> 03:08:21.079
+John Ellis: So I know that it was aware of it far more than if it was somewhere encoded in the MLS. It's more vettings, it's visible, it's less black box.
+
+64
+03:08:21.560 --> 03:08:35.269
+John Ellis: So, I mean, if I could… I mean, this is… you for a second. I'm in a Posit AI, or Posit, which is our studio. Yeah, yeah, yeah. They have an AI in it. Oh, cool. And so…
+
+65
+03:08:35.270 --> 03:08:53.169
+John Ellis: they are… whatever their skills file is, which I have not read, I'm not… I'm sure there are transparency somewhere, but, like, it is quite good at doing things, like, and so, like, I think the idea that, like, we're each gonna make our own, like, a skill file for each of the kinds of research we're gonna do is probably, like.
+
+66
+03:08:53.170 --> 03:09:10.469
+John Ellis: It's probably more likely organizational and disciplinary than it is, like, and, like, sub-organizational. There would be some disciplinary, like, effort to do that. But, like, you're gonna see this afternoon, so, Miguel's gonna be talking about skills that he's created. He's our event coordinator.
+
+67
+03:09:10.470 --> 03:09:16.690
+John Ellis: But he's created skills based on, you know, the broad stuff that's possible to. The better would be…
+
+68
+03:09:16.790 --> 03:09:18.669
+John Ellis: It'd be much better to have, like…
+
+69
+03:09:19.150 --> 03:09:39.329
+John Ellis: the association of all people doing data science with R, and the people doing great work for them, writing a really good skill file. Absolutely. And so, and, like, that was an actual quantum leap in terms of, like, the ability to, like, it still is like watching Aruba do, data science, as opposed to, like, where it backs up, like, a thousand times. Yeah. But it does.
+
+70
+03:09:39.330 --> 03:09:41.989
+John Ellis: It's much better at things than,
+
+71
+03:09:42.300 --> 03:09:51.149
+John Ellis: or rather, like, there is an actual time of production that's quite significant for the things that are there. My… in some ways, like.
+
+72
+03:09:51.420 --> 03:09:52.120
+John Ellis: the…
+
+73
+03:09:52.510 --> 03:09:59.789
+John Ellis: If I have the one add-on question to whatever we talked about before, like, not necessarily that this is a room.
+
+74
+03:09:59.820 --> 03:10:13.519
+John Ellis: it's a big room. It's that, like, some of those flaws are bound up in the feedback loop that exists where the output is going into the context. Yeah. So… and, like, that's not changed with agents, right? Like, agents are still adding to their own
+
+75
+03:10:13.520 --> 03:10:24.080
+John Ellis: Are they not communicating? Yes, except they can spin up additional pages that have… You're like, take 5 copies of you, and each try and answer this question.
+
+76
+03:10:24.160 --> 03:10:39.810
+John Ellis: The agents were first designed for code, but we're finding that they have tremendous utility elsewhere, but we've got it to go with the rules of the road. Yeah. So, my sense is, like.
+
+77
+03:10:40.840 --> 03:10:46.019
+John Ellis: aware there's a broader hype cycle, and I'm also concerned about the tendency to feel like,
+
+78
+03:10:46.020 --> 03:10:49.680
+John Ellis: Long-term problems that are embedded in large language models will
+
+79
+03:10:49.680 --> 03:11:11.509
+John Ellis: dissolve with the next generation of, like… Yeah, that's why I wanted to go back to, like, the really good part in, okay, here are the problems with… Yeah. You know, I like to go back to these, to these and say, you know, where are we now? I meant to start, but I only occasionally blog and share, like, what do I say? A, like, failure modes list. Yeah. And it is, it's a remarkable
+
+80
+03:11:11.820 --> 03:11:29.890
+John Ellis: like, the thing… the failure modes is a long list for me, and therefore, because I do most of the work that I do, I actually want it to be reliable enough that I can say it to other people, and so, like, there's just a minimal level, plus that there's actually publishing. So then, like, there's a… I have to do a lot of…
+
+81
+03:11:30.150 --> 03:11:44.519
+John Ellis: double checking of things, in order to make sure that… Sure, there's another link to another article in there, too, which talks also about that, you know, and, vigilance, fatigue, and… yeah, and I think that there are design patterns that we could follow.
+
+82
+03:11:44.520 --> 03:11:57.389
+John Ellis: also mitigate that. Again, it's not… these are things we need to be aware of and design with those people in mind. Yeah. We should never be checking the low-level stuff, but we should absolutely be putting in checks and gates
+
+83
+03:11:57.410 --> 03:11:59.150
+John Ellis: For, at the conceptual level.
+
+84
+03:11:59.730 --> 03:12:06.050
+John Ellis: That's… that's where we need to be. We're not there yet, because it's like all building blocks. It's… it's all building blocks. The thing that's…
+
+85
+03:12:06.210 --> 03:12:20.430
+John Ellis: So, like, because I keep, like, throwing things at you, like, what are the things that… and so, even at the, like, can you parse this graphic into all of the data sets? I have had, like, 59 correct when wrong come back, and I'm just like.
+
+86
+03:12:21.250 --> 03:12:35.360
+John Ellis: checking task is infinite, right? That's right. And that's where… that's where the design should be, along the lines of, you know, that's where it would make sense, in a genetic approach, it would make sense if you said, okay.
+
+87
+03:12:35.960 --> 03:12:55.079
+John Ellis: I'm going to give you… I want you to break this down with respect to… with respect to… and then I want you to take everything that was derived, and just see if you can find evidence for it. Yeah. You know, those… those are things that we sort of… that we do ourselves, but we do not instantiate you. And those need to be skills. Yeah, although that doesn't seem as sort of, like, if you can cost it free, which I'm not…
+
+88
+03:12:55.080 --> 03:12:58.149
+John Ellis: So I did,
+
+89
+03:12:58.150 --> 03:13:01.420
+John Ellis: So, like, the matching that I did, which, which I'm gonna have to,
+
+90
+03:13:01.590 --> 03:13:04.929
+John Ellis: kickoff, I think I took it out in front of you all.
+
+91
+03:13:05.340 --> 03:13:16.889
+John Ellis: So I did actually took a look at all the backgrounds of 174 of you, and we did matching of the top 3 people you should… you should meet with, right? Exactly. $6.79. Yeah. I'm confused.
+
+92
+03:13:17.120 --> 03:13:22.449
+John Ellis: At the depth there's the cops, I'm like… See, how much?
+
+93
+03:13:22.600 --> 03:13:27.790
+John Ellis: Yes, right, and, like, some of this is, like, which things can we put into our workflow, given
+
+94
+03:13:27.940 --> 03:13:38.029
+John Ellis: like, the mass subsidization that's happening now may or may not last forever. But the other thing I'm thinking about, that… that level of compute could have… I could have… Yeah.
+
+95
+03:13:38.150 --> 03:13:44.440
+John Ellis: So that's, that's, that's what gives me hope of, like, okay, let's say that, you know, OpenAI closed. You know, all right.
+
+96
+03:13:45.410 --> 03:13:47.799
+John Ellis: We got these bottles. Exactly.
+
+97
+03:13:47.940 --> 03:13:54.579
+John Ellis: Yeah, it's an interesting… It's an interesting place, just, like, to me, like.
+
+98
+03:13:55.120 --> 03:14:03.299
+John Ellis: a insufficient part of the AI literacy slash AI fluency discussion is teaching failure modes, because they're
+
+99
+03:14:03.500 --> 03:14:10.779
+John Ellis: really important. And in particular, the… like, do you think that it's buildable? A, like,
+
+100
+03:14:11.060 --> 03:14:18.189
+John Ellis: end of available knowledge token, because, to give the stupidest example, I have to have
+
+101
+03:14:18.190 --> 03:14:34.060
+John Ellis: I went through summarized, graduate applications. Yeah. And I got 4 really great ones, and then I had not sub-segmented the PDF to just have their application essay for the next ones, and it was kind of like,
+
+102
+03:14:34.380 --> 03:14:44.520
+John Ellis: Like, I'm not reading that. I have to go through and find it. And so it, like, we were a Latin American Folks Department. It's like, Cyprus Humanitarian aid in Cyprus was the first… I mean, like.
+
+103
+03:14:45.500 --> 03:15:02.579
+John Ellis: So, like, on a technical level, the ability of an LM to say, what I'm not going to give you is an answer, what I'm going to give you is don't know, seems like… and so I like to… I think part of the challenge is
+
+104
+03:15:02.870 --> 03:15:07.159
+John Ellis: is the use of it as well, right? Like, you shouldn't…
+
+105
+03:15:07.240 --> 03:15:15.859
+John Ellis: You don't expect, you know, you should never say, who should we let into the program? Yeah. Good God. No, what you could say is, make the most compelling, interesting case. Yep.
+
+106
+03:15:15.860 --> 03:15:31.879
+John Ellis: here's… here's my assessment, or here's the assessment that we have. Give me the assessment, and where this is landing. Make the most compelling case of why this person deserves to be in. All right, now, surface all the different things about this. Yeah. You know, that's… that kind of expl… that this is very explicitly going
+
+107
+03:15:31.880 --> 03:15:35.259
+John Ellis: broader, right? But we've got to do that. We've got to know
+
+108
+03:15:35.410 --> 03:15:51.070
+John Ellis: Yeah. The cost of doing it is so low with an agent framework than it is with chat. So, I guess what I'm still like, what I find myself doing is writing long programs and then using AI to supplement the coding. So, because the programs that I write can have
+
+109
+03:15:51.190 --> 03:15:58.930
+John Ellis: clear error messages. So if anything fails, then it's time? I'm just like, pay you. I've coded for…
+
+110
+03:15:59.840 --> 03:16:10.169
+John Ellis: I've been coding for 50 years. Yeah. And I never do that. Instead, what I do is I give guidance to, in particular, Claude 4.6… Yeah. …in, Claude Code.
+
+111
+03:16:10.620 --> 03:16:26.549
+John Ellis: Yeah. I mean, I definitely… there's a bunch of codings that it is spinning up, but, like, it just… it is under my guidance in writing better code than I know that I would. Not because I couldn't write the code.
+
+112
+03:16:26.760 --> 03:16:32.939
+John Ellis: Yeah, I would not, I'm not following. Sorry, I just had a question. You were saying…
+
+113
+03:16:33.040 --> 03:16:58.019
+John Ellis: It almost sounds like a… If only you could make, like, antipers… Yeah, that's correct. Yeah, like, for a lot of things. Well, and that was one that I put in, yeah. So you definitely can understand using this particular neuroscience, you have to decently owned skills.
+
+114
+03:16:58.020 --> 03:17:07.600
+John Ellis: I mean, like, there's, like… And it strikes me that, like.
+
+115
+03:17:07.600 --> 03:17:32.520
+John Ellis: use an agent and build a skill that has these criteria. One of which is to make… That's exactly… and one of which is to make software that is floating. So, those things, not with respect to if it can be made… That's what struck me when you're saying by coders.
+
+116
+03:17:32.520 --> 03:17:49.579
+John Ellis: But, like, what they cannot do that is if I instruct it, and call AI and not spits anyone else into my list of dollars. I can have scoring, but also… I mean, there are things that I've…
+
+117
+03:17:49.840 --> 03:18:14.829
+John Ellis: I mean, I've been… so that's… One of the things I work with is steal my file that has a specific script is the first thing that has an API call inside of it, that takes… Excellent. So now you're gonna start to get around this stuff, because there are… Yes, no, right? Right, it takes, you know, a second. And it had a lot of good information. Oh, absolutely.
+
+118
+03:18:14.830 --> 03:18:31.750
+John Ellis: that single context is just… What I would like to do is, deal with a slightly more complex thing, or as a dictionary, not those exact acronym…
+
+119
+03:18:31.750 --> 03:18:53.070
+John Ellis: You know, and now you're able to rerun the thing through the thing. For a document. That would be the appropriate. Thanks.
+
+120
+03:18:53.140 --> 03:18:55.740
+John Ellis: And I think that… There's a lot of…
+
+121
+03:18:55.920 --> 03:19:02.040
+John Ellis: For me, it's, like, emerged in partnership with this particular skill set.
+
+122
+03:19:02.190 --> 03:19:08.709
+John Ellis: like, I was coding for 5 or 6 years before I started, before Copilot existed, but it's helped.
+
+123
+03:19:08.810 --> 03:19:14.380
+John Ellis: And… I'm just curious about… Whether or not we're headed towards, like.
+
+124
+03:19:14.520 --> 03:19:23.090
+John Ellis: an ensemble approach. Especially if important things get… and that… maybe that's… Yeah. …something more about, but, like.
+
+125
+03:19:23.460 --> 03:19:25.760
+John Ellis: With these agents, you have each one being
+
+126
+03:19:25.910 --> 03:19:30.950
+John Ellis: Sounds like breaking into a much more simple one-step things.
+
+127
+03:19:32.510 --> 03:19:46.769
+John Ellis: and then you're just doing that… I mean, basically, you're just making almost, like, a niche version of the big lobby with more agents. It's like we've… yeah. I think in general, and the story that we're… that we've told is that
+
+128
+03:19:46.890 --> 03:19:57.950
+John Ellis: whatever, in whatever task that, like, you can incentivize a thing to learn how to do that task correctly over time. And my read is that's probably not true.
+
+129
+03:19:58.240 --> 03:20:10.209
+John Ellis: That, like, it is… that programming is sort of uniquely really good, for this, in that… because they're… because of unit testing, and you can't…
+
+130
+03:20:10.800 --> 03:20:26.590
+John Ellis: create, like, 500 different models, use analysis, and then be like, you're the right one, and the other ones get punished. Well, I mean, it's a language with, like, very strange in grammar, so I'm forced. Yeah. So it's actually… it is a really good English… Yeah.
+
+131
+03:20:27.110 --> 03:20:30.890
+John Ellis: your language here, translator. But still not…
+
+132
+03:20:31.820 --> 03:20:35.730
+John Ellis: Not a purpose zone, even when they specify as well. Right.
+
+133
+03:20:35.840 --> 03:20:37.470
+John Ellis: And I guess, like, kind of…
+
+134
+03:20:38.250 --> 03:20:43.420
+John Ellis: the discussion part of how you're using… how we use AI for research. This is where
+
+135
+03:20:44.370 --> 03:20:54.209
+John Ellis: I must… I wonder about how you… how far we can see in the future in ways where you're using AI to exact search direction.
+
+136
+03:20:56.170 --> 03:20:58.409
+John Ellis: Each layer of…
+
+137
+03:20:58.540 --> 03:21:06.240
+John Ellis: complexity of using these agents. Aren't we not just adding another body into your system and ending up with, like, 24, 5 bodies?
+
+138
+03:21:06.420 --> 03:21:08.470
+John Ellis: Yeah, I think of it more as, like.
+
+139
+03:21:08.790 --> 03:21:17.569
+John Ellis: Like, there are things on which, like, generation kind of sense, and therefore you have to, like, experiment and learn what the outcomes are going to be, and there are things… learn from things, like.
+
+140
+03:21:17.740 --> 03:21:22.440
+John Ellis: Which… which direction will science say? That, like, fundamentally applies to
+
+141
+03:21:22.960 --> 03:21:32.380
+John Ellis: learned with what it's called reinforced learning. You and you shared that with 15 or have, like, 50,000 years of experience to do the thing, and so, like, we're not.
+
+142
+03:21:32.780 --> 03:21:35.060
+John Ellis: Maybe it's not fixed.
+
+143
+03:21:36.440 --> 03:21:37.430
+John Ellis: Nice.
+
+144
+03:21:37.870 --> 03:21:38.870
+John Ellis: Too painful.
+
+145
+03:21:39.820 --> 03:21:40.770
+John Ellis: What's his name?
+
+146
+03:21:41.310 --> 03:21:43.619
+John Ellis: And other things people are asking for publishing?
+
+147
+03:21:47.980 --> 03:21:49.520
+John Ellis: I guess I'm sharing that.
+
+148
+03:21:50.280 --> 03:21:55.070
+John Ellis: Yeah, it's something, and or can function as a penny, right?
+
+149
+03:21:55.420 --> 03:21:57.519
+John Ellis: Describing an effect thing.
+
+150
+03:21:59.140 --> 03:21:59.990
+John Ellis: Okay.
+
+151
+03:22:00.380 --> 03:22:01.870
+John Ellis: Yeah, I think.
+
+152
+03:22:02.000 --> 03:22:04.229
+John Ellis: bye, come on.
+
+153
+03:22:05.830 --> 03:22:09.260
+John Ellis: And let's see if you can actually see which hits that.
+
+154
+03:22:10.840 --> 03:22:14.550
+John Ellis: you know, synaptron, so I throw out the phone, huh?
+
+155
+03:22:14.670 --> 03:22:19.000
+John Ellis: Like, unless you can follow your answer, it's not like the entire… on.
+
+156
+03:22:19.390 --> 03:22:25.149
+John Ellis: I don't know, like, say that any of our systems, forgive me, like, we have this, so…
+
+157
+03:22:27.340 --> 03:22:32.999
+John Ellis: So, we've had, like, so if it's nice and we earlier in life, so… Any, any sponsors?
+
+158
+03:22:33.130 --> 03:22:35.320
+John Ellis: They used to have us. They hate that, like…
+
+159
+03:22:35.910 --> 03:22:42.690
+John Ellis: But I don't think that we're…
+
+160
+03:22:42.880 --> 03:22:51.279
+John Ellis: I think that right now, they're kind of like, well, this… at least the number of research designs that involve hype and AI practical training is at least
+
+161
+03:22:51.750 --> 03:22:52.750
+John Ellis: everyone.
+
+162
+03:22:52.950 --> 03:22:54.989
+John Ellis: And it's the other.
+
+163
+03:22:56.270 --> 03:22:59.540
+John Ellis: Ethan said, psychology to enter the,
+
+164
+03:22:59.890 --> 03:23:13.489
+John Ellis: anthropology-based sciences, or, you know, well, I mean, like, whatever, like, on, like, when we're, like, describing graphics, when we're… when people are asking, like…
+
+165
+03:23:13.890 --> 03:23:14.730
+John Ellis: Two minutes.
+
+166
+03:23:15.430 --> 03:23:18.769
+John Ellis: Thank you for…
+
+167
+03:23:21.870 --> 03:23:22.899
+John Ellis: I hear it.
+
+168
+03:23:23.690 --> 03:23:25.099
+John Ellis: That'd be so nothing prepared.
+
+169
+03:23:25.230 --> 03:23:26.890
+John Ellis: And so we kind of participated.
+
+170
+03:23:27.080 --> 03:23:27.970
+John Ellis: See, bye.
+
+171
+03:23:28.170 --> 03:23:30.590
+John Ellis: That was already confined about.
+
+172
+03:23:31.300 --> 03:23:31.990
+John Ellis: Okay.
+
+173
+03:23:32.250 --> 03:23:33.020
+John Ellis: Great.
+
+174
+03:23:33.260 --> 03:23:43.229
+John Ellis: custom or not. Actually, that's exist, if not, but… just bothered about.
+
+175
+03:23:43.770 --> 03:23:50.629
+John Ellis: topic, but as far as… human interactions in life. How do you find this effect?
+
+176
+03:23:51.220 --> 03:23:53.640
+John Ellis: We're like… What is out there.
+
+177
+03:23:54.620 --> 03:23:55.759
+John Ellis: Bath Hill Pond.
+
+178
+03:23:56.190 --> 03:24:03.339
+John Ellis: Yeah, like, light, I don't know what's on the… I wonder if that is, it's… it's out there.
+
+179
+03:24:04.410 --> 03:24:07.370
+John Ellis: Yeah, I think, like, that is a…
+
+180
+03:24:11.010 --> 03:24:11.920
+John Ellis: Great.
+
+181
+03:24:14.140 --> 03:24:15.169
+John Ellis: Oh, Ben.
+
+182
+03:24:15.520 --> 03:24:18.070
+John Ellis: Very, that makes sense.
+
+183
+03:24:22.090 --> 03:24:22.820
+John Ellis: Excellent.
+
+184
+03:24:28.730 --> 03:24:30.110
+John Ellis: Yeah, throw it on.
+
+185
+03:24:33.330 --> 03:24:36.720
+John Ellis: Nice to meet you on property. Brockwell.
+
+186
+03:44:03.990 --> 03:44:09.629
+John Ellis: Is this good?
+
+187
+03:44:13.880 --> 03:44:14.710
+John Ellis: Oh, yeah.
+
+188
+03:44:31.490 --> 03:44:35.250
+John Ellis: He wants to…
+
+189
+03:44:44.150 --> 03:44:47.960
+John Ellis: She's been here since… Fantastic.
+
+190
+03:44:50.470 --> 03:44:53.370
+John Ellis: So it's… Yeah, what's up?
+
+191
+03:45:07.700 --> 03:45:09.500
+John Ellis: Just like… Sweet.
+
+192
+03:45:09.780 --> 03:45:11.630
+John Ellis: This is my name?
+
+193
+03:45:17.310 --> 03:45:19.580
+John Ellis: Let me ask you.
+
+194
+03:45:29.440 --> 03:45:30.720
+John Ellis: Sydney.
+
+195
+03:45:31.120 --> 03:45:31.880
+John Ellis: Exception.
+
+196
+03:45:32.020 --> 03:45:33.149
+John Ellis: That's expensive.
+
+197
+03:45:33.390 --> 03:45:34.160
+John Ellis: So good.
+
+198
+03:45:42.030 --> 03:45:43.970
+John Ellis: Yeah. Interesting.
+
+199
+03:45:59.630 --> 03:46:01.210
+John Ellis: It shouldn't think that's…
+
+200
+03:46:16.960 --> 03:46:17.294
+John Ellis: So
+
+201
+03:46:36.640 --> 03:46:38.570
+John Ellis: Let me just move space, so…
+
+202
+03:46:56.370 --> 03:46:57.540
+John Ellis: Sorry.
+
+203
+03:47:00.370 --> 03:47:01.170
+John Ellis: Amazing.
+
+204
+03:47:01.490 --> 03:47:03.230
+John Ellis: beyond this morning.
+
+205
+03:47:03.470 --> 03:47:04.376
+John Ellis: Okay, so…
+
+206
+03:47:13.400 --> 03:47:15.100
+John Ellis: That's how much you said.
+
+207
+03:47:15.720 --> 03:47:18.290
+John Ellis: Nope.
+
+208
+03:47:18.480 --> 03:47:20.090
+John Ellis: Check this. Okay.
+
+209
+03:47:20.940 --> 03:47:22.439
+John Ellis: And what do you see?
+
+210
+03:47:37.650 --> 03:47:40.340
+John Ellis: the brand change that I had CEO.
+
+211
+03:47:40.450 --> 03:47:42.170
+John Ellis: That's nothing to speak.
+
+212
+03:47:42.290 --> 03:47:44.220
+John Ellis: It's safe from the bottom.
+
+213
+03:47:44.370 --> 03:47:45.280
+John Ellis: Listen up.
+
+214
+03:47:47.750 --> 03:47:48.890
+John Ellis: I'm gonna just do.
+
+215
+03:47:49.870 --> 03:47:51.630
+John Ellis: Yeah, that's neat.
+
+216
+03:47:52.190 --> 03:47:54.430
+John Ellis: Okay, so it's not even really the same.
+
+217
+03:47:57.900 --> 03:48:11.730
+John Ellis: Spencer.
+
+218
+03:48:11.730 --> 03:48:18.460
+John Ellis: So yeah, I was up to that line, you know, that's my website.
+
+219
+03:48:18.530 --> 03:48:38.390
+John Ellis: Yeah, just a subscription.
+
+220
+03:48:38.530 --> 03:48:43.529
+John Ellis: It's a huge…
+
+221
+03:49:07.670 --> 03:49:12.210
+John Ellis: cement.
+
+222
+03:49:13.510 --> 03:49:21.230
+John Ellis: Yeah.
+
+223
+03:49:21.660 --> 03:49:26.770
+John Ellis: how much it would benefit? Yeah.
+
+224
+03:49:27.010 --> 03:49:34.320
+John Ellis: Yes, the potential.
+
+225
+03:49:34.570 --> 03:49:50.940
+John Ellis: Same time.
+
+226
+03:49:51.130 --> 03:49:53.380
+John Ellis: Student is huge, okay?
+
+227
+03:49:53.730 --> 03:49:58.780
+John Ellis: That's the last session there.
+
+228
+03:49:59.190 --> 03:50:00.030
+John Ellis: Excellent.
+
+229
+03:50:00.550 --> 03:50:03.219
+John Ellis: The best way to find that.
+
+230
+03:50:03.760 --> 03:50:05.819
+John Ellis: That's a validation rules.
+
+231
+03:50:09.700 --> 03:50:15.779
+John Ellis: They're part of the population distribution, It took 10 minutes.
+
+232
+03:50:16.500 --> 03:50:18.489
+John Ellis: Alright, jeez.
+
+233
+03:50:18.600 --> 03:50:32.919
+John Ellis: Sorry to be advised that we're not.
+
+234
+03:50:33.010 --> 03:50:39.730
+John Ellis: My name is Java.
+
+235
+03:50:40.330 --> 03:50:41.130
+John Ellis: Good evening.
+
+236
+03:50:46.830 --> 03:50:53.190
+John Ellis: to the printing.
+
+237
+03:50:53.300 --> 03:51:01.950
+John Ellis: That's why I'd like to just do my job.
+
+238
+03:51:22.080 --> 03:51:28.130
+John Ellis: For the one leads to the situation.
+
+239
+03:51:28.420 --> 03:51:30.560
+John Ellis: This is really neat.
+
+240
+03:51:37.830 --> 03:51:38.530
+John Ellis: Yeah.
+
+241
+03:51:38.970 --> 03:51:41.589
+John Ellis: But most of us are expensive.
+
+242
+03:51:42.430 --> 03:51:45.760
+John Ellis: It's nervous.
+
+243
+03:53:05.420 --> 03:53:09.970
+John Ellis: As in fact, two other things.
+
+244
+03:53:10.330 --> 03:53:18.660
+John Ellis: So, before… so…
+
+245
+03:53:43.570 --> 03:53:44.940
+John Ellis: You know, bumped.
+
+246
+03:53:45.490 --> 03:53:49.420
+John Ellis: It's a lot of…
+
+247
+03:54:01.190 --> 03:54:06.420
+John Ellis: I don't…
+
+248
+03:54:19.190 --> 03:54:22.739
+John Ellis: I shall steal the horse.
+
+249
+03:54:27.760 --> 03:54:37.510
+John Ellis: So to say… So, bye.
+
+250
+03:54:49.510 --> 03:54:57.460
+John Ellis: Yeah, I did.
+
+251
+03:54:58.450 --> 03:55:02.980
+John Ellis: That is pretty clearly.
+
+252
+03:55:03.440 --> 03:55:04.669
+John Ellis: excuse me, that's me.
+
+253
+03:55:14.050 --> 03:55:30.999
+John Ellis: So I've seen short courses, you know, 2-day, 3-day short courses, planning, 6 hours a day. I know, yeah, I find, like, school change rooms. Absolutely.
+
+254
+03:55:31.000 --> 03:55:37.949
+John Ellis: Every time I get tired, I think of them, like, well, they seem like doing this every day.
+
+255
+03:55:38.020 --> 03:55:42.050
+John Ellis: Yes. That's not any much of it.
+
+256
+03:55:42.520 --> 03:55:44.280
+John Ellis: So, you're always fast.
+
+257
+03:55:44.580 --> 03:55:55.770
+John Ellis: Some of these, slides that you've been showing? Yeah. So, are they available? Yeah, I'll have those on the, on the website as well, and…
+
+258
+03:55:57.770 --> 03:55:58.740
+John Ellis: Okay, huh.
+
+259
+03:55:59.530 --> 03:56:05.219
+John Ellis: I'm a senior.
+
+260
+03:56:05.320 --> 03:56:07.089
+John Ellis: That's always a problem.
+
+261
+03:56:55.430 --> 03:57:01.600
+John Ellis: I wonder if that means.
+
+262
+03:57:02.070 --> 03:57:02.970
+John Ellis: Of this.
+
+263
+03:57:03.190 --> 03:57:05.350
+John Ellis: A lot of people, so I said.
+
+264
+03:57:05.480 --> 03:57:10.489
+John Ellis: Actually, the plane's an inflection span.
+
+265
+03:57:10.570 --> 03:57:14.590
+John Ellis: Yeah, it's a different class.
+
+266
+03:57:14.590 --> 03:57:32.310
+John Ellis: It comes from leaving it plugged in most of the time. I know, yeah, I know. Yeah, exactly. They just don't… and then they start wearing out. I know, I bought a new…
+
+267
+03:57:32.310 --> 03:57:39.860
+John Ellis: personal laptop, and so I keep unplugging at every now and then. I switched over to Macs about a year and a half ago, so I could run models on them.
+
+268
+03:57:41.820 --> 03:57:51.300
+John Ellis: Even if you leave them plugged in all the time? Yes, but yeah, at some point, they'll start degrading, certainly.
+
+269
+03:57:51.300 --> 03:58:07.630
+John Ellis: Oh, definitely, yes, it'll… I… there may already be a link in the, repository. If not, I'll make sure that it's in there, but I think it's in there. Yes, absolutely. Yeah, all the slides, all the materials will make their way up probably tonight and tomorrow, you know.
+
+270
+03:58:07.710 --> 03:58:13.259
+John Ellis: Perfect, thank you. Yeah, that's right.

@@ -1,0 +1,905 @@
+WEBVTT
+
+1
+00:12:51.120 --> 00:13:15.269
+John Ellis: All right, let's go ahead and get started up then. I'd like to thank you all very much for, for being here, and also thank you for adapting to the last-minute, change and the schedule. I appreciate you all being here a half hour earlier than we'd originally intended, but that was the only time, because of a schedule change, that we could get, Matt in. So I'm thrilled you were able to be here for the conversation.
+
+2
+00:13:15.360 --> 00:13:34.989
+John Ellis: We're switching up the schedule just a little bit. I put our copy break in to give us a chance to get these installed here. Let me give you an overview of the days. Broadly, the very first day, we're going to be covering the important issues around AI models on a more theoretical level.
+
+3
+00:13:35.100 --> 00:13:46.920
+John Ellis: But this is going to serve as the foundation of the second day's work that is going to culminate in you actually using these tools to create some solutions.
+
+4
+00:13:46.960 --> 00:13:57.039
+John Ellis: during the conversation with Matt, I specifically mentioned the success that we've had in our AI Fridays and our AI Deep Dives. Once we got someone over the first
+
+5
+00:13:57.090 --> 00:13:57.850
+John Ellis: Hop.
+
+6
+00:13:58.000 --> 00:14:06.179
+John Ellis: of understanding what was happening, and just the technical part of how you actually get co-work installed. How many people had issues installing co-work?
+
+7
+00:14:06.920 --> 00:14:09.380
+John Ellis: Yes. Oh, how… okay.
+
+8
+00:14:09.670 --> 00:14:15.610
+John Ellis: how many people actually tried to install COWORKS? Let me get that as a baseline, because I know some people have been… okay, there we go. So.
+
+9
+00:14:16.030 --> 00:14:22.990
+John Ellis: Interesting thing, co-work, as we're gonna see in a little bit, is designed to make things easy for you once it is installed.
+
+10
+00:14:25.330 --> 00:14:26.380
+John Ellis: But…
+
+11
+00:14:26.590 --> 00:14:42.719
+John Ellis: I don't know about you, but I've got a number of you who've never even heard of Hypervisor, and why it's necessary for this to be able to run. So, we're going to help you get that figured out tomorrow as well, but by the end of this, the idea is that you actually can attempt some solutions to the ideas that you have.
+
+12
+00:14:42.820 --> 00:14:48.649
+John Ellis: We also want to very intentionally, bring people together in conversation.
+
+13
+00:14:48.930 --> 00:15:05.919
+John Ellis: So, a little bit later on today, as a matter of fact, we are going to be sending out emails, we're going to be doing it together, I'm going to show you how I did this, that are going to make prospective suggestions about people you probably want to talk to, 3 people you probably want to talk to here.
+
+14
+00:15:06.090 --> 00:15:12.809
+John Ellis: Where you have overlaps in your research, or in the methodology, or the questions that you're addressing.
+
+15
+00:15:13.160 --> 00:15:22.939
+John Ellis: Plus, it has one person in there that is very dissimilar to your work, but there still might be connection. So, a little bit of an experiment to see if we can use
+
+16
+00:15:22.990 --> 00:15:35.010
+John Ellis: reasoning models to make those types of suggestions. So today, we're going to be starting with, in just a bit, we're going to start talking about introduction of AI capabilities at Vanderbilt, what we have, and we're going to be talking about security as well.
+
+17
+00:15:35.530 --> 00:15:48.820
+John Ellis: Then we're going to be going into a deep dive into how LLMs actually work. This is going to be high level, but you're going to actually understand at the end of this session better than about 90% of the people that you know
+
+18
+00:15:49.360 --> 00:15:51.610
+John Ellis: how LLMs actually work.
+
+19
+00:15:52.690 --> 00:16:04.969
+John Ellis: Then we're going to be talking about the psychology of human-AI collaboration. It turns out that there are some definite soft spots of, of how the models work, and
+
+20
+00:16:05.160 --> 00:16:21.409
+John Ellis: things that we need to be aware of, of how the models work, and how they play into our heuristics and our biases, because it's not all good news, and we need to be aware of those as we use models so we can use them responsibly. Then we're going to be talking and looking at agents in action.
+
+21
+00:16:21.760 --> 00:16:25.219
+John Ellis: So, we've been talking about agents, we're going to give you a good sense of what they are.
+
+22
+00:16:25.320 --> 00:16:35.460
+John Ellis: We're going to have lunch. I'm going to point out that lunch, the restaurant here, is going to be open for lunch. You're also welcome to go further, around as well, but know that it's going to be available here.
+
+23
+00:16:35.940 --> 00:16:46.839
+John Ellis: Then we're going to be talking about agents in more depth. We're going to be talking about something called agent skills. How many people here have heard about skills?
+
+24
+00:16:47.570 --> 00:17:05.739
+John Ellis: Okay, so a few folks… alright, alright, not bad. How many of you are aware of the tech stock sell-off about 3 weeks ago, where it was about $283 billion worth of market capitalization, where that was kind of wiped out?
+
+25
+00:17:06.030 --> 00:17:06.970
+John Ellis: Yep.
+
+26
+00:17:07.839 --> 00:17:12.550
+John Ellis: Did you know that that was caused by the release of a suite of skills?
+
+27
+00:17:13.420 --> 00:17:15.400
+John Ellis: of Agent Skills.
+
+28
+00:17:15.819 --> 00:17:34.090
+John Ellis: So, we're going to actually be taking a look at this technology, which is going to be playing a very interesting role. It is… it is one of these capabilities and partial solutions that I consider to be socio-technical. It addresses not just technical need, but the needs of the organizations and the individuals as well.
+
+29
+00:17:34.810 --> 00:17:52.749
+John Ellis: Then we're going to be talking about AI in your, in your, I'm sorry, then we're going to be talking about defining AI augmented academic projects. Let's see, Abby, so we're going to have, Dr. Picilante, one of our postdoctoral fellows at the Data Science Institute, speaking on when AI helps and when it doesn't.
+
+30
+00:17:52.980 --> 00:18:06.179
+John Ellis: Then we're gonna have Professor Jesse Bloker, who's gonna… it's actually gonna be a bunch of us speaking on AI in our everyday academic life, and I'm going to be sharing how you can easily create
+
+31
+00:18:06.850 --> 00:18:08.770
+John Ellis: and update your CV.
+
+32
+00:18:09.740 --> 00:18:18.510
+John Ellis: quickly, Relatively painlessly, and use the new Provost's template while you're doing it.
+
+33
+00:18:19.080 --> 00:18:23.330
+John Ellis: So, that'll… that'll… that'll earn your time here, even, even just that.
+
+34
+00:18:23.710 --> 00:18:33.239
+John Ellis: Then we're going to be talking about, clawed for marketing. Very broad, so marketing for academic programs can be very, clawed for marketing very broadly. The interesting thing about this is.
+
+35
+00:18:33.440 --> 00:18:39.400
+John Ellis: This is going to be presented by Miguel Nunez, who's with the Data Science Institute, head of our events and marketing.
+
+36
+00:18:40.000 --> 00:18:41.580
+John Ellis: Who is not a programmer?
+
+37
+00:18:41.810 --> 00:18:43.039
+John Ellis: He has an MBA.
+
+38
+00:18:43.140 --> 00:18:49.130
+John Ellis: He's not… not technical, but he has created skills. He has created software
+
+39
+00:18:49.170 --> 00:19:03.420
+John Ellis: to solve many problems that he had in solving the broad problem of marketing. So you'll get a view of what it looks like to use these tools to solve real problems when you yourself don't have a technical background.
+
+40
+00:19:04.600 --> 00:19:06.520
+John Ellis: Then tomorrow, we're gonna be starting at 9.
+
+41
+00:19:06.680 --> 00:19:17.010
+John Ellis: Professor Shara Bell is going to be talking about AI architecture, so you'll get an idea of what it looks like inside of an agent, so you get comfortable with what it actually… how it is actually working.
+
+42
+00:19:17.300 --> 00:19:28.829
+John Ellis: We're going to be talking about building AI research assistants. This is going to be, Umang Chaudhry, one of our senior data scientists, who actually has built multiple solutions using,
+
+43
+00:19:29.010 --> 00:19:33.149
+John Ellis: Agent skills across a wide variety of applications.
+
+44
+00:19:33.320 --> 00:19:45.979
+John Ellis: That's one of the… one of the privileged places that we hold at the CCC, where we work in multiple fields at once, and so we have a very good sense of applications across fields.
+
+45
+00:19:46.080 --> 00:19:58.760
+John Ellis: And Data Science Institute, we've been doing that for quite some time. Then we're gonna have Umuang and also Mark Williams. Mark, are you here today? No, you weren't here. Mark was not even going to be here today. Mark's one of the founders of Vanderbilt AI Law Lab.
+
+46
+00:19:58.760 --> 00:20:06.370
+John Ellis: And he and Umar are going to be talking about IP bias and privacy. These are going to be the essential things for you to know before you use AI in your research.
+
+47
+00:20:07.130 --> 00:20:13.319
+John Ellis: After lunch tomorrow, Miranda Shirk, one of our senior data scientists, is going to be talking about specification-driven development.
+
+48
+00:20:13.780 --> 00:20:15.949
+John Ellis: Building research tools without coding.
+
+49
+00:20:16.740 --> 00:20:17.790
+John Ellis: I…
+
+50
+00:20:19.140 --> 00:20:26.859
+John Ellis: was speaking with Matt before, and said, almost a little bit flippantly, that the most popular programming language is English right now.
+
+51
+00:20:27.540 --> 00:20:36.100
+John Ellis: That is very much true, but part of what's important to make software development without programming work
+
+52
+00:20:36.480 --> 00:20:40.410
+John Ellis: is to be clear about your specifications. Miranda's going to be talking about that.
+
+53
+00:20:41.160 --> 00:20:49.100
+John Ellis: Then we're going to be talking about actual hands… we're going to be talking about designing AI-enhanced courses, so this is going to be how you might
+
+54
+00:20:50.300 --> 00:21:07.930
+John Ellis: not only just use AI within a course, but actually use AI to engage in a different way. And so the idea here is that you find a different way to explore and to carry out your academic pursuits, and then you expose that to students.
+
+55
+00:21:08.130 --> 00:21:13.920
+John Ellis: So this is not just about adopting some AI in your class, this is about what doors are opened
+
+56
+00:21:14.050 --> 00:21:17.420
+John Ellis: For you and for students, if you use
+
+57
+00:21:17.570 --> 00:21:21.009
+John Ellis: agentic AI. And then finally.
+
+58
+00:21:21.200 --> 00:21:43.350
+John Ellis: Two hours in the afternoon, we're going to be building your solution. We're going to be here, we're going to be upstairs where we have tables as well. The idea there is that you apply everything that you've learned, and you actually begin building some solutions. So we'll be circulating around, we're going to have all of our data science team around to help you as you build solutions. Questions before we begin about the schedule, about any of the logistics?
+
+59
+00:21:52.130 --> 00:21:53.730
+John Ellis: All right.
+
+60
+00:21:54.440 --> 00:21:58.449
+John Ellis: Then, let's go ahead and start talking about,
+
+61
+00:21:58.820 --> 00:22:02.380
+John Ellis: AI at Vanderbilt, and what tools we have here.
+
+62
+00:22:02.880 --> 00:22:08.119
+John Ellis: If you have not already visited, do check your email. This is a repository.
+
+63
+00:22:08.260 --> 00:22:20.980
+John Ellis: This is a GitHub repository. This is an easy way to version information. Not necessarily the prettiest way, but it does, it does work. You'll find, as we are loading up our materials.
+
+64
+00:22:21.430 --> 00:22:37.619
+John Ellis: all of our information is going to end up here. Some of it may not be here right now, but you'll be able to go back to this, you'll find links to recordings here, you'll be able to find all of the resources that we're talking about, all the slides, you'll find the transcript turned into a tutorial form.
+
+65
+00:22:38.380 --> 00:22:41.920
+John Ellis: Right here. So, keep hold of this, you'll be able to use this.
+
+66
+00:22:42.320 --> 00:22:43.240
+John Ellis: Pro tip!
+
+67
+00:22:44.020 --> 00:22:51.580
+John Ellis: If you want to give a lecture on AI, or include something, you can use this material, put it into one of the agents, and say.
+
+68
+00:22:51.790 --> 00:23:05.180
+John Ellis: here's my class, here's the background, use this material, use what I've written to create a new outline, perhaps even talking points, maybe even go ahead and create the PowerPoint presentations for me.
+
+69
+00:23:07.030 --> 00:23:08.000
+John Ellis: Pretty meta.
+
+70
+00:23:08.660 --> 00:23:10.550
+John Ellis: Alright, let's go and talk about,
+
+71
+00:23:10.720 --> 00:23:17.060
+John Ellis: Let's go and talk about, The…
+
+72
+00:23:18.030 --> 00:23:22.689
+John Ellis: capabilities and what we have here, at, at, Vanderbilt.
+
+73
+00:23:23.580 --> 00:23:28.590
+John Ellis: So, let's see, Introduction to AI capabilities, there we go. I'm going to show this up this way.
+
+74
+00:23:29.290 --> 00:23:33.189
+John Ellis: So, first of all, I want to point out something here.
+
+75
+00:23:33.950 --> 00:23:39.350
+John Ellis: You're gonna notice this… is,
+
+76
+00:23:40.510 --> 00:23:43.119
+John Ellis: what is called a markdown document.
+
+77
+00:23:44.720 --> 00:23:49.450
+John Ellis: So, a Markdown document Is, is a document that,
+
+78
+00:23:49.730 --> 00:23:52.889
+John Ellis: As a particular simple type of formatting.
+
+79
+00:23:53.930 --> 00:23:56.690
+John Ellis: And we're gonna zoom in on this side.
+
+80
+00:23:57.630 --> 00:24:09.300
+John Ellis: You're gonna start seeing this format more and more and more. When it's rendered, it looks nice over this way. But here's the key, it is readable by humans, and it is also easily processed by AI.
+
+81
+00:24:09.550 --> 00:24:34.380
+John Ellis: AI can absolutely read Word documents, but you'll notice it takes longer, and it has to figure out all of the complex embeddings, and it also takes a lot more tokens. It takes more time, it takes more compute. More and more, you're going to start seeing people just using Markdown documents, because it's very simple formatting, very clean, and very efficient to process with AI. All of my materials are going to actually be in Markdown format.
+
+82
+00:24:34.510 --> 00:24:43.989
+John Ellis: And I'll either use the formatted version, or I'll use the raw version. I want to start with just the raw version, just to start getting used to this right now. So this is Markdown.
+
+83
+00:24:44.490 --> 00:24:45.630
+John Ellis: Alright, so…
+
+84
+00:24:46.540 --> 00:24:54.770
+John Ellis: Let's go ahead and first start talking about the different types of levels of security and sensitivity of data
+
+85
+00:24:54.930 --> 00:25:00.229
+John Ellis: in data, and this is as defined as, by VUIT,
+
+86
+00:25:00.700 --> 00:25:07.520
+John Ellis: This is important because not all tools offer the same levels of assurance of security.
+
+87
+00:25:08.970 --> 00:25:12.180
+John Ellis: And this is the starting point. You want to keep this in mind.
+
+88
+00:25:13.040 --> 00:25:25.330
+John Ellis: So, Level 1 data is publicly available data. This could be press releases, educational materials, job postings. These are the things that you'd be pretty happy actually just posting online.
+
+89
+00:25:26.650 --> 00:25:29.209
+John Ellis: So, no security guarantee.
+
+90
+00:25:29.600 --> 00:25:36.740
+John Ellis: So, what AI tools are approved for Level 1? Well, all the tools that we have at Vanderbilt.
+
+91
+00:25:36.950 --> 00:25:45.609
+John Ellis: And this includes… Chatgpt EDU. How many people here have used ChatGPT EDU?
+
+92
+00:25:45.990 --> 00:25:58.189
+John Ellis: Okay, great, so this is actually available to everyone at Vanderbilt, not available for people at BUMC, I'm so sorry. But this is, meant to provide the chat interface to ChatGPT,
+
+93
+00:25:58.190 --> 00:26:06.559
+John Ellis: It does not provide the agentic capabilities, but it does provide the chat at sort of that pro level.
+
+94
+00:26:06.970 --> 00:26:10.310
+John Ellis: Amplify. How many people here have used Amplify?
+
+95
+00:26:10.830 --> 00:26:21.039
+John Ellis: Okay, great. So, many are familiar with Amplify. Here, this also gives you access not only to ChatGPT, but to many other models as well, including Claude.
+
+96
+00:26:21.040 --> 00:26:32.460
+John Ellis: and other models as well. It doesn't have access to Gemini right now, but it has access to nearly everything else. And Microsoft Copilot. How many people have had… used Microsoft Copilot? Okay, great. The Copilot is interesting.
+
+97
+00:26:32.600 --> 00:26:39.089
+John Ellis: Probably the lesser of all of the models, right now.
+
+98
+00:26:39.260 --> 00:26:41.590
+John Ellis: But, but they are coming along.
+
+99
+00:26:42.050 --> 00:26:51.409
+John Ellis: Any third-party tools would be fine here, too. For example, the tools we're going to be talking about, Claude, Claude Code, and Claude Co-Work, this level of data is fine.
+
+100
+00:26:52.330 --> 00:27:08.530
+John Ellis: I will point out something, though. If you use a free version of Claude or of any of these models, a free version where you yourself have signed up, and chatGPT is the one exception, because if you've… if you've opted in, you know, you're not paying, so it is free. University's paying for it.
+
+101
+00:27:08.920 --> 00:27:12.020
+John Ellis: But if you are using a purely free service.
+
+102
+00:27:12.220 --> 00:27:17.280
+John Ellis: Your data is going to be used to train the model.
+
+103
+00:27:18.480 --> 00:27:19.510
+John Ellis: Absolute.
+
+104
+00:27:20.150 --> 00:27:29.430
+John Ellis: So, if you are using the free version, your data is going to be used to train the model at some point. It's not going to be happening right away, but it's going to be stored and used in a later training of a later model.
+
+105
+00:27:31.470 --> 00:27:37.270
+John Ellis: If you pay… You still have to opt out of sharing your data.
+
+106
+00:27:38.060 --> 00:27:45.520
+John Ellis: So, if you pay, you have the option of opting out of sharing your data for training purposes, and I would suggest that you do so.
+
+107
+00:27:46.300 --> 00:27:47.500
+John Ellis: That's level one.
+
+108
+00:27:48.720 --> 00:27:49.930
+John Ellis: Level 2.
+
+109
+00:27:50.360 --> 00:28:01.229
+John Ellis: Internal use only. This is going to be, like, internal budgets, non-public contracts, internal policy, anything that, should not be shared with non-VU individuals without permission.
+
+110
+00:28:01.680 --> 00:28:12.649
+John Ellis: So, this isn't going to be, an existential threat if this were to get out, but this would be, unfortunate if this data were to be released.
+
+111
+00:28:13.350 --> 00:28:23.179
+John Ellis: email distributions list being one of those. The AI tools that are approved for Level 2 data are ChatGPTU, Amplify, Microsoft Copilot.
+
+112
+00:28:24.100 --> 00:28:33.599
+John Ellis: Notice that none of the other models are there. Claude, Claude Code, Claude Coworker. The things that we're going to be using are only
+
+113
+00:28:33.810 --> 00:28:36.720
+John Ellis: are only allowable for Level 1.
+
+114
+00:28:37.800 --> 00:28:38.680
+John Ellis: Now…
+
+115
+00:28:39.150 --> 00:28:57.949
+John Ellis: We can discuss with you ways of anonymizing data, and making it in so it is much more safe to use, and of setting up systems, and so you're not sharing any data, but you're doing all work locally. We'll talk about that.
+
+116
+00:28:59.160 --> 00:29:01.639
+John Ellis: Level 3 data, restricted.
+
+117
+00:29:01.760 --> 00:29:03.550
+John Ellis: So this is FERPA.
+
+118
+00:29:04.300 --> 00:29:20.689
+John Ellis: So, information about students, this is level 3. This could be personally identifiable information, this could be research health information. This is the broad range of research data that has to do with individuals. So, Amplify and Microsoft Copilot.
+
+119
+00:29:21.390 --> 00:29:22.930
+John Ellis: are approved for this.
+
+120
+00:29:23.220 --> 00:29:34.040
+John Ellis: Magic is also approved for this. Magic is also an agent that's built using much of the same infrastructure as Amplify. It is level 3. Notice what is missing here.
+
+121
+00:29:34.720 --> 00:29:36.890
+John Ellis: ChatGPTEDU.
+
+122
+00:29:37.720 --> 00:29:40.419
+John Ellis: ChatGPTEDU is for Level 2.
+
+123
+00:29:40.960 --> 00:29:46.579
+John Ellis: Unless… unless it's changed in the last few weeks, and the UIT folks, correct me if I'm wrong.
+
+124
+00:29:47.140 --> 00:29:51.679
+John Ellis: But, so, FERPA data does not belong in ChatGPT EDU.
+
+125
+00:29:52.890 --> 00:29:54.280
+John Ellis: We go up from here.
+
+126
+00:29:55.300 --> 00:30:03.310
+John Ellis: We go up to, level 4 critical, and this is… this is where you need to have the conversation with, with VUIT if you're going to be using this data.
+
+127
+00:30:04.500 --> 00:30:07.939
+John Ellis: We now, though, have other interesting options.
+
+128
+00:30:08.210 --> 00:30:12.269
+John Ellis: If you personally hold highly sensitive information.
+
+129
+00:30:13.690 --> 00:30:23.039
+John Ellis: and you want to use a competent AI program, your options just a year ago were pretty slim.
+
+130
+00:30:27.960 --> 00:30:31.919
+John Ellis: Now… We have other options.
+
+131
+00:30:32.180 --> 00:30:47.829
+John Ellis: So this is a Dell Pro Max GB10. This is actually, Grace Blackwell. So this is a very recent chip and very recent GPU combined onto a single, a single chip.
+
+132
+00:30:47.900 --> 00:30:55.290
+John Ellis: This has 128GB of shared memory, so it can actually run models that are pretty decently large.
+
+133
+00:30:55.550 --> 00:31:03.269
+John Ellis: just last week, it was a Chinese company released a company called… it's the Quinn series of models.
+
+134
+00:31:03.310 --> 00:31:21.260
+John Ellis: Quinn 3.5 midsize. I mention that in particular because that, in many ways, is the equivalent of Sonnet 4.5 in Cloud. That is a very competent frontier AI model that was state-of-the-art, 4 months ago.
+
+135
+00:31:22.160 --> 00:31:27.090
+John Ellis: So this means you can run something locally and extremely securely.
+
+136
+00:31:27.090 --> 00:31:43.099
+John Ellis: So long as you're set up correctly. So you've got to make sure that you're set up, and so this is set up correctly. Data Science Institute, we're happy to sort of help you out, think through what that might look like. But we've done very… work with very sensitive data on a device like this, where the model is not going to be as competent
+
+137
+00:31:43.120 --> 00:31:47.990
+John Ellis: as just using the full Opus 4.6, But it's not bad.
+
+138
+00:31:48.140 --> 00:31:54.180
+John Ellis: And you get much of the capabilities, and you can run local agents with local LLMs on device.
+
+139
+00:31:55.070 --> 00:31:56.840
+John Ellis: So there are options.
+
+140
+00:31:58.410 --> 00:31:59.719
+John Ellis: Let me pause here.
+
+141
+00:32:00.590 --> 00:32:04.230
+John Ellis: You've now seen what the different levels of security are.
+
+142
+00:32:04.960 --> 00:32:09.809
+John Ellis: And here we can… you can get, just a quick idea of what this… what this looks like.
+
+143
+00:32:10.110 --> 00:32:12.589
+John Ellis: And, and what's, what's allowed where.
+
+144
+00:32:15.230 --> 00:32:18.170
+John Ellis: What questions do you have about
+
+145
+00:32:18.390 --> 00:32:20.670
+John Ellis: The options here, and about security.
+
+146
+00:32:21.720 --> 00:32:41.599
+John Ellis: Yes? Jesse, in chat GPTEDU, do you have to opt out from data sharing as well, when it's on the band code? So, great question. So, on ChatGPTEDU, do you have to opt out of, sharing your data for training? I don't know. Is there anyone from VOIT who knows? Yes.
+
+147
+00:32:42.830 --> 00:33:01.549
+John Ellis: There's not an option to opt out necessarily, but by default, your data that you share with Chad UCP in the Vanderbilt workspace is not being shared with OpenAI to train their models. So the answer is, it is not being used to train… not being used to train their models, just by, by the agreement.
+
+148
+00:33:01.840 --> 00:33:05.940
+John Ellis: So you need not opt out of that. Great question. Other questions? Thank you.
+
+149
+00:33:06.180 --> 00:33:07.000
+John Ellis: Yes.
+
+150
+00:33:07.110 --> 00:33:11.870
+John Ellis: Are those what? Yeah, they keep you…
+
+151
+00:33:12.090 --> 00:33:28.969
+John Ellis: upgradable, like, you can upgrade the Sonnet to… Well, no, you can… so on here, you would not be able to run, Sonnet itself, for example, right? Because it's a private, closed source, but you can run other models,
+
+152
+00:33:29.070 --> 00:33:41.830
+John Ellis: And again, the strongest open source model right now is a Chinese model, the Quen 3.5 models. And yes, you can actually run, install, and run the models locally on this device.
+
+153
+00:33:42.590 --> 00:33:46.730
+John Ellis: So your data's going nowhere, and all the work's being done in here. Trade-off is…
+
+154
+00:33:47.050 --> 00:33:48.779
+John Ellis: And we're gonna see this in just a moment.
+
+155
+00:33:48.990 --> 00:33:53.469
+John Ellis: It's not as large of a large language model. It has less knowledge of the world.
+
+156
+00:33:53.740 --> 00:34:06.539
+John Ellis: And so you have to do more work to make sure that it is the equivalent for very specific types of tasks. But this is interesting. We now have agent capabilities with these models that before, just 6 months before, would have been
+
+157
+00:34:06.880 --> 00:34:08.220
+John Ellis: You couldn't pay for.
+
+158
+00:34:08.510 --> 00:34:17.399
+John Ellis: Tom should know this, but where does research data go? That's mine, it's not database. And so what's allowed, and what's…
+
+159
+00:34:17.409 --> 00:34:31.810
+John Ellis: recommended. So, the question is, you know, what about research data? Where does it go? So, there are data use agreements. If you have data use agreements, if you've generated it, your data.
+
+160
+00:34:32.060 --> 00:34:47.010
+John Ellis: Great conversation to have with VUIT, you know, if it's… because it all depends on the nature of the data. One of the things that I do suggest is having conversations with, with VUIT. They're very helpful in sort of figuring out what's happening.
+
+161
+00:34:47.010 --> 00:34:52.889
+John Ellis: Rule of thumb is, if you're unsure where the data is, if it's between two levels.
+
+162
+00:34:53.030 --> 00:35:03.650
+John Ellis: You can bias to be more conservative by assuming the highest level, and if that's inconvenient, then you talk to VUIT, and you say, okay, how can… is it actually the lower level, or how do I get it to the lower level?
+
+163
+00:35:04.180 --> 00:35:07.009
+John Ellis: But, yeah, but that's a really good question. I don't know.
+
+164
+00:35:07.860 --> 00:35:14.730
+John Ellis: Yes, please. I serve on the SBHR IRV. Get your…
+
+165
+00:35:15.970 --> 00:35:24.299
+John Ellis: You should be disclosing. It's not a thing, but if it's…
+
+166
+00:35:24.930 --> 00:35:37.219
+John Ellis: not protected. Yeah, assuming… assuming that it's… Data from monkeys. Data from monkeys, right. Yeah, yeah, that's important.
+
+167
+00:35:38.920 --> 00:35:43.020
+John Ellis: So, good… good to have conversations about… about the… about the data source of data.
+
+168
+00:35:44.030 --> 00:35:47.159
+John Ellis: Fantastic. Other questions? Yes, and then I'll take back your… yes.
+
+169
+00:35:48.170 --> 00:35:55.369
+John Ellis: if the data to chat GPT is not trained, right, it's not out, then…
+
+170
+00:35:55.770 --> 00:35:59.930
+John Ellis: How… like, why is it this need to put
+
+171
+00:36:00.670 --> 00:36:11.469
+John Ellis: Yeah, so the question is, if the data is not being trained on, what's the issue? Why not put, you know, why not put sensitive data there?
+
+172
+00:36:11.470 --> 00:36:20.910
+John Ellis: Because you are sending data off-premise onto another server, it's going someplace, they may not train on it, but it is sitting on their servers for a certain amount of time.
+
+173
+00:36:20.910 --> 00:36:27.479
+John Ellis: while you're inferencing on it, and so that means that it's not secure. So certainly for the most sensitive data, there's no guarantee it won't leak.
+
+174
+00:36:27.580 --> 00:36:32.830
+John Ellis: So imagine, the way that I try to think about it, would I be happy putting this into a Google Doc?
+
+175
+00:36:33.540 --> 00:36:51.270
+John Ellis: am I comfortable putting into a Google Doc? Right? That's sort of my first measure of, if I'm not comfortable, why? And how uncomfortable am I? Right? Because it can… we've had instances in the past where certainly the data is shared, especially if you go outside of the major providers.
+
+176
+00:36:51.520 --> 00:37:05.780
+John Ellis: I mean, the, so the Chinese companies do a beautiful job with open source models, but if you use their endpoints, yeesh, your data is absolutely going to be taken, it's absolutely gonna be… and many of those companies are not great with security, so that's what the concern is.
+
+177
+00:37:07.090 --> 00:37:18.549
+John Ellis: This is a comment for the general type of question about, is research data, well, data classification? Does it cost you? This is much complex
+
+178
+00:37:18.760 --> 00:37:22.830
+John Ellis: Probably the band. Hope you can find it.
+
+179
+00:37:22.980 --> 00:37:29.240
+John Ellis: We… so fully certain data like that, we will go back to the, data.
+
+180
+00:37:29.680 --> 00:37:30.810
+John Ellis: Today, thanks.
+
+181
+00:37:30.860 --> 00:37:43.759
+John Ellis: you as a data owner, how comfortable are you with the thing? It takes something a discussion with, cybersecurity and Privacy Office to see, do some analysis on your data, see that if there's
+
+182
+00:37:43.760 --> 00:37:55.640
+John Ellis: critical component or sensitive components about your data, but eventually go back to the data alerts expected. So I'm saying that because, I could have some internal data that is
+
+183
+00:37:55.740 --> 00:38:05.930
+John Ellis: by definition, by level 2, but to me, it's so critical. I want to guard that rescue to Level 4. I want to guard everything I have, and I can do that.
+
+184
+00:38:05.930 --> 00:38:11.690
+John Ellis: So we can think that firstly as well. Yeah. Our goal is to set up a baseline.
+
+185
+00:38:11.690 --> 00:38:35.580
+John Ellis: So let me go, and I'll… tell me if this is an alright summary. The issues raised by data are complex, and when I say talk with VOIT, this is not so VOIT can give you a judgment. This is a conversation you can have with them of how sensitive is the data to you? Where should it fall based on your expertise?
+
+186
+00:38:37.100 --> 00:38:47.459
+John Ellis: So, many different issues can come up, you know, is it re-identifiable? Do you have issues with composition, where, you…
+
+187
+00:38:47.620 --> 00:38:57.820
+John Ellis: In short, let me say, have a conversation with VUIT. They're experts in sort of judging where things are and what level it might be, in conversation with you, depending on your judgment.
+
+188
+00:38:58.040 --> 00:39:01.409
+John Ellis: I think this is a bigger discussion. It's a bigger discussion, yeah.
+
+189
+00:39:01.570 --> 00:39:06.699
+John Ellis: It's not just you, right.
+
+190
+00:39:07.070 --> 00:39:18.150
+John Ellis: what's allowed. Yes. Right? And folks want to know what their rules are, and they'll get consultation, but, you know, they don't want someone to feel like that. You can or can't do this.
+
+191
+00:39:18.510 --> 00:39:30.709
+John Ellis: Yeah. But it's not actually rules. So the… the concern is, like, you know, or the wanting to understand what the rules are, what the… No, and I think that the take-home… yeah, the best practice, exactly. So, take-home message is.
+
+192
+00:39:31.050 --> 00:39:37.929
+John Ellis: It is complex, that's fine. Having a conversation to actually figure out what the best practices are, what's secure and what's not, fantastic.
+
+193
+00:39:38.050 --> 00:39:46.719
+John Ellis: Yes, do you have… So this is more of a layperson type of question. I understand why it's important for you to secure your data.
+
+194
+00:39:47.060 --> 00:39:55.119
+John Ellis: But all of us, all of a sudden, stop sharing everything that we do. How do the models get better?
+
+195
+00:39:55.830 --> 00:40:12.789
+John Ellis: Well, and the question is, if we don't share what we're doing, how do the models get better? Interesting thing, right now, models are trained on the order of 20 trillion tokens. These are words or subwords, we're going to be talking about those in just a moment, as a matter of fact. There's an immense amount of data that the models are trained on right now.
+
+196
+00:40:12.940 --> 00:40:20.800
+John Ellis: And it turns out that much of the improvements of the models that we're seeing are not necessarily coming from massive training on new data.
+
+197
+00:40:21.020 --> 00:40:34.840
+John Ellis: It actually comes from training on the data, on more curated data, and training… following different practices and training on the data. So they're already trained on immense amounts of information. So what's the delta on our particular information? Small.
+
+198
+00:40:35.120 --> 00:40:46.980
+John Ellis: And it turns out that some of the most best… the most significant recent advancements have nothing to do with the data that it's training. Instead, it has to do with alignment of the models.
+
+199
+00:40:47.260 --> 00:40:50.990
+John Ellis: Turning them into reasoning models, and it has to do with the agent harness.
+
+200
+00:40:51.330 --> 00:40:58.949
+John Ellis: So we're going to be talking about that as well. So there are other ways to get vast improvements in the models that don't require additional data.
+
+201
+00:40:59.260 --> 00:41:00.889
+John Ellis: So, not, not…
+
+202
+00:41:01.110 --> 00:41:06.509
+John Ellis: Not an uninterested question, absolutely, but know that there are other ways of getting good model improvements without
+
+203
+00:41:07.630 --> 00:41:08.380
+John Ellis: Yes.
+
+204
+00:41:08.550 --> 00:41:28.210
+John Ellis: Absolutely. Go ahead. So, I got a notification from Claude, the desktop version. They wanted to find all the devices on the network that we're getting data from. Are there any of the other models that are going to do that with desktop version? Oh, there are models that are going to do a lot more than that. So, we'll talk a little bit about, OpenClaw.
+
+205
+00:41:28.570 --> 00:41:40.779
+John Ellis: Which is, it's a different type of an agent, but we'll talk about that, yes. So, now you're not just talking about what data you're going to be sharing, but what capabilities you're going to give the agents. And these are questions you're going to have.
+
+206
+00:41:40.780 --> 00:41:49.530
+John Ellis: And we're gonna be… we're gonna be talking about exactly those, because that's the other side of the equation, is now what do you want the model to do? It couldn't do anything before.
+
+207
+00:41:49.710 --> 00:41:53.840
+John Ellis: Now, it can take actions on your behalf, and the question is, what are you going to allow it to do?
+
+208
+00:41:54.330 --> 00:41:56.239
+John Ellis: And there was a question over here, I believe, yes.
+
+209
+00:41:57.220 --> 00:42:19.109
+John Ellis: Those of us that are also at center point, are there going to be people we can chat with about how this whole infrastructure talks across those boundaries? We can chat over… so the question was about VUMC, and there are about 24 of you in the room. Let me begin by… with my apologies. So yes, it is very locked down at VUMC, which is understandable.
+
+210
+00:42:19.110 --> 00:42:24.870
+John Ellis: But this means that your options are more limited, especially when it comes to agents.
+
+211
+00:42:24.870 --> 00:42:27.009
+John Ellis: For research, this is…
+
+212
+00:42:27.020 --> 00:42:34.959
+John Ellis: I think a conversation and doing absolutely secure is one option. Not a bad option, and it's one that simply is just before.
+
+213
+00:42:35.120 --> 00:42:37.079
+John Ellis: That's also by heart.
+
+214
+00:42:37.220 --> 00:42:45.199
+John Ellis: So… So, I was gonna say that we can chat over coffee, but we might need to chat over…
+
+215
+00:42:45.550 --> 00:42:47.569
+John Ellis: a drink.
+
+216
+00:42:48.010 --> 00:42:57.470
+John Ellis: But seriously, these are conversations we can have and say, oh, they're… they're… they're… we have options. It's more like a desktop, so we're happy to chat over coffee.
+
+217
+00:42:58.610 --> 00:43:07.549
+John Ellis: All right. Other questions, then, about, about capabilities for AI at Vanderbilt, a little bit about Vanderbilt University Medical Center, or about sensitivities? Yes?
+
+218
+00:43:07.690 --> 00:43:19.099
+John Ellis: Yesterday, Magic told me it could format a Word document without writing a Python script. You were mentioning markdowns. Is there a reason a more advanced agent might not be able to do
+
+219
+00:43:19.350 --> 00:43:21.250
+John Ellis: what I think of as a simple task.
+
+220
+00:43:21.440 --> 00:43:33.839
+John Ellis: So, so the question was about Magic. Magic is an agent, and we'll be looking a little bit at it. The way that agents work, the ways that agents work, you're going to be seeing in just a moment, is they write code all the time.
+
+221
+00:43:34.060 --> 00:43:47.020
+John Ellis: And if you were working with PowerPoints or Docs or Excel, then, yeah, it has to do a little bit more work. It has to write code or call code in order to get to what it's trying to do. And the idea behind…
+
+222
+00:43:47.130 --> 00:44:05.840
+John Ellis: this, which is the markdown, is that it's immediately available. So that's… that's the main difference between the two. There are other file formats, too, that we'll… we'll talk about a bit, that can also make the job of the AI easier, just so you can actually make the data and the documents more easily available. It can work with anything. It can work with images of documents.
+
+223
+00:44:05.840 --> 00:44:15.430
+John Ellis: Absolutely. It's just a matter of the lift that's required to get there. So I should have asked to use Python, right? Yes, yeah, write the code. It's always going to write the code, that's how it's going to do things.
+
+224
+00:44:16.160 --> 00:44:17.260
+John Ellis: All right.
+
+225
+00:44:18.140 --> 00:44:22.840
+John Ellis: Final questions about, about, about these topics.
+
+226
+00:44:24.310 --> 00:44:30.620
+John Ellis: Alright, then… what I'd like to do is, Let me go back…

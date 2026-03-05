@@ -1,0 +1,1229 @@
+WEBVTT
+
+1
+02:26:39.910 --> 02:26:43.450
+John Ellis: And this segues well, because this is what we are talking about next.
+
+2
+02:26:45.570 --> 02:26:46.680
+John Ellis: So here's a paper.
+
+3
+02:26:49.900 --> 02:27:03.329
+John Ellis: Artificial intelligence and illusions of Understanding in Scientific Research. So I mentioned before that my background, my PhD is in cognitive psychology and cognitive science. This is something which I am actually very concerned about.
+
+4
+02:27:03.920 --> 02:27:07.870
+John Ellis: Well, no, that's a different view.
+
+5
+02:27:08.320 --> 02:27:15.700
+John Ellis: and this is a very good paper on this, and it addresses issues that I think are really
+
+6
+02:27:15.950 --> 02:27:17.460
+John Ellis: Terrifically important.
+
+7
+02:27:17.580 --> 02:27:22.290
+John Ellis: illusion of explanatory depth, I think this is incredibly important. We…
+
+8
+02:27:22.660 --> 02:27:39.400
+John Ellis: If we can underst… if we can state something simply, we believe that we have a depth of knowledge in it. Why? Because we can't go around always assessing the depth of our knowledge. It takes too much time. Do you really have half an hour to go through and assess your own knowledge when somebody says to you, do you understand?
+
+9
+02:27:40.060 --> 02:27:47.100
+John Ellis: They say, well, yeah, I got, I got them. Why? Because I can tell the simple story of it.
+
+10
+02:27:47.210 --> 02:27:53.760
+John Ellis: And generally, that's not a bad idea. In order for you to tell the simple story, you probably have to understand the details.
+
+11
+02:27:54.530 --> 02:27:55.670
+John Ellis: accepts.
+
+12
+02:27:56.220 --> 02:28:02.990
+John Ellis: When you have an AI that can tell you the simple story very easily. And you know the simple story without having done the work.
+
+13
+02:28:03.130 --> 02:28:05.949
+John Ellis: And so now we think we've got it when we don't.
+
+14
+02:28:06.360 --> 02:28:16.600
+John Ellis: And so AIs, just naturally, by the way of what they're doing, and how we tend to use them, step all over that heuristic that we use, and give us a false sense of depth of understanding. Not good.
+
+15
+02:28:17.360 --> 02:28:26.250
+John Ellis: illusion of explanatory breadth. We think we sort of covered everything in all hypotheses, because I call this proof by exhaustion.
+
+16
+02:28:27.100 --> 02:28:32.739
+John Ellis: You know, I thought about it until I was just tired, and I think I covered all of it.
+
+17
+02:28:33.350 --> 02:28:35.479
+John Ellis: AI can actually…
+
+18
+02:28:35.690 --> 02:28:43.399
+John Ellis: Either assist that, or actually make that worse, because you assumed that the… looked like the search was going pretty broadly, that it's covered everything.
+
+19
+02:28:43.510 --> 02:28:46.599
+John Ellis: Especially chat. So this is a huge problem with chat.
+
+20
+02:28:46.800 --> 02:28:52.370
+John Ellis: This is a problem with chat. Illusions of objectivity, definitely a problem with chat.
+
+21
+02:28:52.530 --> 02:28:53.719
+John Ellis: Here's my question.
+
+22
+02:28:54.670 --> 02:28:59.600
+John Ellis: Does the picture change when we introduce the idea
+
+23
+02:28:59.940 --> 02:29:05.229
+John Ellis: Of highly, of powerful agents and a new type of workflow that you've just seen.
+
+24
+02:29:06.780 --> 02:29:13.729
+John Ellis: I'm no longer chatting. I'm actually providing context and engaging with the material that I'm getting back.
+
+25
+02:29:14.070 --> 02:29:20.769
+John Ellis: And able to probe and ask questions and have it go and assess and come back to me. So, do these still fold?
+
+26
+02:29:22.290 --> 02:29:23.450
+John Ellis: That's my question.
+
+27
+02:29:25.480 --> 02:29:29.559
+John Ellis: So… I had my ideas.
+
+28
+02:29:30.170 --> 02:29:46.879
+John Ellis: And here's the prompt that I gave. You know, consider the very latest developed in agentic AI, especially since December 2025, where instead of using a chat interface, researchers are now able and more likely to be using an agent interface. And I tried to describe everything. You notice this is a long prompt, right?
+
+29
+02:29:47.090 --> 02:29:50.109
+John Ellis: And I describe exactly what I mean by the agent.
+
+30
+02:29:50.960 --> 02:29:57.379
+John Ellis: This is my sixth attempt at this, because here's the problem I ran into.
+
+31
+02:29:57.750 --> 02:30:01.659
+John Ellis: And I have started to bring this up just a little bit with the conversation with Matt in the morning.
+
+32
+02:30:04.050 --> 02:30:15.779
+John Ellis: Agents as they now exist are a very recent phenomenon. I do not believe that we have had this type of interaction with agents in the form that we have them now, combined with skills.
+
+33
+02:30:16.900 --> 02:30:21.880
+John Ellis: I don't think that we really had that before December of 2025.
+
+34
+02:30:23.590 --> 02:30:26.209
+John Ellis: When did the training for the models end?
+
+35
+02:30:26.980 --> 02:30:33.420
+John Ellis: Some of them in 2024, some of them earlier in 2025, in the most latest ones. They don't have the concepts
+
+36
+02:30:33.780 --> 02:30:39.230
+John Ellis: Of what it means to interact with a non-human intelligence.
+
+37
+02:30:41.780 --> 02:30:43.700
+John Ellis: They don't have that as a concept.
+
+38
+02:30:43.980 --> 02:30:56.939
+John Ellis: And so, to leverage beyond their existing knowledge, I had to create this framework to get that right, because it kept on skewing off and saying, well, agents like Codex, like, no, no, no, no, no, no.
+
+39
+02:30:57.340 --> 02:31:00.379
+John Ellis: Agents like you might build. No.
+
+40
+02:31:01.980 --> 02:31:14.960
+John Ellis: So, this is a good example of where when you go beyond what the models know, so think of the example that I gave you before of COVID. The models didn't know about it, they couldn't represent it, they had trouble actually processing it. In this case.
+
+41
+02:31:15.530 --> 02:31:19.180
+John Ellis: A new concept, you have to build all the scaffolding around it.
+
+42
+02:31:19.610 --> 02:31:21.970
+John Ellis: You don't get just to say, you know what I mean.
+
+43
+02:31:23.270 --> 02:31:32.430
+John Ellis: So this is us practicing to the top of our craft. We have to be very specific about what we mean when we go beyond the general knowledge of the models.
+
+44
+02:31:32.570 --> 02:31:36.430
+John Ellis: If we're filling in information, not a problem. Skills, fill in information.
+
+45
+02:31:37.550 --> 02:31:43.690
+John Ellis: So, the skill… you know, one of the skills is build… a PowerPoint.
+
+46
+02:31:44.860 --> 02:31:55.960
+John Ellis: Well, the model is all about programming, and knows all about some of the libraries that you use to actually directly create a PowerPoint. There are libraries where you write code, and it creates the PowerPoint for you, this is what they're doing.
+
+47
+02:31:56.110 --> 02:32:14.890
+John Ellis: The skill fills in the knowledge and says, this is what a good PowerPoint looks like. By the way, generate a PDF of this and look at it afterwards. Do a visual inspection of it to make sure that it's good. That's what the skill does. That's… I call that filling in the interstitial spaces with specific domain knowledge and process knowledge.
+
+48
+02:32:15.210 --> 02:32:18.650
+John Ellis: Extending beyond that is much more difficult.
+
+49
+02:32:19.810 --> 02:32:22.770
+John Ellis: So when we hear conversations about automated science.
+
+50
+02:32:24.470 --> 02:32:28.619
+John Ellis: rather than being sort of concerned, I'm like, Good luck.
+
+51
+02:32:29.140 --> 02:32:32.099
+John Ellis: Because it doesn't come without the scaffold. This is what it's in.
+
+52
+02:32:32.440 --> 02:32:35.579
+John Ellis: So now let's actually dive into
+
+53
+02:32:36.090 --> 02:32:41.090
+John Ellis: Some of the, human-person, interaction.
+
+54
+02:32:50.280 --> 02:32:54.060
+John Ellis: So let's look specific at the core risks here.
+
+55
+02:32:59.650 --> 02:33:01.620
+John Ellis: Illusion of explanatory death.
+
+56
+02:33:05.520 --> 02:33:09.340
+John Ellis: Chat returns with very confident responses.
+
+57
+02:33:10.150 --> 02:33:14.460
+John Ellis: We tend to believe them because they're confident responses, and we have no traceability.
+
+58
+02:33:14.820 --> 02:33:17.470
+John Ellis: It is the oracle answering the question.
+
+59
+02:33:18.320 --> 02:33:25.060
+John Ellis: Agents, we get to see what they're doing and how they're solving it, and we can ask it to be rerun.
+
+60
+02:33:25.540 --> 02:33:31.720
+John Ellis: Under different assumptions. We could look at the code if we needed to, if this is something that was writing code.
+
+61
+02:33:32.670 --> 02:33:35.689
+John Ellis: rerun… rerunnable computation.
+
+62
+02:33:36.460 --> 02:33:40.549
+John Ellis: So this is a key differentiator between chat and agents.
+
+63
+02:33:40.700 --> 02:33:44.250
+John Ellis: Second, Skills.
+
+64
+02:33:44.950 --> 02:33:48.000
+John Ellis: Forcing explicit method steps.
+
+65
+02:33:48.320 --> 02:33:54.290
+John Ellis: There is no steering a chat model on how it's solving a problem, and it is opaque.
+
+66
+02:33:55.030 --> 02:34:02.540
+John Ellis: With agent models, Skills can force, or strongly suggest, a direction to take.
+
+67
+02:34:02.680 --> 02:34:06.210
+John Ellis: And, you may notice… over here…
+
+68
+02:34:07.310 --> 02:34:15.829
+John Ellis: it's actually telling me, and this is the actual search that it's doing, and actually, here, let me show you over here as well. Smaller.
+
+69
+02:34:16.330 --> 02:34:18.390
+John Ellis: This is an example of an agent.
+
+70
+02:34:19.280 --> 02:34:22.269
+John Ellis: might have to go to another one.
+
+71
+02:34:24.630 --> 02:34:31.480
+John Ellis: Where it shows me what it's doing, and the tools that it's using. The context, and the tools that it's using.
+
+72
+02:34:32.560 --> 02:34:35.720
+John Ellis: So now we have observability in what's happening.
+
+73
+02:34:36.940 --> 02:34:42.389
+John Ellis: And you can expect the skill.nd itself. We're going to look at skills in just a little bit.
+
+74
+02:34:42.530 --> 02:34:46.409
+John Ellis: You can actually inspect them, write them, and modify them.
+
+75
+02:34:46.960 --> 02:34:48.490
+John Ellis: You can't do that with chat.
+
+76
+02:34:49.720 --> 02:34:58.639
+John Ellis: So… That's good news. Agents plus skills can mitigate Illusion of explanatory deaths.
+
+77
+02:34:58.780 --> 02:35:03.579
+John Ellis: I'm happy with this because that's what I… Thought go down.
+
+78
+02:35:05.110 --> 02:35:09.939
+John Ellis: Here's something that I did not think was gonna happen. And so this is deep research.
+
+79
+02:35:10.150 --> 02:35:18.760
+John Ellis: finding and pulling this up and doing reasoning, and so this is an example of a very purpose-driven agent. We're looking at the output of ChatGPT 5.2 Pro.
+
+80
+02:35:20.460 --> 02:35:22.299
+John Ellis: Delegation gets easier.
+
+81
+02:35:22.430 --> 02:35:24.849
+John Ellis: This attribution gets easier.
+
+82
+02:35:25.520 --> 02:35:33.460
+John Ellis: If you offload the cognitive labor and you don't engage and use this as an exploratory tool to move forward.
+
+83
+02:35:33.990 --> 02:35:39.209
+John Ellis: then you could be in trouble. Think about Matt, when he lets it run for 8 hours. That's fine if it's code.
+
+84
+02:35:39.380 --> 02:35:43.070
+John Ellis: That's not great if you're actually doing research.
+
+85
+02:35:44.170 --> 02:35:47.130
+John Ellis: And again, looks like science can feel like understanding.
+
+86
+02:35:48.140 --> 02:35:59.510
+John Ellis: It can produce the UI, it can produce the graphs to make it feel like you understand more than you actually do. So this requires an orientation and a rigor that we must teach our students as well.
+
+87
+02:35:59.930 --> 02:36:03.690
+John Ellis: That it is easy to fall into the trap.
+
+88
+02:36:04.550 --> 02:36:07.759
+John Ellis: I see… I teach a graduate course in generative AI.
+
+89
+02:36:08.370 --> 02:36:15.429
+John Ellis: And very… they get this and more, in all the cognitive psychology, and yet, when we hit the midterm.
+
+90
+02:36:15.830 --> 02:36:26.679
+John Ellis: There are very surprised faces, because I have them in term, and I say, use whatever you want, but just don't use an AI when you're doing… when you're doing this. Go through, and all of a sudden, it hits.
+
+91
+02:36:27.500 --> 02:36:30.219
+John Ellis: Because the feeling is, you know.
+
+92
+02:36:30.560 --> 02:36:37.400
+John Ellis: We can't trust our internal metrics of how well we know something. We have to force ourselves through process.
+
+93
+02:36:38.070 --> 02:36:49.850
+John Ellis: Perhaps through a skill which does not allow us to go through unless we actually demonstrate sufficient knowledge. There needs to be that check in the work that we do, because otherwise it's far too easy to fall into this trial.
+
+94
+02:36:52.950 --> 02:37:02.679
+John Ellis: And then audit features that are not meaningful can also cause problems. So questions, questions about illusions of explanatory depth, and how agents sort of interact with those.
+
+95
+02:37:04.830 --> 02:37:05.520
+John Ellis: Yes.
+
+96
+02:37:06.080 --> 02:37:06.970
+John Ellis: There's a…
+
+97
+02:37:08.390 --> 02:37:15.050
+John Ellis: It's not an article, but some publication every year 13s that GPT 5.2 drive the new result in theoretical physics.
+
+98
+02:37:16.560 --> 02:37:20.220
+John Ellis: So, remember when Matt was talking about, sort of that incremental
+
+99
+02:37:20.420 --> 02:37:28.899
+John Ellis: you know, that incremental new development. In those cases, yeah, I think… because in my mind, that still is filling in. We have a theory here, we have a theory here.
+
+100
+02:37:29.050 --> 02:37:31.909
+John Ellis: And if you combine them, then you can do something which is novel.
+
+101
+02:37:32.100 --> 02:37:42.010
+John Ellis: But it's not brand new conceptual, right? This is not a new unified field theory. This is filling in. I'll give you an example of this. Did you know… I'm gonna brag. Humble brag.
+
+102
+02:37:42.320 --> 02:37:50.570
+John Ellis: So you know, the Data Science Institute has the world's leading model that accounts for the presence and location of water in protein-protein binding.
+
+103
+02:37:51.500 --> 02:38:03.830
+John Ellis: Tiny… no, we're not big, but we actually produce the software that pharmacy companies, that researchers across the world use, that they want to actually predict the action of water, because when you do protein-protein binding.
+
+104
+02:38:04.200 --> 02:38:13.330
+John Ellis: It only works if we also really account for the action of water and also heavy ions. Oh, by the way, we also have very heavy ions. So, well, how do we do that? Well.
+
+105
+02:38:13.640 --> 02:38:18.440
+John Ellis: We took existing papers and existing software when Claude 1 first came out.
+
+106
+02:38:18.710 --> 02:38:28.579
+John Ellis: And actually put them all together and said, okay, we think that there's another way to do this. We don't want to just predict, we want to treat this as a distribution. Help us think through.
+
+107
+02:38:29.190 --> 02:38:35.429
+John Ellis: And so, with the AI, not automated, but with the AI, we were able to very quickly iterate through.
+
+108
+02:38:35.660 --> 02:38:42.269
+John Ellis: I believe, and we'll have to drive this sometime, that with an AI, we could actually have filled in those points now using
+
+109
+02:38:43.040 --> 02:38:46.260
+John Ellis: using, an agent.
+
+110
+02:38:47.120 --> 02:38:55.109
+John Ellis: But this was not new, this was filling in ideas that were adjacent and almost there, that, hey, why not use a diffusion model?
+
+111
+02:38:55.630 --> 02:38:58.229
+John Ellis: And treat it almost like you're drawing a picture.
+
+112
+02:38:58.460 --> 02:39:03.350
+John Ellis: Of where that water goes, and why, and the probability distributions.
+
+113
+02:39:03.770 --> 02:39:09.240
+John Ellis: So, is it brand new? It felt brand new, because it wasn't done before, but it was not a new area of science.
+
+114
+02:39:11.140 --> 02:39:12.200
+John Ellis: Other questions?
+
+115
+02:39:13.900 --> 02:39:17.969
+John Ellis: Then let's take a moment, and let's go and take a look at, at,
+
+116
+02:39:18.690 --> 02:39:21.060
+John Ellis: A couple of the important things.
+
+117
+02:39:21.730 --> 02:39:23.980
+John Ellis: Explanatory breadth.
+
+118
+02:39:24.960 --> 02:39:31.199
+John Ellis: So we can certainly broaden retrieval. As a matter of fact, you're looking at an example of the broadening of retrieval here.
+
+119
+02:39:32.050 --> 02:39:33.969
+John Ellis: Because what we have here is…
+
+120
+02:39:35.080 --> 02:39:38.719
+John Ellis: the AI agent, having done a fair amount of work.
+
+121
+02:39:39.330 --> 02:39:48.620
+John Ellis: To look at a wide range of viewpoints And papers.
+
+122
+02:39:49.510 --> 02:39:52.730
+John Ellis: Skills, again, can encode this work.
+
+123
+02:39:53.350 --> 02:40:00.059
+John Ellis: And so the best practice is to not stop until you've explored multiple areas.
+
+124
+02:40:02.620 --> 02:40:06.580
+John Ellis: The downside is standardized pipelines, but we have this all ready.
+
+125
+02:40:06.890 --> 02:40:13.839
+John Ellis: We know that there are fields of science where there are recipes you follow to do certain things, and nobody questions what those methodologies are anymore.
+
+126
+02:40:14.310 --> 02:40:17.640
+John Ellis: Skills are just going to entrench that a little bit even further.
+
+127
+02:40:20.390 --> 02:40:33.090
+John Ellis: Agents themselves can shake inquiry, but this is where our rigor and paying attention to how broadly we go and using tools as an exploration becomes important.
+
+128
+02:40:33.580 --> 02:40:35.100
+John Ellis: So what's the take-home message?
+
+129
+02:40:35.700 --> 02:40:37.509
+John Ellis: The take-home message here is.
+
+130
+02:40:37.960 --> 02:40:44.669
+John Ellis: Agents are a tool that can be used to mitigate the problems that we have definitely seen with chat interfaces.
+
+131
+02:40:44.930 --> 02:40:53.149
+John Ellis: But they're not just a full solution without additional work. Skills are going to be an important part of how we actually mitigate
+
+132
+02:40:53.480 --> 02:41:00.660
+John Ellis: these possible harms, What's most important is that you understand, and this is why we're meeting here today.
+
+133
+02:41:00.960 --> 02:41:02.710
+John Ellis: How the models are working.
+
+134
+02:41:02.860 --> 02:41:14.020
+John Ellis: what the… where they are… how the models are likely to work, and the importance of having that context be well curated. Who does the curation of the context? You do.
+
+135
+02:41:14.350 --> 02:41:22.459
+John Ellis: What papers do you put in there? What backgrounds? Where do you steer it? It's all inputting that before the agent for it to do work.
+
+136
+02:41:22.870 --> 02:41:27.809
+John Ellis: Data doesn't have to be perfect, doesn't have to be pristine. As a matter of fact, sometimes uglier is better.
+
+137
+02:41:29.140 --> 02:41:29.960
+John Ellis: Alright.
+
+138
+02:41:31.020 --> 02:41:34.920
+John Ellis: Yes, I have a couple questions. One of them is about
+
+139
+02:41:34.990 --> 02:41:47.170
+John Ellis: this trust space. Because what we're doing here, there's an assumption that, like, the things that are in the text on the left are actually well backed up by the things that are over on the right.
+
+140
+02:41:47.170 --> 02:41:56.060
+John Ellis: I think that I have lots of experience, right, with a profound disjuncture, on those things. And so, the fact that you had
+
+141
+02:41:56.830 --> 02:42:03.170
+John Ellis: it's ChatGPT Pro in this case, right? Like, replicate your sort of initial punch on
+
+142
+02:42:03.450 --> 02:42:11.020
+John Ellis: how are agents actually solving this problem? Yeah, that actually makes siloing worse. Yeah, like, it's… and it couldn't…
+
+143
+02:42:11.040 --> 02:42:34.600
+John Ellis: very helpfully tell you that you're right, and… and not really get into… like, it seems to me that a lot of these issues, from the published literature are about the, like, the singularity of the narrative, right? It's if there's a singular narrative voice, then you're gonna trust it more and have less understanding of the divergences of the underlying literature, assuming they're being summarized both, right?
+
+144
+02:42:34.600 --> 02:42:42.460
+John Ellis: And so… and this is an area where, like, like, Sean vendors work on, like, information, like, LLMs, it's information retrieval devices.
+
+145
+02:42:42.640 --> 02:42:55.509
+John Ellis: is a front of, like, that's the problem for that. So agents don't change that, right? Yeah, agents don't change that, but agents do change and ease the availability of multiple other contacts as well.
+
+146
+02:42:55.510 --> 02:43:04.810
+John Ellis: The underlying architecture is exactly the same that it was before, but now it's become easier to say, okay, redo completely, but use as a starting point this alternative.
+
+147
+02:43:05.580 --> 02:43:15.090
+John Ellis: That's… that's the key. It's not that they… that they are different, but they offer different capabilities. If we use that… If that cycle takes…
+
+148
+02:43:15.630 --> 02:43:22.789
+John Ellis: To be blunt, right? Like, and so if my agent's been spewing out this thing, then 15 minutes later, he came up with an overall summary.
+
+149
+02:43:22.800 --> 02:43:39.390
+John Ellis: and then you come back to it, you're like, actually, I think your assumptions are wrong. Do I have another 15 minutes to wake you out? Another 15 minutes again, because… We are so spoiled. No, I'm serious.
+
+150
+02:43:40.020 --> 02:43:48.870
+John Ellis: there is a sort of question of, we have two… we have different tool paths, right? One of which is to, for us to say, hey.
+
+151
+02:43:49.190 --> 02:43:50.820
+John Ellis: Here's 10 articles.
+
+152
+02:43:52.340 --> 02:43:59.169
+John Ellis: would you like me to summarize a few of them? These are where they disagree, etc. Or to say, like, here's… I'm going to tell you what
+
+153
+02:43:59.850 --> 02:44:03.840
+John Ellis: And what we know is that, like, Assuming that this…
+
+154
+02:44:04.100 --> 02:44:10.580
+John Ellis: correctly summarized, that summarizing could be useful. If it even correctly summarized, you would not know.
+
+155
+02:44:10.870 --> 02:44:19.890
+John Ellis: And having just run this on, like, the, like, U.S, bombing of Minecraft.
+
+156
+02:44:20.390 --> 02:44:35.080
+John Ellis: I got Gemini Pro to give me increasingly more folks, but increasingly… but equally specific. So, in chat, right? You were sort of in chat, and you were sort of steering it towards… Right, yeah.
+
+157
+02:44:35.420 --> 02:44:41.060
+John Ellis: Like, by asking all the right questions, having taken, you know, having taken, like, a…
+
+158
+02:44:41.160 --> 02:44:48.610
+John Ellis: prompting workshop and going through a band course and all those things. Like, it's still… there's a capacity for it to
+
+159
+02:44:48.840 --> 02:44:58.689
+John Ellis: keep to its narrative, and double down on its narrative. Let me pause you there, just… you're bringing up a really important point here. You have, because you're in chat, and this is critical.
+
+160
+02:44:59.380 --> 02:45:01.630
+John Ellis: And this is a huge difference.
+
+161
+02:45:02.120 --> 02:45:03.749
+John Ellis: You have a single context.
+
+162
+02:45:04.650 --> 02:45:06.520
+John Ellis: That you're continuing down.
+
+163
+02:45:07.290 --> 02:45:22.230
+John Ellis: So you have started with an article, you've asked questions, you've asked other questions, but the preponderance… and remember, attention, right? It's driving you down because you have now… now you're adding on, but you have all of this still there. What happens with agents?
+
+164
+02:45:22.780 --> 02:45:29.249
+John Ellis: One of the powerful things about agents is you spin up new contacts, and so you don't have polluted context from the prior.
+
+165
+02:45:29.510 --> 02:45:30.990
+John Ellis: Multiples.
+
+166
+02:45:31.180 --> 02:45:45.439
+John Ellis: and multiples easily. So he said, if I go for 8 minutes and then I have to redo it again, the point of HNCs, you can explicitly beforehand say, you take this idea, you take the other guy, you take the other idea in separate contexts.
+
+167
+02:45:45.840 --> 02:45:52.380
+John Ellis: This is not just a nice city, this is important. In separate contexts, And then come together
+
+168
+02:45:52.500 --> 02:45:53.950
+John Ellis: And square them.
+
+169
+02:45:54.070 --> 02:45:55.929
+John Ellis: Or show where they do not.
+
+170
+02:45:56.210 --> 02:46:06.800
+John Ellis: It's a very different way of interacting with them. Chat has significant problems that are very difficult to overcome simply because of the nature of how attention works.
+
+171
+02:46:07.430 --> 02:46:11.910
+John Ellis: So, I think that we have a good opportunity here to work in a different way.
+
+172
+02:46:13.020 --> 02:46:13.869
+John Ellis: I don't?
+
+173
+02:46:14.240 --> 02:46:19.960
+John Ellis: So, I didn't start, right? I started with a, please find all
+
+174
+02:46:20.360 --> 02:46:28.510
+John Ellis: So I speak neither Farsi nor Arabic, but I said, please find all Farsi and Arabic news sources non-stop. So, I think last year this week, we might want to…
+
+175
+02:46:28.590 --> 02:46:41.949
+John Ellis: I, I could do that with an agent. If you think there would be a different result, we could… I kept the script, and we could… Yeah, I would say, look, let's have conversation during, during, during chat, during chat, during, during lunch.
+
+176
+02:46:42.290 --> 02:46:48.029
+John Ellis: What's important to keep in mind is that the current work styles that we've had
+
+177
+02:46:48.920 --> 02:46:53.059
+John Ellis: And, and what happens in chat are different.
+
+178
+02:46:54.160 --> 02:47:00.409
+John Ellis: So, can I say that they're going to be better? I don't know, because it depends on your interaction with them, but they're definitely going to be different.
+
+179
+02:47:00.630 --> 02:47:03.960
+John Ellis: And it's important to keep in mind what made
+
+180
+02:47:04.200 --> 02:47:10.910
+John Ellis: chat worked the way that it did. Now we understand that context drives, and that we have attention.
+
+181
+02:47:11.120 --> 02:47:19.399
+John Ellis: And that we have the multilayer perceptron, so that's being driven in particular. That's why I'm being very intentional about the autoregressive and moving in a particular direction.
+
+182
+02:47:20.270 --> 02:47:25.789
+John Ellis: And it is very much being steered by the previous interactions. Everything which is in that context.
+
+183
+02:47:26.190 --> 02:47:31.199
+John Ellis: So now, one possibility with agents is you can start and explore multiple paths.
+
+184
+02:47:31.380 --> 02:47:34.349
+John Ellis: But we have to do so intentional.
+
+185
+02:47:34.560 --> 02:47:39.110
+John Ellis: Understand what the technology is, what it means, and then explore the uses. Yes?
+
+186
+02:47:39.420 --> 02:47:50.079
+John Ellis: So, in context, the bias being, I guess, one question will be something just our expectations. Yes. Should we accept getting those objects to…
+
+187
+02:47:50.440 --> 02:47:51.870
+John Ellis: Excuse me.
+
+188
+02:47:52.300 --> 02:47:56.679
+John Ellis: You know, subject to be spilled into the sanctuary, but I participate.
+
+189
+02:47:57.340 --> 02:48:08.559
+John Ellis: So we talked about the training of the models, and that within, that within the models, right, the learning is deeply within these MLPs, right? That's not coming out, right?
+
+190
+02:48:09.500 --> 02:48:15.170
+John Ellis: But now with other kinds of bias, really, this is going to be much more driven by the context you've given.
+
+191
+02:48:15.480 --> 02:48:22.219
+John Ellis: So previously, when we had short contacts, you were getting just what was in the ML feeds. Now.
+
+192
+02:48:22.320 --> 02:48:26.080
+John Ellis: What really matters is, What did you make available?
+
+193
+02:48:26.650 --> 02:48:34.330
+John Ellis: And what is being loaded up? And this could be skills, this could be documents. We are curating that context
+
+194
+02:48:34.510 --> 02:48:38.789
+John Ellis: And so it's up to us what's in there. Now, if you, if you,
+
+195
+02:48:39.200 --> 02:48:41.660
+John Ellis: And if you're doing qualitative research.
+
+196
+02:48:42.190 --> 02:48:50.089
+John Ellis: you can very explicitly then explore this. If you have this as the context, how does that change the understanding and the narrative?
+
+197
+02:48:50.300 --> 02:48:52.220
+John Ellis: You can directly inspect that.
+
+198
+02:48:52.380 --> 02:48:53.590
+John Ellis: And… and…
+
+199
+02:48:53.750 --> 02:49:08.869
+John Ellis: And through using agents, not because they're magic, but just because it makes it easier for us. We can do exploration of what that means and how that changes. To me, that's fascinating. How does my… does the same statement change depending on the prior context?
+
+200
+02:49:10.040 --> 02:49:15.789
+John Ellis: I love that, and I love the fact that we have the ability to inspect that much more directly.
+
+201
+02:49:16.270 --> 02:49:18.680
+John Ellis: But it is not a fantasy, it's not a magic bullet.
+
+202
+02:49:19.130 --> 02:49:21.179
+John Ellis: As we can see, they can actually
+
+203
+02:49:21.310 --> 02:49:25.810
+John Ellis: Further the harms, rather than mitigate them, if we don't use them intentionally.
+
+204
+02:49:27.130 --> 02:49:28.320
+John Ellis: Other questions?
+
+205
+02:49:29.030 --> 02:49:35.509
+John Ellis: Yes. Is this, in essence, a, A gradient descent problem?
+
+206
+02:49:36.270 --> 02:49:41.919
+John Ellis: In terms of chat, where you're basically starting off one path of
+
+207
+02:49:42.380 --> 02:49:48.380
+John Ellis: Your objective, and the point interactive, or you're reducing potential other… Paths.
+
+208
+02:49:48.400 --> 02:49:56.240
+John Ellis: So, the question is this gradient descent, and for those of you who don't know, actually, that's how the models themselves are trained?
+
+209
+02:49:56.240 --> 02:50:16.330
+John Ellis: how we choose those 1 trillion different numbers, and so they can represent the knowledge that we want to have. That's actually through stochastic gradient descent, or derivatives of that. And the question here is, is this kind of the same thing when we're following the path? I would say, in some ways, we're narrowing, we're not necessarily optimizing, but it is autoregressive, so the longer the context gets.
+
+210
+02:50:16.480 --> 02:50:19.119
+John Ellis: The more difficult it gets to get it out of us.
+
+211
+02:50:19.410 --> 02:50:27.380
+John Ellis: So, before, when I was showing you the prompt that, where I came up with, in particular.
+
+212
+02:50:28.220 --> 02:50:30.359
+John Ellis: This prompt right here
+
+213
+02:50:30.870 --> 02:50:50.270
+John Ellis: It was almost like what you might… what you might call, hyperparameter tuning, right? I had to come up with the right context so we could actually understand what I meant by agent work, so we could actually do an honest assessment, or a better assessment of, in this new way of working, how does that interact with the known problems with chat?
+
+214
+02:50:50.500 --> 02:50:53.570
+John Ellis: Does it mitigate? Does it exacerbate?
+
+215
+02:50:53.910 --> 02:50:55.869
+John Ellis: So… I guess.
+
+216
+02:50:56.140 --> 02:51:00.249
+John Ellis: But it's not… it's not really… we're not optimizing. But yes, it is… it is iteration.
+
+217
+02:51:00.980 --> 02:51:01.830
+John Ellis: So…
+
+218
+02:51:02.320 --> 02:51:13.799
+John Ellis: I'll tell you a software story to sort of get you… get the idea of what I'm talking about here in terms of what this means in terms of research.
+
+219
+02:51:14.610 --> 02:51:21.550
+John Ellis: Almost all of software engineering, of planning and something called Agile, is all about managing risk.
+
+220
+02:51:21.950 --> 02:51:31.340
+John Ellis: Here's the problem. If you design software, and you spend, you know, 6 months developing the software, and then you get to the end, and the user says, that's not what I wanted.
+
+221
+02:51:31.340 --> 02:51:45.770
+John Ellis: You have to rewrite all the software. It's expensive, it's horrible, everyone's unhappy, and so we did this thing that's called Agile, where it's like, okay, you write the software, and then you show what you've done, like, in a sprint, like, one week, and then you do that, and it's fine.
+
+222
+02:51:47.350 --> 02:51:55.899
+John Ellis: So what we're finding now is that with software development, even that is broken because the cost of redoing everything is so low.
+
+223
+02:51:56.900 --> 02:52:03.430
+John Ellis: go ahead, agent, and then, you know, just like what Man was talking about, he comes back, and it's like, not exactly what he wants, so he has to redo it.
+
+224
+02:52:04.320 --> 02:52:10.659
+John Ellis: What he has to do is simply give it another instruction and say, no, I meant this, and then it rebuilds everything.
+
+225
+02:52:11.540 --> 02:52:12.999
+John Ellis: The cost of
+
+226
+02:52:13.330 --> 02:52:24.999
+John Ellis: Of the cost of rebuilding, looking at it from a different angle, trying something new is so low that there's nothing keeping us from inspecting and searching broadly.
+
+227
+02:52:25.150 --> 02:52:27.129
+John Ellis: Of what the solution might look like.
+
+228
+02:52:28.280 --> 02:52:33.690
+John Ellis: You want to investigate counterfactuals? You absolutely can. And you can do so in perils.
+
+229
+02:52:34.260 --> 02:52:40.729
+John Ellis: So, we have much broader reach, but we have to get used to what we have now. The risk is much lower.
+
+230
+02:52:41.550 --> 02:52:49.110
+John Ellis: Have you ever had, those of you who have graduate students, do you have a graduate student who's starting down the wrong path, and they just don't get back with you, and you're, like, 6 months down the road, and you're like.
+
+231
+02:52:49.580 --> 02:52:51.379
+John Ellis: Man, you gotta redo all this.
+
+232
+02:52:51.780 --> 02:52:53.400
+John Ellis: You were thinking about it wrong.
+
+233
+02:52:54.070 --> 02:52:55.720
+John Ellis: It happens, and it's painful.
+
+234
+02:52:56.190 --> 02:52:59.579
+John Ellis: Well, now, you can actually explore the…
+
+235
+02:52:59.760 --> 02:53:05.150
+John Ellis: Way down the path early, and then reshape if you need to quickly.
+
+236
+02:53:05.470 --> 02:53:11.230
+John Ellis: The risk is lower, but we need to be taking the steps to actually take advantage of what the capabilities are.
+
+237
+02:53:14.700 --> 02:53:20.300
+John Ellis: It's like… I don't know if the software story landed, but it's de-risking research.
+
+238
+02:53:21.340 --> 02:53:22.570
+John Ellis: Alright, other questions?
+
+239
+02:53:23.230 --> 02:53:23.980
+John Ellis: Yes.
+
+240
+02:53:25.140 --> 02:53:36.100
+John Ellis: Can you elaborate a little bit on the architecture of the agent? It's like the quad for the agent itself, like, is it, like, a supervisor, and do you have soft agents, or how?
+
+241
+02:53:36.800 --> 02:53:41.739
+John Ellis: Like, how sh… how is it… how would it be helpful to think about it?
+
+242
+02:53:42.880 --> 02:53:47.430
+John Ellis: So, the clon code agent is actually very… it's pretty simple.
+
+243
+02:53:48.090 --> 02:53:52.899
+John Ellis: It is making calls out to you, so you can see, so it's actually here.
+
+244
+02:53:53.180 --> 02:53:55.400
+John Ellis: We can see when it's, it's,
+
+245
+02:53:57.960 --> 02:54:15.619
+John Ellis: So here, it is running… when it says read to files, that means it pulled them up, so it's able to run code, it pulls it up, and then sends it off to the LLM. So when it says reading, that means the AI is now inspecting that, pulling that into context, looking at it.
+
+246
+02:54:15.880 --> 02:54:17.209
+John Ellis: And then making a judgment.
+
+247
+02:54:18.500 --> 02:54:21.660
+John Ellis: So the way to think about it is the graph that we had before.
+
+248
+02:54:23.670 --> 02:54:29.530
+John Ellis: It is writing code, Pulling results, and then putting it into context.
+
+249
+02:54:30.200 --> 02:54:35.790
+John Ellis: then making judgments, and then writing more code. So this is the loop, this is the path back and forth.
+
+250
+02:54:35.910 --> 02:54:40.290
+John Ellis: Pulling files, pulling parts of files, running code, getting results.
+
+251
+02:54:40.820 --> 02:54:44.249
+John Ellis: 412 plus 1 is 413.
+
+252
+02:54:45.010 --> 02:54:48.870
+John Ellis: the capital of… The state of Washington is Olympian.
+
+253
+02:54:50.280 --> 02:54:51.449
+John Ellis: Back and forth.
+
+254
+02:54:51.570 --> 02:54:56.969
+John Ellis: The content of this file, this article, the third paragraph of this article was.
+
+255
+02:54:57.870 --> 02:54:59.359
+John Ellis: Here's keyword search.
+
+256
+02:55:01.350 --> 02:55:10.789
+John Ellis: The other thing that Harness allows it to do, that CloudKo's allows it to do, is to create multiple agents to work in parallel on problems as well.
+
+257
+02:55:11.620 --> 02:55:16.509
+John Ellis: That happens frequently, where each agent has its own context.
+
+258
+02:55:16.790 --> 02:55:18.200
+John Ellis: So it starts fresh.
+
+259
+02:55:18.760 --> 02:55:21.149
+John Ellis: Uncontaminated by the previous one.
+
+260
+02:55:22.300 --> 02:55:26.620
+John Ellis: So, clock code… is…
+
+261
+02:55:27.240 --> 02:55:38.940
+John Ellis: Software written around, where it simply keeps track of the agent that it's talking to, the files that it has, allows those… allows new software to be written and to be run.
+
+262
+02:55:39.240 --> 02:55:41.440
+John Ellis: That's what that harness is doing.
+
+263
+02:55:42.220 --> 02:55:43.689
+John Ellis: And that's kind of evolved.
+
+264
+02:55:45.000 --> 02:55:49.000
+John Ellis: It's playing the role that you used to play when you would copy and paste the errors in.
+
+265
+02:55:49.610 --> 02:55:52.370
+John Ellis: Write down and keep track of what was happening.
+
+266
+02:55:52.880 --> 02:55:57.339
+John Ellis: startup like I was doing, The new chat each time.
+
+267
+02:55:57.490 --> 02:55:58.750
+John Ellis: That's been canceled.
+
+268
+02:55:59.610 --> 02:56:02.250
+John Ellis: When there are those powerful agents, is it…
+
+269
+02:56:03.930 --> 02:56:12.780
+John Ellis: supervised by something? So, we'll get into the weeds a little bit, and that's… that's fine.
+
+270
+02:56:14.070 --> 02:56:19.430
+John Ellis: Previously, there was a significant amount of work around agent architectures and orchestration.
+
+271
+02:56:19.650 --> 02:56:22.700
+John Ellis: This was a huge area of work and of research.
+
+272
+02:56:22.850 --> 02:56:27.420
+John Ellis: And the way that you built solutions before was you would…
+
+273
+02:56:27.600 --> 02:56:47.140
+John Ellis: build an orchestration layer where you had… you'd build an agent that would do this thing, you'd build another agent that was doing this thing, and then they would communicate in this very particular way. It's effortful, it's very difficult to do, but that's what we had for agents before, and this is why it's so hard to get the models to think about agents in a new way. We did so much of that.
+
+274
+02:56:47.700 --> 02:56:54.550
+John Ellis: Now, what we have… is agents that are very general purpose, what I call the vanilla agents.
+
+275
+02:56:54.820 --> 02:56:58.950
+John Ellis: Because now you don't have to give them any specific skills, you give them a task.
+
+276
+02:56:59.530 --> 02:57:02.049
+John Ellis: And then what do they do? They go look up the skill.
+
+277
+02:57:03.530 --> 02:57:07.080
+John Ellis: And then they become specialized, because they've filled up the skill.
+
+278
+02:57:07.450 --> 02:57:10.249
+John Ellis: And so now they can do that specialized work. So now.
+
+279
+02:57:10.550 --> 02:57:19.349
+John Ellis: Orchestration, first of all, looks like just dispatch as many agents as you want, describe what each one to do, it will configure itself so it can do that work for you.
+
+280
+02:57:19.580 --> 02:57:23.780
+John Ellis: Second of all, rather than having complex communication between agents.
+
+281
+02:57:23.900 --> 02:57:26.860
+John Ellis: Have a task list. Have it write a file.
+
+282
+02:57:27.000 --> 02:57:37.089
+John Ellis: special kind of a file, but it's a pretty straightforward file. The task list of the overall task that's being done. Each agent then modifies, because remember, the agents can read and write files, right?
+
+283
+02:57:37.720 --> 02:57:38.900
+John Ellis: So the agent…
+
+284
+02:57:39.130 --> 02:57:44.279
+John Ellis: Adds to the file, saying, here's where I am, here's what I've done, I'm almost done, here's my finding.
+
+285
+02:57:45.100 --> 02:57:47.589
+John Ellis: All that goes into that one file.
+
+286
+02:57:48.050 --> 02:57:55.450
+John Ellis: And then, the originating agent can go and says, oh, it looks like I had everyone reporting back, let me take a look at what everybody found and what they did.
+
+287
+02:57:56.140 --> 02:58:03.240
+John Ellis: So rather than… Building the architecture, it is spun up based on your demands.
+
+288
+02:58:04.120 --> 02:58:06.180
+John Ellis: That's what changed in December.
+
+289
+02:58:07.070 --> 02:58:15.500
+John Ellis: Where it became much more flexible, much easier to solve broad ranges of problems that you hadn't specifically designed for.
+
+290
+02:58:18.460 --> 02:58:24.329
+John Ellis: Let me take, one more question, and then we're gonna break for lunch. Yes? So, since we…
+
+291
+02:58:25.060 --> 02:58:32.579
+John Ellis: install it on desktop, and let's say you may need access to your Google account, Gmail account, things like that, how secure
+
+292
+02:58:32.980 --> 02:58:33.890
+John Ellis: DC.
+
+293
+02:58:34.120 --> 02:58:37.550
+John Ellis: Like, or can we connect that to our email, or should we, shouldn't…
+
+294
+02:58:38.210 --> 02:58:41.290
+John Ellis: So, yes, you can connect to various
+
+295
+02:58:41.470 --> 02:58:46.019
+John Ellis: You have to think about where you're cross-connecting, because if something has access to your email.
+
+296
+02:58:49.310 --> 02:58:52.060
+John Ellis: And also access to other things.
+
+297
+02:58:52.180 --> 02:58:55.680
+John Ellis: Then bad things can happen. Cloud code is pretty secure.
+
+298
+02:58:55.790 --> 02:59:01.530
+John Ellis: Claw code is meant to actually carry out tasks, do things for you, and report back. Who here has heard about OpenClaw?
+
+299
+02:59:02.640 --> 02:59:07.640
+John Ellis: So, open claw, different kind of an agent, an agent that's meant to be always on.
+
+300
+02:59:07.750 --> 02:59:20.179
+John Ellis: Always available, that you can, like, text, and say, hey, OpenClaw, look this up for me. Where am I supposed to be next? Or, hey, OpenClaw, change this, text this person. So it's always meant to be in communication.
+
+301
+02:59:21.040 --> 02:59:21.930
+John Ellis: Cool!
+
+302
+02:59:22.110 --> 02:59:24.809
+John Ellis: Except it's always in communication.
+
+303
+02:59:24.980 --> 02:59:29.660
+John Ellis: Which means it can find things and be misdirected and then communicate out
+
+304
+02:59:29.660 --> 02:59:47.429
+John Ellis: So, completely insecure. The only safe way to run it, if you're going to run it all, is on a device which is completely separated from the other devices that you have. You might want to think really hard about which files you're going to have to give it access to, because it is always communicating, and those permissions are set to Universal, always, and yes.
+
+305
+02:59:48.020 --> 02:59:54.040
+John Ellis: So, incredibly insecure, but very cool. So we've got to figure out how to engineer first.
+
+306
+02:59:54.350 --> 03:00:00.459
+John Ellis: Because we've not been engineering well, we've not been, doing a good job of securing these.
+
+307
+03:00:01.680 --> 03:00:03.790
+John Ellis: Alright, it is time for lunch!

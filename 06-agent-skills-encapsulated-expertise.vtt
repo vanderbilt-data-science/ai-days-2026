@@ -1,0 +1,1905 @@
+WEBVTT
+
+1
+03:58:13.560 --> 03:58:31.770
+John Ellis: All right, let's go ahead and get started!
+
+2
+03:58:32.740 --> 03:58:35.430
+John Ellis: How many of you,
+
+3
+03:58:35.540 --> 03:58:48.569
+John Ellis: submitted a research statement or interest in the form when you first signed up. You uploaded that if you're interested in doing the networking event after this. How many people sent their stuff up?
+
+4
+03:58:49.910 --> 03:58:54.100
+John Ellis: Okay. We had about a hundred and… about 127.
+
+5
+03:58:54.510 --> 03:58:59.300
+John Ellis: So, I'd like to show you…
+
+6
+03:58:59.640 --> 03:59:08.250
+John Ellis: how I did this, I'll show you this quickly, because this isn't necessarily… I didn't use skills, but I want to give you another example of an agent at work.
+
+7
+03:59:13.140 --> 03:59:15.340
+John Ellis: So here you can take a look at,
+
+8
+03:59:15.500 --> 03:59:23.709
+John Ellis: Up here, and I'll read this so you can get an idea. Look at, and then I gave the actual web address of, of our event.
+
+9
+03:59:24.500 --> 03:59:37.509
+John Ellis: So I want to create a network opportunity by intentionally connecting people who uploaded their interests in a registration form to this directory. I want to make a case of why they should connect with 3 people. I'll send them an email with the people's names, their background, and the rationale.
+
+10
+03:59:37.630 --> 03:59:51.130
+John Ellis: rationale, oh well. Of why they should network… goals for networking are collaboration on research, grant applications, teaching, or just broadening their view of applications of AI. I want to automate this entire process, including sending the emails.
+
+11
+03:59:51.780 --> 03:59:58.599
+John Ellis: So, what's gonna happen here is that I'm asking the model to create, you know, a whole new…
+
+12
+03:59:58.720 --> 04:00:13.730
+John Ellis: program, right? That would actually do intentional matching of people, so this is interesting. It's going to be writing software to handle the mechanicals, but then it's going to be writing software to send messages to another LLM
+
+13
+04:00:13.980 --> 04:00:15.500
+John Ellis: To actually take a look at
+
+14
+04:00:15.750 --> 04:00:23.929
+John Ellis: Your background, and everybody else's background, and to make matches based on these criteria.
+
+15
+04:00:24.970 --> 04:00:28.819
+John Ellis: So… This goes on for a while.
+
+16
+04:00:29.820 --> 04:00:30.590
+John Ellis: Nope.
+
+17
+04:00:33.080 --> 04:00:39.089
+John Ellis: So it's… and I do have to iterate, so I… it worked for quite some time. I did have to iterate on it,
+
+18
+04:00:40.980 --> 04:00:45.420
+John Ellis: For a couple of different reasons. Marcus, are you here right now?
+
+19
+04:00:46.140 --> 04:00:49.800
+John Ellis: Okay, Marcus isn't here. Jesse Bloker, where are you?
+
+20
+04:00:50.170 --> 04:00:51.170
+John Ellis: So…
+
+21
+04:00:51.340 --> 04:00:57.079
+John Ellis: You notice that, and I'll go to the very end. One of the things I asked for was.
+
+22
+04:00:57.420 --> 04:01:01.430
+John Ellis: Find people that are different from me.
+
+23
+04:01:02.090 --> 04:01:07.300
+John Ellis: Well, there's enough homogeneity, where your broad interests
+
+24
+04:01:08.130 --> 04:01:16.009
+John Ellis: made it more possible to match you as having an interest different from other people, because you have so many different interests. So you showed up on, like.
+
+25
+04:01:16.650 --> 04:01:19.909
+John Ellis: 8 times as many matches as other people did.
+
+26
+04:01:20.110 --> 04:01:34.070
+John Ellis: And I finally had to undo it and say, no. People cannot meet with, like, 30 other people. So I had to unwind that a little bit. But here's an interesting thing, so now it's… so it's ready to go, I haven't actually sent it yet.
+
+27
+04:01:34.180 --> 04:01:40.749
+John Ellis: So what we're gonna do is we're gonna do a little experiment. I'm gonna say, hey, run this for me, and I'm gonna see if you start getting emails.
+
+28
+04:01:41.250 --> 04:01:46.480
+John Ellis: And if you do, it's gonna be an email that was just generated, where we actually just did the match.
+
+29
+04:01:46.480 --> 04:02:01.649
+John Ellis: So you can get an idea of who you might be able to match with tonight after, at 5.30, so we're gonna have a little bit of a break so we can reset, but the idea is, you look for people, you're gonna know their names, you're gonna know the rationale, it's even gonna make some suggestions about how you might collaborate.
+
+30
+04:02:01.770 --> 04:02:08.519
+John Ellis: Now, have some really funny things here of, like, so, Hamid, where are you?
+
+31
+04:02:08.720 --> 04:02:18.480
+John Ellis: So, yeah, so Hamid, you're… so, Hamid, you matched with Andre. So, it's good, it works, it matched you with your advisor. So,
+
+32
+04:02:18.790 --> 04:02:29.289
+John Ellis: It's gonna do stuff like that, because I did not give enough context to say, these people actually already know each other. All right, but here we go. We're gonna… I'm gonna just say, go ahead and run this for me, and monitor.
+
+33
+04:02:30.400 --> 04:02:31.390
+John Ellis: Oh.
+
+34
+04:02:32.560 --> 04:02:35.180
+John Ellis: One thing that I'll mention here before we start talking about skills.
+
+35
+04:02:35.540 --> 04:02:39.610
+John Ellis: See what this says? This is Compacting conversation.
+
+36
+04:02:40.820 --> 04:02:53.839
+John Ellis: So remember that I said that there is a specific context length for each of the models. You can't go beyond that, because the model can't actually operate at that point. You're done. You can't send stuff back, the loop ends.
+
+37
+04:02:54.220 --> 04:03:13.619
+John Ellis: So what agents do is they monitor to see when they get close to that. And when they get close to that, they take a look at the work that's been happening, and the work that's been happening recently, and any of the helper files that they've created, the task list, anything that's been going on, to create a brand new, clean.
+
+38
+04:03:14.190 --> 04:03:15.340
+John Ellis: Context.
+
+39
+04:03:16.040 --> 04:03:20.579
+John Ellis: So, here's a summary of what we did before. I'm gonna start anew.
+
+40
+04:03:22.680 --> 04:03:27.000
+John Ellis: Different agent harnesses are better or worse at doing this.
+
+41
+04:03:27.240 --> 04:03:32.810
+John Ellis: Cloud Codes agent is actually pretty good at doing this, but it takes a little while.
+
+42
+04:03:33.320 --> 04:03:41.360
+John Ellis: So you'll see that it actually is going to be, taking its time to go through there. But we're going to see how good of a job it does. We're going to return to it in just a little bit.
+
+43
+04:03:41.880 --> 04:03:43.760
+John Ellis: All right. So…
+
+44
+04:03:44.110 --> 04:03:51.409
+John Ellis: Oops, see, here it goes. Conversation compacted, notice it started over here. It's reading the code again, so it can figure out what's going on.
+
+45
+04:03:52.680 --> 04:04:00.029
+John Ellis: hey, and it's saying, yes, go ahead and echo yes. So, yes, go ahead and call the code that I wrote, that it wrote.
+
+46
+04:04:00.230 --> 04:04:04.439
+John Ellis: And send the emails, and we'll see if it starts, if it begins sending.
+
+47
+04:04:06.440 --> 04:04:07.999
+John Ellis: So, after lunch quiz.
+
+48
+04:04:10.350 --> 04:04:18.520
+John Ellis: What do we call… That file, where we encapsulate process knowledge, specific process knowledge around a task.
+
+49
+04:04:18.640 --> 04:04:24.360
+John Ellis: Or background that we then make available to the AI.
+
+50
+04:04:25.430 --> 04:04:26.489
+John Ellis: It's a skill.
+
+51
+04:04:26.770 --> 04:04:28.519
+John Ellis: That's right, so they're called skills.
+
+52
+04:04:29.470 --> 04:04:38.910
+John Ellis: you can begin to understand why it's difficult for me to get the model to understand what I'm talking about, because I say, hey, I want you to write, I want you to use skills. It's like.
+
+53
+04:04:39.360 --> 04:04:40.640
+John Ellis: I got skills.
+
+54
+04:04:40.810 --> 04:04:43.729
+John Ellis: No, no, no. I mean skills as…
+
+55
+04:04:43.980 --> 04:04:47.329
+John Ellis: So let's go and take a look at what we mean by skills.
+
+56
+04:04:47.450 --> 04:04:49.890
+John Ellis: Very explicitly.
+
+57
+04:04:53.690 --> 04:04:54.650
+John Ellis: There we go.
+
+58
+04:04:56.590 --> 04:05:03.139
+John Ellis: So… Let's first take a look at What a skill actually is.
+
+59
+04:05:04.380 --> 04:05:10.610
+John Ellis: So… a skill… It's actually a subdirectory.
+
+60
+04:05:11.590 --> 04:05:22.139
+John Ellis: A skill is a subdirectory in a particular location that the model has access to. And in this subdirectory, first of all, the name of the subdirectory is the name of the skill.
+
+61
+04:05:23.080 --> 04:05:28.339
+John Ellis: And then, within that subdirectory, it has an MD file. Remember the Markdown file?
+
+62
+04:05:28.500 --> 04:05:34.190
+John Ellis: So it's a simple file, we're going to actually see what it looks like now it's formatted. This is going to be the main part here.
+
+63
+04:05:35.980 --> 04:05:41.480
+John Ellis: The skill entity Has, at the very top, It's called metadata.
+
+64
+04:05:41.960 --> 04:05:43.719
+John Ellis: It has the name of the skill.
+
+65
+04:05:44.020 --> 04:05:46.129
+John Ellis: And a description of the skill.
+
+66
+04:05:46.950 --> 04:05:51.549
+John Ellis: This is going to be the part of the skill which is always loaded. If you have 100 different skills.
+
+67
+04:05:51.660 --> 04:06:05.380
+John Ellis: available to your agent, it's going to load up all of those. But remember, these are pretty short descriptions, but it's going to know all of them. It has to have those in there, because it has to automatically be able to say, oh, you're asking me to create a workbook
+
+68
+04:06:06.410 --> 04:06:10.929
+John Ellis: I have a skill that tells me how to create a workbook, I need to load part of it.
+
+69
+04:06:12.310 --> 04:06:16.280
+John Ellis: The skill loads… Only what's required.
+
+70
+04:06:17.350 --> 04:06:23.629
+John Ellis: So when it says, oh my gosh, I need to have the skill, it would load first the skill.md.
+
+71
+04:06:23.790 --> 04:06:26.330
+John Ellis: And again, let's think about what this means. That means
+
+72
+04:06:26.650 --> 04:06:28.760
+John Ellis: You ask for something to be done.
+
+73
+04:06:29.270 --> 04:06:33.300
+John Ellis: it knew that there was a skill that could do that, so it loaded it, so now…
+
+74
+04:06:33.450 --> 04:06:40.379
+John Ellis: Your description of how to do the thing is right next to the request and the information that you needed to do the thing.
+
+75
+04:06:41.100 --> 04:06:42.980
+John Ellis: That's a really nice design.
+
+76
+04:06:43.820 --> 04:06:44.740
+John Ellis: Next.
+
+77
+04:06:44.970 --> 04:06:48.969
+John Ellis: As it goes through, it determines whether it needs to have additional information.
+
+78
+04:06:49.100 --> 04:07:02.150
+John Ellis: So I think I've mentioned to you before that when it's creating PowerPoints, when it's creating workbooks, it's actually writing Python code, which then creates those artifacts. It's not directly creating those, but it's writing Python code to create
+
+79
+04:07:02.380 --> 04:07:08.390
+John Ellis: the binary compatible XLSX file, or the PowerPoint, right?
+
+80
+04:07:10.080 --> 04:07:20.160
+John Ellis: Scripts are going to be another subdirectory underneath, which will have optional executable code,
+
+81
+04:07:20.570 --> 04:07:23.750
+John Ellis: References, this could have documentation.
+
+82
+04:07:24.530 --> 04:07:33.430
+John Ellis: And you can also have assets. These could be the fonts, the templates, this could be code stubs, things along those lines. As you can see, it's actually fairly rich.
+
+83
+04:07:34.010 --> 04:07:40.420
+John Ellis: And you don't have to… it will only load up as it's needed, so it's not like you're taking up a bunch of space.
+
+84
+04:07:41.190 --> 04:07:47.980
+John Ellis: What's compelling to me is that there's enough room in here for us to be… rigorous.
+
+85
+04:07:48.790 --> 04:07:56.159
+John Ellis: As academics, or rigorous in terms of good designers, where we cite where everything is coming from.
+
+86
+04:07:57.540 --> 04:08:01.490
+John Ellis: So this is the place where you can actually make sure that…
+
+87
+04:08:01.590 --> 04:08:04.630
+John Ellis: It's clear what this is based on.
+
+88
+04:08:06.250 --> 04:08:08.610
+John Ellis: Talk about the…
+
+89
+04:08:09.310 --> 04:08:17.050
+John Ellis: I'm going to next talk about the design principles and sort of what this means, but questions right now about what a skill is.
+
+90
+04:08:20.500 --> 04:08:21.300
+John Ellis: Yes.
+
+91
+04:08:21.780 --> 04:08:29.460
+John Ellis: Or… scripts that might have burdened and inspiration that tie, where's that? Okay.
+
+92
+04:08:29.970 --> 04:08:36.679
+John Ellis: So there's some information here which is not… it's all… it's all semantic, right? This is not…
+
+93
+04:08:37.660 --> 04:08:49.890
+John Ellis: If you've written software before, you know that you've coded against APIs. You've actually done where it must take this particular format, and you have to be very careful about versioning, blah blah. Here, this is all semantic. Skills can be used by
+
+94
+04:08:50.380 --> 04:08:51.970
+John Ellis: different models.
+
+95
+04:08:52.220 --> 04:09:07.639
+John Ellis: As a matter of fact, I just recently, we just had a training, Joanne and I, and Maha, and a few other folks, had a training where we actually introduced the idea of skills to a model that doesn't even use skills.
+
+96
+04:09:07.680 --> 04:09:15.810
+John Ellis: We said, alright, your model has… doesn't use skills, but you can copy and paste the text of the skill, and it'll still work.
+
+97
+04:09:18.000 --> 04:09:24.960
+John Ellis: If the model uses a skill, then it will find it automatically, load it automatically with progressive disclosure.
+
+98
+04:09:25.220 --> 04:09:28.510
+John Ellis: Meaning, loading up only what it needs, when it needs it.
+
+99
+04:09:30.460 --> 04:09:38.230
+John Ellis: So, progressive disclosure. First, The first level is the front matter. This is going to be the title.
+
+100
+04:09:38.710 --> 04:09:41.459
+John Ellis: The name of the skill, and also a description of the skill.
+
+101
+04:09:41.600 --> 04:09:49.590
+John Ellis: And this is where the human comes in. You have to do a really good job of describing when and how this might be called.
+
+102
+04:09:49.880 --> 04:10:00.840
+John Ellis: So, if people call this different things in their chats, you put that in there. They might refer to this as… they might refer to the task like this. You would do it when?
+
+103
+04:10:02.610 --> 04:10:04.410
+John Ellis: Because the skill is only good if it's called.
+
+104
+04:10:05.310 --> 04:10:20.309
+John Ellis: Next, the second level is going to be the SkillMD body, and this is going to be… this is… it's going to load up this when… when Claude thinks that it's really going to use it, it loads up all of that, and then comes all the linked files, everything that comes in, after that.
+
+105
+04:10:28.210 --> 04:10:31.850
+John Ellis: Claude can load multiple skills at once.
+
+106
+04:10:32.890 --> 04:10:39.639
+John Ellis: So one of the things that we don't yet have, but that we will have shortly, is a brand skill
+
+107
+04:10:39.750 --> 04:10:41.470
+John Ellis: For the College of Connected Computing.
+
+108
+04:10:42.490 --> 04:10:52.909
+John Ellis: Because, you know, people want to know the fonts exactly right. We may want to have sort of an open and fun and interdisciplinary kind of look for the images that we might choose to have for it.
+
+109
+04:10:53.050 --> 04:11:00.979
+John Ellis: So if I make a PowerPoint, yes, the PowerPoint skill will be loaded, and the brand skill will be loaded, and they can work together.
+
+110
+04:11:02.650 --> 04:11:05.550
+John Ellis: This is impossible with normal software!
+
+111
+04:11:05.820 --> 04:11:17.409
+John Ellis: You don't get to just slap together, you know, one piece of software with another piece of software. But this is what software increasingly is going to look like for us. It's going to be skills.
+
+112
+04:11:18.330 --> 04:11:19.890
+John Ellis: Infinitely composable.
+
+113
+04:11:21.110 --> 04:11:28.350
+John Ellis: And bound to our understanding of the semantics when we create this, right?
+
+114
+04:11:29.920 --> 04:11:41.599
+John Ellis: This is a very different way of thinking about software. And finally, they're going to be portable. They work identically across… well, it just says this is Anthropic, so they're saying, hey, it works identically across all of our stuff.
+
+115
+04:11:42.000 --> 04:11:46.750
+John Ellis: They actually open-sourced this, and so OpenAI, so the ChatGPT, that's adopted it.
+
+116
+04:11:46.850 --> 04:11:56.039
+John Ellis: Google has adopted it. They're… most of the really good… most of the good small, small language models and open source models have adopted it.
+
+117
+04:11:56.200 --> 04:12:00.299
+John Ellis: So here's the interesting thing, when you put in the effort to design a skill.
+
+118
+04:12:00.820 --> 04:12:05.710
+John Ellis: That can be used across all major LLMs.
+
+119
+04:12:09.260 --> 04:12:11.389
+John Ellis: Had a conversation over lunch where
+
+120
+04:12:11.960 --> 04:12:16.180
+John Ellis: The idea came across that, discip… there ought to be disciplinary skills.
+
+121
+04:12:16.810 --> 04:12:36.549
+John Ellis: So, if you have a particular way in which is a best practice way of doing, say, a statistical analysis, or modeling, or an approach, or even, you know, formatting a paper correctly, it ought to be a skill, and this ought to be a skill which is provided to you by some sort of organization. If you want to have
+
+122
+04:12:36.690 --> 04:12:43.580
+John Ellis: A common way where you're kind of sure that you're making something which is… which is repeatable and good, open science.
+
+123
+04:12:43.900 --> 04:12:47.389
+John Ellis: Increasingly, that's going to be in the form of a skill.
+
+124
+04:12:47.730 --> 04:12:54.700
+John Ellis: Where everyone agrees, because everyone can read it and say, yeah, that's how we think about it. And that's how we would like for it to be done.
+
+125
+04:12:56.440 --> 04:12:59.310
+John Ellis: Increasingly, this is what I'm telling organizations as well.
+
+126
+04:12:59.480 --> 04:13:16.599
+John Ellis: around adoption of AI and adoption of AI tooling, is that skills are going to be the way both that you standardize what's being done, you have insight into how it's being done, and you also invite people into the process of designing how AI works.
+
+127
+04:13:17.000 --> 04:13:21.330
+John Ellis: So, that's why I call a skill a socio-technical skill.
+
+128
+04:13:25.000 --> 04:13:25.860
+John Ellis: Alright.
+
+129
+04:13:28.470 --> 04:13:30.629
+John Ellis: So let's go and take a look at,
+
+130
+04:13:31.570 --> 04:13:33.859
+John Ellis: How you would create a skill.
+
+131
+04:13:42.400 --> 04:13:44.530
+John Ellis: You might recall that I did mention
+
+132
+04:13:44.860 --> 04:13:51.720
+John Ellis: that skills that are authored solely by AI are not that great, and they don't improve models all that much.
+
+133
+04:13:53.740 --> 04:13:59.900
+John Ellis: They can work somewhat, especially if you have the model doing research on something and pulling lots of external content.
+
+134
+04:14:00.160 --> 04:14:05.639
+John Ellis: to be able to build a skill. But even better is when you have an expert building a skill. So this is… this is you.
+
+135
+04:14:06.610 --> 04:14:22.920
+John Ellis: So, before you write anything, identify two to three use cases your skill should handle. So, for example, hey, project sprint planning. This is what I mentioned before about software development. A lot of this is around software development, but we're realizing that this goes beyond… well beyond, as you're saying, software development.
+
+136
+04:14:24.980 --> 04:14:36.570
+John Ellis: Trigger. User says, help me plan this, or create sprints. And here are the steps. Just very broadly, fetch the current project, analyze the team, suggest prioritization, create tasks.
+
+137
+04:14:38.500 --> 04:14:42.029
+John Ellis: This document is linked, in the material for this.
+
+138
+04:14:42.710 --> 04:14:57.800
+John Ellis: But keep in mind, this is a very human process. How do you tackle this problem? What are the… how do you identify when you're going to be doing this, and how do you actually go about doing this? And are there specific tools that you need to use in order to carry out this task?
+
+139
+04:15:00.500 --> 04:15:07.630
+John Ellis: Anthropic identified Three broad categories, but we're only going to talk about two of them here.
+
+140
+04:15:08.340 --> 04:15:12.510
+John Ellis: One is document creation. This is one of the first things that they did.
+
+141
+04:15:12.930 --> 04:15:23.820
+John Ellis: Last year in September… I don't know if you all remember this, but before September of this past year, you couldn't get models to make
+
+142
+04:15:24.140 --> 04:15:25.280
+John Ellis: PowerPoints.
+
+143
+04:15:25.510 --> 04:15:26.540
+John Ellis: You remember that?
+
+144
+04:15:26.730 --> 04:15:34.689
+John Ellis: you'd be like, you'd get all excited, you get on Amplify, and you say, yeah, make me a PowerPoint, and it'd be like, here are the points for your PowerPoint for you to put together.
+
+145
+04:15:34.900 --> 04:15:37.469
+John Ellis: And you were very disappointed.
+
+146
+04:15:37.720 --> 04:15:44.579
+John Ellis: Well then, in September, Anthropic all of a sudden could create full power plants.
+
+147
+04:15:45.150 --> 04:15:47.960
+John Ellis: Full doc… full doc… full Word docs.
+
+148
+04:15:48.470 --> 04:15:50.000
+John Ellis: full workbooks.
+
+149
+04:15:50.210 --> 04:15:54.139
+John Ellis: All of a sudden, Actually, what they did was…
+
+150
+04:15:54.420 --> 04:16:00.599
+John Ellis: they developed skills. And the very first skill that they developed was, this is how you build a PowerPoint.
+
+151
+04:16:01.750 --> 04:16:07.440
+John Ellis: And this is… and what they did was, you can imagine, under the scripts they had, Python code.
+
+152
+04:16:07.760 --> 04:16:24.320
+John Ellis: that would… that could be modified, that would then generate the PowerPoint. And then they had other things that they began to iterate on of what it meant to create a good-looking PowerPoint. Did anybody create PowerPoints, early on with… with Cloud?
+
+153
+04:16:25.480 --> 04:16:28.679
+John Ellis: Yeah, were they good, or were there problems?
+
+154
+04:16:29.340 --> 04:16:43.029
+John Ellis: So for example, I wanted to use, like, Vanderbilt, like… You wanted to use the Vanderbilt color scheme, it couldn't. Yes. Did you have the problem where it had, like, text that would, like, run over, or something like… like, it's outside of the box.
+
+155
+04:16:43.890 --> 04:16:45.489
+John Ellis: So then they changed the skill.
+
+156
+04:16:46.010 --> 04:16:51.930
+John Ellis: They didn't retrain the model, they didn't change anything, they changed the wording and the skill, and what they said was…
+
+157
+04:16:52.950 --> 04:16:59.899
+John Ellis: Before releasing the PowerPoint, Load the PowerPoint and visually inspect it.
+
+158
+04:17:02.430 --> 04:17:10.880
+John Ellis: Look for the following problems. Problems with contrast, problems with text outside of bounding boxes, text that is too small.
+
+159
+04:17:12.060 --> 04:17:19.990
+John Ellis: Now, it got to do this because the LLM did have these tools, and they're multimodal models, or they can call other tools to help them see.
+
+160
+04:17:20.170 --> 04:17:24.360
+John Ellis: But they just had to specifically say, the best practice is, before you hand this out, look at it.
+
+161
+04:17:24.680 --> 04:17:28.790
+John Ellis: So now, when you actually generate these things, it says, now visually inspect it.
+
+162
+04:17:30.440 --> 04:17:34.659
+John Ellis: So think about the huge advance that is from changing the wording in the skill.
+
+163
+04:17:37.480 --> 04:17:40.789
+John Ellis: So, one is documented asset creation.
+
+164
+04:17:41.080 --> 04:17:49.390
+John Ellis: The other main, type, application, is… Workflow automation.
+
+165
+04:17:49.860 --> 04:17:56.470
+John Ellis: I think both of these are incredibly important for us, but also workflow automation, especially around research and process.
+
+166
+04:17:56.590 --> 04:17:59.559
+John Ellis: We're always concerned about, about
+
+167
+04:17:59.860 --> 04:18:10.140
+John Ellis: about documenting and best practice and being able to follow what's being done and how it's being done. Skills are going to be a powerful way for us to do this.
+
+168
+04:18:10.770 --> 04:18:12.569
+John Ellis: How many of you, well.
+
+169
+04:18:12.750 --> 04:18:27.830
+John Ellis: How many of you have labs, and you've been thinking, I really need to write down some of this stuff, so when we bring new people in, that they'll follow the process? Yeah. Okay, yeah, hands up high, if you… let's seriously just write it. Okay, keep your hand up if you've actually done it.
+
+170
+04:18:28.900 --> 04:18:29.600
+John Ellis: action.
+
+171
+04:18:29.880 --> 04:18:38.330
+John Ellis: one shining night out of… so… Again, socio-technical solution, you…
+
+172
+04:18:38.450 --> 04:18:51.169
+John Ellis: create the skill, because now you can have the AI do it, but now you have the skills which can also be read by the new members of the lab, and can also be audited and modified to reflect current best practices.
+
+173
+04:18:51.420 --> 04:18:52.630
+John Ellis: It's visible.
+
+174
+04:18:53.370 --> 04:18:54.810
+John Ellis: It's auditable.
+
+175
+04:18:55.510 --> 04:18:59.609
+John Ellis: So that's why I'm very excited about the advent of skills.
+
+176
+04:19:01.210 --> 04:19:10.050
+John Ellis: I'm not a shining knight, I just work with power tools when I teach lab, and that's kind of important. Right, so if you teach the skills, then you must do that. Tom.
+
+177
+04:19:10.410 --> 04:19:18.389
+John Ellis: Is there an effort to try to create skills to share across the university? So, as an example.
+
+178
+04:19:19.550 --> 04:19:27.120
+John Ellis: We're always iterating when it comes to folks putting together. Oh. My. God.
+
+179
+04:19:28.340 --> 04:19:29.230
+John Ellis: Okay.
+
+180
+04:19:29.520 --> 04:19:34.590
+John Ellis: Yeah, or say she's paying for dinner, but you didn't… And it often follows that.
+
+181
+04:19:34.800 --> 04:19:40.379
+John Ellis: Faculty students, or graduate students. Graduate students don't know, riding a dolphin, and so that it…
+
+182
+04:19:40.890 --> 04:19:42.849
+John Ellis: And it's always gonna start.
+
+183
+04:19:44.440 --> 04:19:49.970
+John Ellis: All those things are the same. So let me, let me, let me put this. If we had recorded what you just said.
+
+184
+04:19:50.160 --> 04:19:51.490
+John Ellis: Just what you said.
+
+185
+04:19:52.130 --> 04:19:56.490
+John Ellis: And then… If we had gone to… I have a time loop?
+
+186
+04:19:56.790 --> 04:19:59.619
+John Ellis: Yes, okay. Then if we'd gone to…
+
+187
+04:20:06.430 --> 04:20:08.460
+John Ellis: The skill creator skill.
+
+188
+04:20:09.840 --> 04:20:12.079
+John Ellis: This is how you create the skills.
+
+189
+04:20:12.620 --> 04:20:16.860
+John Ellis: So you actually have the conversation about what works and what doesn't work.
+
+190
+04:20:17.530 --> 04:20:20.930
+John Ellis: about making those schedules. Because you remember.
+
+191
+04:20:21.150 --> 04:20:33.929
+John Ellis: The agent did a really good job of reorganizing when I had, like, 9 hours of material on the second day, and not enough material on the first day, and not enough breaks to go through there and actually iteratively go through and figure it out.
+
+192
+04:20:34.640 --> 04:20:37.060
+John Ellis: You just have to know what the requirements are.
+
+193
+04:20:37.680 --> 04:20:42.970
+John Ellis: You must have a potty break before you have the meeting with… Absolutely.
+
+194
+04:20:44.120 --> 04:20:48.860
+John Ellis: So that's what the Skills Builder skill does. So… so this is the subdirectory.
+
+195
+04:20:49.340 --> 04:21:01.889
+John Ellis: So, all the skills are under a skills subdirectory, usually. Here's the skill creator. It has… oh, it has agents, assets, eval viewer, it has a bunch of stuff it uses. Let's go and see what the skill itself says.
+
+196
+04:21:03.760 --> 04:21:10.889
+John Ellis: Name, skill creator. Create new skills, modify and improve existing skills, and measure skill performance. That's critical.
+
+197
+04:21:11.910 --> 04:21:15.029
+John Ellis: We need to be able to iterate on the skill set of how well they work.
+
+198
+04:21:15.690 --> 04:21:18.699
+John Ellis: Use when a user wants to create a skill from scratch.
+
+199
+04:21:19.150 --> 04:21:23.719
+John Ellis: Update or optimize an existing skill, run evals to test a skill.
+
+200
+04:21:23.950 --> 04:21:31.090
+John Ellis: Benchmark skill performance with various analysis, or optimize a skill's description for better triggering accuracy.
+
+201
+04:21:32.450 --> 04:21:45.199
+John Ellis: All right, so now this is the body of the skills, that it will look… if you said, man, I really want a skill to handle the situation where we're always bringing people, and there's a problem with organizing, and we tend not to.
+
+202
+04:21:46.530 --> 04:21:50.929
+John Ellis: So, the skill triggers, and it copies into context the following.
+
+203
+04:21:51.780 --> 04:21:59.220
+John Ellis: A skill for creating new skills and iteratively improving them. At a high level, the process of creating a skill looks like this. We were just talking.
+
+204
+04:22:00.200 --> 04:22:11.180
+John Ellis: Decide what you want the skill to do, and roughly how it should do it. Have a draft of the skill. Create a few test prompts. Help the user evaluate the results both qualitatively and quantitatively.
+
+205
+04:22:11.930 --> 04:22:16.539
+John Ellis: Notice that we don't have to… we can keep things at a high level, or we can get very specific.
+
+206
+04:22:18.640 --> 04:22:29.920
+John Ellis: Your job when using the skill is to figure out where the user is in the process in… where the user is in the process, and then jump in and help them progress through these stages.
+
+207
+04:22:32.020 --> 04:22:34.080
+John Ellis: Think about how flexible that is.
+
+208
+04:22:34.470 --> 04:22:40.740
+John Ellis: The problem with software, and the problem with us trying to build solutions to this point has been they're brittle.
+
+209
+04:22:41.690 --> 04:22:57.400
+John Ellis: it breaks. Or it's like, you don't want to use the software because now you have to click on everything that you've already clicked on before. Here, by simply stating that what you want is to determine… have the LLM determine where they are in these stages, and if it determines that you're already on step 4, join them in step 4.
+
+210
+04:23:03.120 --> 04:23:04.609
+John Ellis: And I love this.
+
+211
+04:23:04.940 --> 04:23:06.100
+John Ellis: Look at this.
+
+212
+04:23:07.460 --> 04:23:16.959
+John Ellis: Then after the skill is done, but again, the order's flexible, you can also run the skill description improver, which we have a whole separate script for to optimize triggering of the skill. Cool? Cool.
+
+213
+04:23:18.000 --> 04:23:19.309
+John Ellis: It's English!
+
+214
+04:23:19.420 --> 04:23:21.599
+John Ellis: Does it actually carry some meaning?
+
+215
+04:23:21.740 --> 04:23:23.010
+John Ellis: Maybe.
+
+216
+04:23:27.800 --> 04:23:38.379
+John Ellis: you'll know Dwayne Watson. He's the vice provost now, but he's done research in, computational linguistics, and he, he's actually uncovered the
+
+217
+04:23:38.840 --> 04:23:53.909
+John Ellis: the really important information that is covered in ums and uhs. It turns out they really convey information. This probably conveys information. And of course, you can test it, you can see while it works, but if the idea is to be loose
+
+218
+04:23:54.470 --> 04:23:57.720
+John Ellis: In the application of the skill, that achieves it.
+
+219
+04:23:58.160 --> 04:24:02.269
+John Ellis: Why? Because it's a large language model, and if you say to someone, cool, cool.
+
+220
+04:24:02.770 --> 04:24:04.939
+John Ellis: This is not like, do you understand?
+
+221
+04:24:05.420 --> 04:24:07.040
+John Ellis: This is cool. Alright.
+
+222
+04:24:09.330 --> 04:24:13.900
+John Ellis: So, communicating with the user, Creating the skill, capturing intent.
+
+223
+04:24:14.520 --> 04:24:18.309
+John Ellis: What's interesting is, you can read this skill.
+
+224
+04:24:18.710 --> 04:24:24.410
+John Ellis: And get better at creating skills. And then you can use this skill.
+
+225
+04:24:25.650 --> 04:24:29.610
+John Ellis: To actually make and keep track of all the different steps.
+
+226
+04:24:32.180 --> 04:24:43.939
+John Ellis: Principle of lack of surprise. This goes without saying, but skills must not contain malware, exploit code, or content that could compromise system security. Seems kind of silly to say, but…
+
+227
+04:24:44.440 --> 04:24:49.430
+John Ellis: If you have this in there, then the LLM will actually go through and check your assets.
+
+228
+04:24:49.830 --> 04:24:55.480
+John Ellis: Go ahead and check the scripts and say, So, this looks like malware.
+
+229
+04:24:55.680 --> 04:24:58.719
+John Ellis: But it might not unless you had actually asked it to.
+
+230
+04:25:00.660 --> 04:25:08.870
+John Ellis: This is one of the most extensive skills that you will find. It is far, far longer than the skill that you would normally create.
+
+231
+04:25:10.270 --> 04:25:16.989
+John Ellis: But it's also doing a great deal. Normally, skills should be about 500 lines, not a whole lot longer.
+
+232
+04:25:18.720 --> 04:25:21.510
+John Ellis: All right. Question about skills so far, yes?
+
+233
+04:25:23.490 --> 04:25:24.270
+John Ellis: Yes.
+
+234
+04:25:24.570 --> 04:25:29.040
+John Ellis: This is great. Thomas wants to be a new itinerary.
+
+235
+04:25:29.520 --> 04:25:32.099
+John Ellis: Skill that he's given you so hard to offer that.
+
+236
+04:25:32.210 --> 04:25:39.320
+John Ellis: But how does he share it with his graduate students, and share it with me, so that I know that I don't have to recreate that student.
+
+237
+04:25:39.620 --> 04:25:45.160
+John Ellis: So, a couple of things. One, we're going to be creating skills Tomorrow.
+
+238
+04:25:45.370 --> 04:25:48.819
+John Ellis: Matter of fact, that's a lot of what we're going to be doing. We're going to be creating skills
+
+239
+04:25:48.940 --> 04:26:04.029
+John Ellis: Because we don't really build software like that anymore. You build skills to do the tasks, if the tasks are done, then why did… you know? So yes, we're going to be creating skills, absolutely, probably quite a few of them. Second of all, they are just files, they're subdirectories.
+
+240
+04:26:04.390 --> 04:26:09.950
+John Ellis: Right now, there is no… Good, organized way, right?
+
+241
+04:26:10.380 --> 04:26:12.700
+John Ellis: Accepted way.
+
+242
+04:26:13.280 --> 04:26:16.200
+John Ellis: I think those will likely have to be institutional in nature.
+
+243
+04:26:16.680 --> 04:26:18.199
+John Ellis: I think that…
+
+244
+04:26:18.340 --> 04:26:29.470
+John Ellis: That will be adopted by industry in one way, by government in another, by our organizing communities in yet another.
+
+245
+04:26:30.020 --> 04:26:46.439
+John Ellis: And that's okay, because you might have skills from many different places. You're definitely going to have skills from Anthropic, you know, they have a killer PowerPoint skill now, but you're also going to have a brand skill, which is probably going to be produced by and blessed by your dean's office.
+
+246
+04:26:47.110 --> 04:26:48.990
+John Ellis: Great! Yes, let them own that.
+
+247
+04:26:49.330 --> 04:26:52.710
+John Ellis: And then all they have to do is to share… it comes as a zip file.
+
+248
+04:26:53.250 --> 04:27:03.730
+John Ellis: So it's a zip file, and we're going to find out tomorrow to go through the skills… the specifics, but it's a zip file, and you expose it to Clog. Let's go and take a look at what Clog has here, as a matter of fact.
+
+249
+04:27:06.620 --> 04:27:12.959
+John Ellis: I might have to be careful about this, because it's… because I do have a student's name… no, no, I guess I don't, not here. Okay, great. All right.
+
+250
+04:27:13.410 --> 04:27:17.129
+John Ellis: Recommendation letter. Recommendation letter writer.
+
+251
+04:27:21.770 --> 04:27:36.740
+John Ellis: So here's the thing. First of all, I don't know about you, but this gives me a little bit of a tingle, like, except that when I write a letter, I want to write the stories about what makes this student different.
+
+252
+04:27:37.540 --> 04:27:45.159
+John Ellis: But I have to get through all this other stuff about how I know them, how long I've known them.
+
+253
+04:27:45.650 --> 04:28:00.209
+John Ellis: what classes they were in, what they did in the class, I have to go and look and see what the project that they did, so I don't do any of that anymore. What I do instead is, I have them send me their CV, if they have one. I have them send me a file which said, if they had their druthers.
+
+254
+04:28:00.570 --> 04:28:02.460
+John Ellis: So I know that they have to look that up.
+
+255
+04:28:02.850 --> 04:28:20.689
+John Ellis: What a druther. You know, saying, I'm not going to necessarily include it, but if you, if, you know, if you had your choice, what do you want me… what do you want me to say? I put my resume in, because that has when I worked on projects, and what I did, and what classes I taught, so I can actually tie and get the names of the… of those things correct.
+
+256
+04:28:20.900 --> 04:28:26.789
+John Ellis: And then I had this long monologue with the computer about this student.
+
+257
+04:28:27.090 --> 04:28:28.660
+John Ellis: So there's this one time.
+
+258
+04:28:28.930 --> 04:28:36.879
+John Ellis: You know, where Lori was in class, and she wouldn't let an idea… she just kept on at it until I actually realized that I was wrong.
+
+259
+04:28:37.420 --> 04:28:43.740
+John Ellis: So… It is that fortitude and that bravery which he will bring to your
+
+260
+04:28:43.960 --> 04:28:50.519
+John Ellis: Those are the stories I want to tell. So all of that goes in, and then I say, I want to write a letter of recommendation, and it triggers this skill.
+
+261
+04:28:51.700 --> 04:28:53.019
+John Ellis: So what does it do?
+
+262
+04:28:53.660 --> 04:29:02.519
+John Ellis: Well, it says, if I'm missing any of those things, so I don't have the student's CV, or Jesse's guidance notes, or the support level, supportive,
+
+263
+04:29:03.060 --> 04:29:04.490
+John Ellis: Strongly supportive.
+
+264
+04:29:04.780 --> 04:29:09.650
+John Ellis: without reservation, ask for those. Do not… do not go forward unless you have those.
+
+265
+04:29:10.190 --> 04:29:28.990
+John Ellis: And then there might be other things. Students' own notes, what the students hope the letter will cover, their druthers can't even put in the druthers. program guidance, instructions, or criteria, so if I know they're applying to a certain place, I'll actually put those in. They're applying for a postdoctoral position, that is going after the, the following.
+
+266
+04:29:30.130 --> 04:29:37.910
+John Ellis: And then, this is where it has my background in there as well, just to figure out how I fit in there, because I will weave in my background to sort of
+
+267
+04:29:38.660 --> 04:29:47.080
+John Ellis: put into the letter why I'm a good person to be writing this letter, so I just put everything in there, but it weaves it in. All right, so…
+
+268
+04:29:48.000 --> 04:29:56.630
+John Ellis: Here's what needs to happen, it has to have the opening, it has to have the body, the broader impact, the personal qualities, tone. Honest and positive.
+
+269
+04:29:57.070 --> 04:30:09.020
+John Ellis: So how did I get the tone? I actually had to look at a great deal of my writing to figure out how to describe it. And I also have, in the assets, in the subdirectory, I have an example of a without reservations letter.
+
+270
+04:30:09.270 --> 04:30:13.780
+John Ellis: A strong recommendation letter, and just a plain positive letter.
+
+271
+04:30:14.100 --> 04:30:17.420
+John Ellis: Because if it's any lower than that, then I tell the student I really can't write.
+
+272
+04:30:18.040 --> 04:30:18.740
+John Ellis: Bye.
+
+273
+04:30:19.610 --> 04:30:31.620
+John Ellis: And, and, you know, and describe what they are. Without reservation, the fullest, most detailed letter, every paragraph should build a compelling case, use the strongest language that Jesse's notes support.
+
+274
+04:30:32.710 --> 04:30:38.949
+John Ellis: Professional but warm. Specific over general, honest, contextual credentials, forward-looking.
+
+275
+04:30:41.020 --> 04:30:44.500
+John Ellis: So… and then I have guardrails in there as well.
+
+276
+04:30:46.680 --> 04:30:53.020
+John Ellis: Support level matches Jesse's stated level throughout. No accidental inflation or deflation.
+
+277
+04:30:53.320 --> 04:31:01.870
+John Ellis: Every specific claim traces back to the notes or the student's CV. So it's… before it gets done, it's doing a double check for everything that's been generated.
+
+278
+04:31:02.340 --> 04:31:12.479
+John Ellis: The letter addresses the target program's opportunity specifically. Names what they're looking for includes it in the letter, contact info, and tone is consistent, warm, professional, personal.
+
+279
+04:31:14.570 --> 04:31:24.329
+John Ellis: So it goes through, and it generates what often is a pretty decent first draft, and then often I will go in and edit more, but I'm finding
+
+280
+04:31:24.440 --> 04:31:28.870
+John Ellis: as I iterate the skill more, It's getting closer and closer.
+
+281
+04:31:29.520 --> 04:31:32.509
+John Ellis: So, now I get to the really pure stuff.
+
+282
+04:31:32.680 --> 04:31:38.230
+John Ellis: The things I forgot, the things I want to mention, the color that I want to put into the letter.
+
+283
+04:31:38.590 --> 04:31:44.449
+John Ellis: So this is an example of a real-world skill, and how did I get it in there? Well…
+
+284
+04:31:44.840 --> 04:31:46.360
+John Ellis: Let's say I'll go back.
+
+285
+04:31:46.760 --> 04:31:52.570
+John Ellis: So, in Claude, even just the chat, because remember, it works across all of these, I…
+
+286
+04:31:53.750 --> 04:32:01.749
+John Ellis: go here, and I go to Settings, and we'll be doing this more, but I'm just gonna get you ready for this. Go to Settings, and then I go to…
+
+287
+04:32:02.240 --> 04:32:03.700
+John Ellis: Capabilities.
+
+288
+04:32:03.880 --> 04:32:08.000
+John Ellis: I'm gonna go to the bottom, And it says, skills.
+
+289
+04:32:10.580 --> 04:32:12.379
+John Ellis: And then I go to Customize.
+
+290
+04:32:13.040 --> 04:32:17.970
+John Ellis: And then… It tells me about all the different skills that I have.
+
+291
+04:32:18.850 --> 04:32:23.289
+John Ellis: Loads them up here, and then here are all the extent… here are the other ones that I could have there as well.
+
+292
+04:32:24.510 --> 04:32:29.639
+John Ellis: So, you load them there, and they're sitting there waiting to be used. Whenever I'm in any chat.
+
+293
+04:32:29.860 --> 04:32:38.670
+John Ellis: When I'm having any chat, any Clawed code, any Claude co-work, it looks for when I start talking about writing a letter of recommendation for a student.
+
+294
+04:32:39.300 --> 04:32:40.490
+John Ellis: And then we'll fire.
+
+295
+04:32:42.130 --> 04:32:54.559
+John Ellis: Yes. Yes. Yeah, it's… the steps are a little bit different, right? Steps are a little bit different of, like, where you specifically put it, but it's still the same zip file.
+
+296
+04:32:54.840 --> 04:32:56.159
+John Ellis: That you put in there.
+
+297
+04:32:56.470 --> 04:32:58.710
+John Ellis: Interesting thing, it's kind of a pain to edit.
+
+298
+04:32:58.880 --> 04:33:05.369
+John Ellis: So what I often will do, instead of directly editing, is saying, hey, I want to… I tell ChatGPT, hey, I want to edit the skill.
+
+299
+04:33:05.640 --> 04:33:24.779
+John Ellis: include the following. But if necessary, I will download it, unzip it, and edit it directly myself. We've got it… that's… that's… that's a little bit clunky right now. I think that will need to be fixed. Also, it's not easy to version, and to know which version you're on, so a lot of this needs to be in the text of the skill. What version is it?
+
+300
+04:33:25.330 --> 04:33:30.539
+John Ellis: So, that's a lot of work that we need to do, because that infrastructure isn't there yet. And yet another question.
+
+301
+04:33:32.730 --> 04:33:38.769
+John Ellis: under hip off, like, say, can you see, like, asking how to search for something?
+
+302
+04:33:40.130 --> 04:33:42.849
+John Ellis: So, yeah, skills can be posted.
+
+303
+04:33:43.130 --> 04:33:47.780
+John Ellis: However, Skills have the ability to actually run arbitrary code.
+
+304
+04:33:48.080 --> 04:34:01.180
+John Ellis: They're designed that way, because they have to be able to have, remember the scripts that I mentioned before? So if you're doing an optimization, if you want to do, like, the scheduling properly, or even better yet, if you want to create a skill that would allow a student to take a look at their schedule.
+
+305
+04:34:01.180 --> 04:34:12.970
+John Ellis: And to game it into the future, and to figure out if they can actually fit that third major into their degree program before they graduate, then you'll want to have an optimizer, a really good optimizer to run through all the different possibilities.
+
+306
+04:34:13.220 --> 04:34:15.820
+John Ellis: That's arbitrary code execution.
+
+307
+04:34:16.110 --> 04:34:19.799
+John Ellis: So, if someone says, hey, I got a great skill for you, here's the zip.
+
+308
+04:34:21.180 --> 04:34:32.100
+John Ellis: You gotta know who that person is. And you gotta trust that person to have made good choices as well, because otherwise you have to go into and look at all the different subdirectories and make sure it doesn't have malware.
+
+309
+04:34:32.930 --> 04:34:41.779
+John Ellis: So we still have to be careful, and we don't have a really good way of vetting that yet. So create them yourself, create them with people that you trust, have an agreement of how you're going to be handling these. Yes.
+
+310
+04:34:42.050 --> 04:34:48.150
+John Ellis: But for others, other situations where a letter could be,
+
+311
+04:34:48.560 --> 04:34:55.290
+John Ellis: prospective students off a little bit too much.
+
+312
+04:34:55.490 --> 04:35:08.680
+John Ellis: I was wondering how an alternative skill executes the concepts that are found in ways to see whether or not it matches the level of the tabs.
+
+313
+04:35:09.220 --> 04:35:16.419
+John Ellis: So that's sort of the flip side of the letter, or writers sort of see if there's anything which is different.
+
+314
+04:35:17.220 --> 04:35:31.190
+John Ellis: It could be. I do like to use AI in those situations never to score, unless there's a clear rubric, never to score and tell me who I should let into the program, because remember, you might remember this…
+
+315
+04:35:32.710 --> 04:35:33.840
+John Ellis: Remember this?
+
+316
+04:35:34.029 --> 04:35:35.210
+John Ellis: MLP?
+
+317
+04:35:35.419 --> 04:35:37.290
+John Ellis: Trained on everything on the internet?
+
+318
+04:35:38.550 --> 04:35:43.109
+John Ellis: So if you directly ask the model, so who's going to be the best graduate student?
+
+319
+04:35:44.689 --> 04:35:51.100
+John Ellis: You're going to get an answer that is fully informed by all the bias which exists in everything that we've written and everything that we've done.
+
+320
+04:35:51.669 --> 04:35:58.100
+John Ellis: So instead, you can use the model to say, tell me where there's a variance, or I've already… so this student is in the no pile.
+
+321
+04:35:58.750 --> 04:36:01.500
+John Ellis: Make the best possible case. Use deep thinking.
+
+322
+04:36:01.840 --> 04:36:06.439
+John Ellis: All the information, make the best possible case for this student to not be in the no pile.
+
+323
+04:36:06.980 --> 04:36:12.809
+John Ellis: And then if I'm… if I'm not… if I'm not swayed by that, then I'm… I'm… I'm pretty… I'm pretty comfortable.
+
+324
+04:36:12.939 --> 04:36:18.539
+John Ellis: That they belong in there, because it couldn't even… using everything at its disposal, it couldn't make a case.
+
+325
+04:36:19.330 --> 04:36:23.470
+John Ellis: So, I think our use of the models and how we position them is really important.
+
+326
+04:36:24.550 --> 04:36:25.800
+John Ellis: Other questions?
+
+327
+04:36:31.390 --> 04:36:35.220
+John Ellis: Let's take a look at another couple of, of, of skills.
+
+328
+04:36:36.099 --> 04:36:37.570
+John Ellis: And actually, oh!
+
+329
+04:36:38.000 --> 04:36:46.760
+John Ellis: Hey, it says all 117 emails sent successfully. Did y'all get emails? Yes. Alright, what do you think of the recommendations? Are they good?
+
+330
+04:36:47.490 --> 04:36:50.300
+John Ellis: Alright! So…
+
+331
+04:36:50.919 --> 04:37:05.599
+John Ellis: today, 5.30, we're gonna have, you know, we'll have an opportunity to meet afterwards, we'll have drinks, we'll have, you know, it's a good opportunity here to actually go and chat with these people that have been suggested to you by the AI. I did…
+
+332
+04:37:06.860 --> 04:37:13.640
+John Ellis: Now, I gotta say, I went ahead and said, spare no expense, go ahead and do deep thinking.
+
+333
+04:37:14.250 --> 04:37:15.770
+John Ellis: So, I want you to know.
+
+334
+04:37:16.279 --> 04:37:21.619
+John Ellis: that in generating these, I did spend $6.69.
+
+335
+04:37:21.830 --> 04:37:26.930
+John Ellis: on this. So this is quality stuff.
+
+336
+04:37:29.380 --> 04:37:31.189
+John Ellis: Let's go and take a look at another skill.
+
+337
+04:37:34.060 --> 04:37:38.889
+John Ellis: So… See if, okay.
+
+338
+04:37:39.330 --> 04:37:40.520
+John Ellis: Yes.
+
+339
+04:37:44.900 --> 04:37:53.050
+John Ellis: So skills that are available from, Anthropic are safe. You can, you can find, trusted, places
+
+340
+04:37:53.119 --> 04:38:12.250
+John Ellis: You can also use existing skills and modify. So the brand guideline skill, for example, is a great place to get started for that. During our session with, where Jesse Bloker's going to be leading us off, talking about academic uses of AI, I'm going to be talking about a skill that I developed to
+
+341
+04:38:12.640 --> 04:38:14.090
+John Ellis: Update my resume.
+
+342
+04:38:14.369 --> 04:38:18.339
+John Ellis: In a way that's, that's, blessed by the provost.
+
+343
+04:38:18.800 --> 04:38:30.580
+John Ellis: Let's go and talk about, skills that are kind of interesting. It's not just about document formation, it's not just about process, necessarily. Here's one that's a little bit more process, but it's…
+
+344
+04:38:31.150 --> 04:38:32.540
+John Ellis: To me, it's fascinating.
+
+345
+04:38:37.220 --> 04:38:50.770
+John Ellis: Doc co-authoring. Guide users through a structured workflow for co-authoring documentation. Use when a user wants to write documentation, proposal, technical specs, decision docs, or similar structured content.
+
+346
+04:38:51.570 --> 04:38:55.209
+John Ellis: So… When you go through here.
+
+347
+04:38:57.660 --> 04:39:02.819
+John Ellis: Notice how the wording works. This is when it's triggered. Initial off offer.
+
+348
+04:39:03.099 --> 04:39:05.090
+John Ellis: So this is the interface.
+
+349
+04:39:05.490 --> 04:39:11.730
+John Ellis: The initial offer is, the agent comes back and says, hey, would you like to have a structured
+
+350
+04:39:11.860 --> 04:39:14.710
+John Ellis: Workflow for us to do this work together.
+
+351
+04:39:16.029 --> 04:39:21.210
+John Ellis: I'll do context gathering, we'll do refinement, and then we'll do reader testing. Does that sound good?
+
+352
+04:39:24.189 --> 04:39:28.739
+John Ellis: And then… You can actually… Instantiate best practice.
+
+353
+04:39:29.169 --> 04:39:30.849
+John Ellis: The questions that you would ask.
+
+354
+04:39:31.570 --> 04:39:38.560
+John Ellis: Or you can have information dumping, clarifying questions.
+
+355
+04:39:40.960 --> 04:39:45.169
+John Ellis: So, you know, generate 5 to 10 numbered questions based on gaps in the context.
+
+356
+04:39:45.880 --> 04:40:03.319
+John Ellis: So, think about this. So, it's giving guidance to the agent that it needs to assess whether there is any gaps in the information, and that it should then give you specific questions, clarifying questions, to go after that information. You are very much steering the action of the agent.
+
+357
+04:40:06.370 --> 04:40:10.409
+John Ellis: Remember that the very first agent that we had was the Deep Research.
+
+358
+04:40:10.770 --> 04:40:13.160
+John Ellis: Very useful, not steerable at all.
+
+359
+04:40:13.490 --> 04:40:25.920
+John Ellis: Then we had, agents that would actually do coding for us, also not terrifically steerable. Now we're… now we have very steerable agents, based on what we put into the skills.
+
+360
+04:40:28.100 --> 04:40:41.760
+John Ellis: And I hope what you're getting is the idea here that you can solve a variety of problems so long as you can define what the task is, and so long as you have a way of you yourself tackling the problem.
+
+361
+04:40:42.450 --> 04:40:45.420
+John Ellis: You can see here why this is…
+
+362
+04:40:47.670 --> 04:40:53.899
+John Ellis: this really can't be generated by AI. This is a person, right, who says the person might be
+
+363
+04:40:54.040 --> 04:40:57.669
+John Ellis: You know, if they're doing, because this is, during context gathering.
+
+364
+04:40:59.890 --> 04:41:04.500
+John Ellis: When the user signals they've done their initial dump, of information.
+
+365
+04:41:04.750 --> 04:41:18.780
+John Ellis: So this knows how people work, which is we just spew out everything that we want to have in the documentation. It's not structured. We'll dump a recording in there of what we did, or we'll just all of a sudden share everything that we want to have. It knows that.
+
+366
+04:41:19.100 --> 04:41:22.980
+John Ellis: The person who wrote this has dealt with people who do this all the time.
+
+367
+04:41:23.140 --> 04:41:27.229
+John Ellis: And this person knows that the next thing you've got to do is
+
+368
+04:41:27.940 --> 04:41:32.609
+John Ellis: Read what they've done, look through it, then ask clarifying questions.
+
+369
+04:41:36.640 --> 04:41:45.639
+John Ellis: And this is the whole… this is the whole, you have an exit condition. You have enough information. Transition, ask if there's any more context.
+
+370
+04:41:46.440 --> 04:41:51.979
+John Ellis: So… There's a way to control flow of the interactions.
+
+371
+04:41:52.420 --> 04:41:56.910
+John Ellis: And, also, at the end, what we'll see… is…
+
+372
+04:42:00.520 --> 04:42:02.170
+John Ellis: A final review.
+
+373
+04:42:03.040 --> 04:42:11.939
+John Ellis: So all the best practices that we like to hold, where before you do anything, you actually do a final check, that can be included as well.
+
+374
+04:42:12.760 --> 04:42:14.670
+John Ellis: This final check can be…
+
+375
+04:42:15.190 --> 04:42:24.759
+John Ellis: Just the AI itself, this can actually be running software, this could be doing checks, pretty much anything that you want to have in there is possible to put in there.
+
+376
+04:42:26.100 --> 04:42:28.249
+John Ellis: So let me, let me pause here.
+
+377
+04:42:28.880 --> 04:42:35.600
+John Ellis: Because understanding the broad capabilities of agents is going to be rather important.
+
+378
+04:42:35.800 --> 04:42:37.859
+John Ellis: What questions do you have about agents? Yes?
+
+379
+04:42:38.730 --> 04:42:40.870
+John Ellis: Okay. How, like,
+
+380
+04:42:41.170 --> 04:42:48.010
+John Ellis: Like, if you're working with trying on data from, say, like, census, or to do a task, Wow.
+
+381
+04:42:49.390 --> 04:42:53.290
+John Ellis: Thanks for trying to think about, like… No, please.
+
+382
+04:42:53.450 --> 04:43:05.879
+John Ellis: And the question is about census, and you're getting lots of different data. Even just census data itself. Yeah. It's like, you know, the track versus, you know, the…
+
+383
+04:43:06.070 --> 04:43:07.100
+John Ellis: What's the other one?
+
+384
+04:43:07.660 --> 04:43:11.979
+John Ellis: Tracked versus… Yep.
+
+385
+04:43:12.580 --> 04:43:28.340
+John Ellis: See, this is all the stuff that I know. So, there's all this particular domain knowledge around census data, and you have to understand that some of the divisions have to do with homogeneity, and others have to do more with geography, and they're different.
+
+386
+04:43:28.450 --> 04:43:40.599
+John Ellis: And there are these particular rules about aggregation at different levels, depending on how many people there are in there. But this is specific domain knowledge that you must know in order to work with this. That goes in the scope.
+
+387
+04:43:41.260 --> 04:43:48.740
+John Ellis: But do you still need to think about, like, data pipelines? Data pipelines? So no… So, data pipelines.
+
+388
+04:43:50.460 --> 04:43:56.499
+John Ellis: And, and, and, and… Here, they go into a little bit more, detail.
+
+389
+04:43:56.960 --> 04:43:58.300
+John Ellis: Oh, here we go.
+
+390
+04:43:59.650 --> 04:44:04.040
+John Ellis: So, we didn't talk about this as much because it's just a little bit out of the scope.
+
+391
+04:44:04.330 --> 04:44:09.110
+John Ellis: But here.
+
+392
+04:44:10.150 --> 04:44:12.110
+John Ellis: And… Here.
+
+393
+04:44:15.220 --> 04:44:19.560
+John Ellis: One of the tools that you can have access to.
+
+394
+04:44:20.620 --> 04:44:22.160
+John Ellis: Is going to be…
+
+395
+04:44:24.500 --> 04:44:33.060
+John Ellis: model context protocol. You might remember that I mentioned this just briefly before, where I said this was a way to expose capabilities
+
+396
+04:44:33.310 --> 04:44:36.909
+John Ellis: very generally to, AI models.
+
+397
+04:44:37.320 --> 04:44:41.980
+John Ellis: MCP is a way to expose your database, your service.
+
+398
+04:44:43.100 --> 04:44:50.240
+John Ellis: two models very broadly, and it doesn't matter which AI is going after it, OpenAI, ChatGPT can access this.
+
+399
+04:44:50.490 --> 04:44:52.060
+John Ellis: Clock can access this.
+
+400
+04:44:52.360 --> 04:45:01.209
+John Ellis: But these are heavier weight. These take more space in the context, but they're very useful, but this is the way that you can get data or have actions done for you by another server.
+
+401
+04:45:01.880 --> 04:45:07.520
+John Ellis: This is the connector that we used to have to build manually. This is the pipeline that we used to have to build manually.
+
+402
+04:45:08.020 --> 04:45:15.019
+John Ellis: Many services now are available through an MCP, so we no longer have to wire it up ourselves, and…
+
+403
+04:45:15.440 --> 04:45:17.290
+John Ellis: Skills can call these.
+
+404
+04:45:17.640 --> 04:45:23.100
+John Ellis: And they can provide additional information about what this is about and when you would need this MCP.
+
+405
+04:45:23.700 --> 04:45:25.169
+John Ellis: MCPs are older.
+
+406
+04:45:25.670 --> 04:45:42.239
+John Ellis: The problem was the model knowing when they should use it, so… and it took up a lot of space, and so people would load up all these MCPs and would burn up a lot of their contacts before they could even do anything, and even then, they'd be very explicit and say, use this server to do this thing.
+
+407
+04:45:42.800 --> 04:45:44.559
+John Ellis: Skills solved that.
+
+408
+04:45:44.870 --> 04:46:02.549
+John Ellis: If there is no MCP that they don't provide you… If there's no MCP, then… then that's when you have a nice sit-down with Claude Code, and you say, help me come up with a flexible way to actually access this, or make me good boilerplate code, which I can then, if I have boilerplate code.
+
+409
+04:46:02.610 --> 04:46:08.490
+John Ellis: then I can actually put that into… The skill itself.
+
+410
+04:46:09.230 --> 04:46:16.889
+John Ellis: Right? Because remember, in-skills are… In the outline of skills, we have…
+
+411
+04:46:21.910 --> 04:46:24.729
+John Ellis: In skills, we have the skill MD, we have scripts.
+
+412
+04:46:25.460 --> 04:46:43.159
+John Ellis: So you actually write the script of how to access that data, what server you need to go to, what authentication you would need to have, and then you put that in the skill, and you say, if there is no… if there is no authentication, or if the user did not provide information.
+
+413
+04:46:43.160 --> 04:46:50.899
+John Ellis: then ask and lead them through actually going and getting a key, so they can get access to it. And here's the boilerplate
+
+414
+04:46:51.330 --> 04:46:53.959
+John Ellis: Python code to do it.
+
+415
+04:46:54.540 --> 04:47:01.890
+John Ellis: When that's provided, go ahead and run this code with the following Check for an error.
+
+416
+04:47:02.720 --> 04:47:07.910
+John Ellis: You know, describe… so all of that can be done This is…
+
+417
+04:47:08.210 --> 04:47:12.430
+John Ellis: As opposed to software that we used to write, which would be brittle.
+
+418
+04:47:12.740 --> 04:47:16.729
+John Ellis: you try to put all that instruction in there, and then they change the API.
+
+419
+04:47:19.580 --> 04:47:20.330
+John Ellis: Scheduled.
+
+420
+04:47:21.620 --> 04:47:25.190
+John Ellis: Oh, you hit the one soft spot. So the question was…
+
+421
+04:47:25.410 --> 04:47:28.679
+John Ellis: How well does it handle scheduled tasks?
+
+422
+04:47:29.350 --> 04:47:30.720
+John Ellis: And it doesn't.
+
+423
+04:47:31.470 --> 04:47:40.030
+John Ellis: But this is… this is an issue with AI, right? With AI, nothing happens until we request. That's why I call it a crystalline intelligence, right?
+
+424
+04:47:40.310 --> 04:47:59.290
+John Ellis: So that's kind of reflected in here, too. There are services that will trigger, but they have to be outside services that will trigger and cause this to happen. Now, you can have a nice sit-down with Cloud Code, and you say, I want to figure out how to do this, and here's my setup, and here's what I run, so you can do that, but no, that's not like a service right now.
+
+425
+04:47:59.410 --> 04:48:01.469
+John Ellis: But it probably will be before too long.
+
+426
+04:48:01.580 --> 04:48:02.940
+John Ellis: Yes.
+
+427
+04:48:03.350 --> 04:48:04.950
+John Ellis: I just did census.
+
+428
+04:48:05.660 --> 04:48:19.139
+John Ellis: mining for the first time. I'm so sorry. So you just did census mining for the very first time. Yeah, good times. Good times. I never read the micro data before, because, like, why do I do that? And dial up with
+
+429
+04:48:19.450 --> 04:48:28.049
+John Ellis: sign in and thought, yeah, I did this thing. What I strongly recommend as a workflow, even if you don't program, is
+
+430
+04:48:28.340 --> 04:48:35.940
+John Ellis: ask at the end of your conversation, when it has sorted things out, to create a reproducible copy.
+
+431
+04:48:36.250 --> 04:48:48.719
+John Ellis: in UMD, is the way that I'm doing. Like, if you're in… I know the equivalent is in Python, it's sort of the other thing, right? And then save it, and then make sure that it runs, debug it, but the big…
+
+432
+04:48:48.790 --> 04:49:01.049
+John Ellis: So that then you have the top-to-bottom code rather than a skill. You can also have a skill to read code in the future, but then you can just run it again and set it on a prompt thing for people.
+
+433
+04:49:01.880 --> 04:49:06.290
+John Ellis: So… Let me go ahead and, and
+
+434
+04:49:06.660 --> 04:49:09.860
+John Ellis: And again, mention the Skills Build Your Skill.
+
+435
+04:49:10.810 --> 04:49:12.989
+John Ellis: For many of the processes that you have.
+
+436
+04:49:13.370 --> 04:49:26.710
+John Ellis: The way to create the skill is to gather the documents, everything which is important, which is relevant. You want to have all the relevant information about this. This could also be your monologue about what's important and what's relevant.
+
+437
+04:49:26.750 --> 04:49:34.590
+John Ellis: And using the skills builder… the Skill Creator skill, you can then create a first draft of the skill. Remember, it's readable.
+
+438
+04:49:34.960 --> 04:49:44.019
+John Ellis: So then you read the skill. Does it have extraneous information? Wrong information? Missing information? This is all something that you can actually assess.
+
+439
+04:49:44.190 --> 04:49:50.290
+John Ellis: And that's how you create your skill. Yes? Can a skill…
+
+440
+04:49:50.420 --> 04:49:53.360
+John Ellis: Call another skill if it might require it.
+
+441
+04:49:54.040 --> 04:50:09.730
+John Ellis: A skill can call another skill. As a matter of fact, even down here, it was mentioning a little bit that it could call another skill for validation, and that's actually what's happened. You tend not to try to write skills that will necessarily chain and call each other, because maybe it would, maybe it wouldn't.
+
+442
+04:50:09.820 --> 04:50:29.499
+John Ellis: You need to rethink the skill if it requires changing. It probably needs to be, or you need to decompose that task in a different way. Let me take one or two more questions, and then, we're going to switch over. We're going to be talking about defining AI augmented academic projects, when it helps and when it doesn't, with Abby Picilante. But one or two more questions. Yes?
+
+443
+04:50:29.700 --> 04:50:42.789
+John Ellis: mentioned that we can upload documents. Are there specific formats we can upload, for example, audio files, or… Yeah, so the question is, so what I was saying, so you upload all the relevant documents to help you create the skill.
+
+444
+04:50:43.680 --> 04:50:51.319
+John Ellis: So, most… many models are multimodal, some are native multimodal,
+
+445
+04:50:52.310 --> 04:50:58.420
+John Ellis: Native multimodal means that they share the same latent space. They were… they were trained on words, just like images.
+
+446
+04:50:58.620 --> 04:51:17.019
+John Ellis: Just like audio. There's a rich sharing of information there with those models that's very successful to put, all types of information. But even models like Claw that are not multimodal, have adapters, and so they can, at the very least, read and translate, and so it can be used by them.
+
+447
+04:51:17.020 --> 04:51:34.260
+John Ellis: So yes, all the formats are fine. As we talked about, you know, they're uglier doc formats, you know, it's XML under there, so it's got a disentangle a lot. That's okay, it can do that. It'll probably write some code to do that for you and pull the text out, is what it's going to do.
+
+448
+04:51:35.820 --> 04:51:37.629
+John Ellis: Other questions about skills?
+
+449
+04:51:38.010 --> 04:51:47.670
+John Ellis: Yes. So, there are companies like MoodleBox that come pre-programmed in with, like, skills, agents in it, and the ability to adapt those.
+
+450
+04:51:48.690 --> 04:51:52.830
+John Ellis: Now, is that to run within their platform, or to run…
+
+451
+04:51:53.000 --> 04:51:57.009
+John Ellis: So, they have pre-made skills for things like syllabi.
+
+452
+04:51:57.340 --> 04:52:03.290
+John Ellis: brain writing and all of that stuff. Are they true skills? How long have they been around? How long have they had the skills?
+
+453
+04:52:04.450 --> 04:52:10.800
+John Ellis: The company is somewhere around 10 years old right now. And they've had the skills for a while? Yeah, they… Yeah, they're not skills.
+
+454
+04:52:11.820 --> 04:52:28.020
+John Ellis: So this is the problem. So we've had AI since the mid-50s, and so when people say AI, they might mean something very different. When people say agents, if agents have been around for more than just a year, they probably mean something very different.
+
+455
+04:52:28.420 --> 04:52:43.280
+John Ellis: And so we just have to be very careful and inspect and ask what it means. And actually, the skill, you can say, let me read the skill, and they say, well, you can't read a skill. You can say, well, that's not the kind of a skill that I'm interested in. Well, they have, like, an interface in it to help you write the skill.
+
+456
+04:52:43.450 --> 04:52:55.299
+John Ellis: Interesting, yeah, but if you can't read the fi… it would be interesting. So, but now you know, you know what this looks like. Yeah, exactly. You can look… yeah, but if it's any older than December.
+
+457
+04:52:56.120 --> 04:52:57.580
+John Ellis: Embedding something else.
+
+458
+04:52:58.150 --> 04:53:14.049
+John Ellis: But you know what to look for. You know what to look for in a skill. You actually can read it, you can assess it yourself, you know what's possible with the skill. So now you yourself can actually see if this is… if that skill and that agent is being consumed or being run by something, anything other than
+
+459
+04:53:14.090 --> 04:53:20.060
+John Ellis: an AI, an LLM, then it's something else. Something different.
+
+460
+04:53:21.350 --> 04:53:22.250
+John Ellis: Alright.
+
+461
+04:53:23.050 --> 04:53:24.400
+John Ellis: Additional questions?
+
+462
+04:53:26.020 --> 04:53:33.900
+John Ellis: Excellent. You're gonna have an opportunity to have hands-on experience, writing skills. I'll end with just a quick, quick story.
+
+463
+04:53:34.070 --> 04:53:38.390
+John Ellis: And I did mention this before, the tech sell-off.
+
+464
+04:53:38.810 --> 04:53:50.869
+John Ellis: about 4 weeks ago, I guess it is now, about $283 billion worth of capitalization of technology stocks, software stocks, in particular, technology that had to do with legal software.
+
+465
+04:53:51.560 --> 04:53:53.000
+John Ellis: Huge sell-off.
+
+466
+04:53:53.350 --> 04:54:02.130
+John Ellis: And what had happened was that Anthropic released, really, a handful of skills That did legal work.
+
+467
+04:54:02.420 --> 04:54:04.259
+John Ellis: Looking much like this.
+
+468
+04:54:04.990 --> 04:54:12.360
+John Ellis: But describing best practices, maybe also providing some software with it, All open source.
+
+469
+04:54:12.540 --> 04:54:20.700
+John Ellis: And what happened was, Agents, augmented by those skills, outperformed.
+
+470
+04:54:21.110 --> 04:54:22.220
+John Ellis: ALL.
+
+471
+04:54:22.430 --> 04:54:26.929
+John Ellis: Of the dedicated software that had been developed to carry out those tasks.
+
+472
+04:54:28.590 --> 04:54:30.049
+John Ellis: And people realize, well.
+
+473
+04:54:30.430 --> 04:54:41.280
+John Ellis: why am I paying $100,000 a year for the license when I can do that with a general-purpose agent, with just a vanilla agent that can take on the capabilities that I need
+
+474
+04:54:41.840 --> 04:54:43.099
+John Ellis: when I need them.
+
+475
+04:54:44.000 --> 04:54:53.709
+John Ellis: And it's an extraordinarily powerful way to solve… an extraordinarily powerful new way to solve problems, and it's not just for law, it's for us.
+
+476
+04:54:54.250 --> 04:55:03.050
+John Ellis: All right, thank you all very much for all of your attention and for getting through all of this. One more round of applause for you for getting through all of the technical stuff and knowing how to create skills.
