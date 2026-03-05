@@ -2,3 +2,4 @@ _admin/
 .DS_Store
 ~$*
 .~lock.*
+*.mp4
