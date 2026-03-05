@@ -1,5 +1,3 @@
-# Note: Earlier Start Time on Day 1: 8:30 am
-
 # AI Days at Vanderbilt
 
 **March 4–5, 2026 (Wednesday–Thursday)**
